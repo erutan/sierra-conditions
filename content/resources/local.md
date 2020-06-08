@@ -9,8 +9,8 @@ next: '/resources/tools/'
 
 ## East Side
 
-# [Mammoth Times](https://mammothtimes.com/category/news)
-# [Inyo Register](https://inyoregister.com/category/news)
-# [Sierra Wave Media](https://www.sierrawave.net/)
+* [Mammoth Times](https://mammothtimes.com/category/news)
+* [Inyo Register](https://inyoregister.com/category/news)
+* [Sierra Wave Media](https://www.sierrawave.net/)
 
 ## West Side

@@ -5,39 +5,48 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Docc',
+  siteName: 'Sierra Conditions',
   icon: {
     favicon: './src/assets/favicon.png',
     touchicon: './src/assets/favicon.png'
   },
-  siteUrl: (process.env.SITE_URL ? process.env.SITE_URL : 'https://example.com'),
+  siteUrl: (process.env.SITE_URL ? process.env.SITE_URL : 'https://sierra-conditions.netlify.app/'),
   settings: {
     web: process.env.URL_WEB || false,
     twitter: process.env.URL_TWITTER || false,
     github: process.env.URL_GITHUB || false,
     nav: {
       links: [
-        { path: '/docs/', title: 'Docs' }
+        { path: '/conditions/trips', title: 'Information' }
       ]
     },
     sidebar: [
       {
-        name: 'docs',
+        name: 'sierra',
         sections: [
           {
-            title: 'Getting Started',
+            title: 'conditions',
             items: [
-              '/docs/',
-              '/docs/installation/',
-              '/docs/writing-content/',
-              '/docs/deploying/',
+              '/conditions/trips/',
+              '/conditions/snow/',
+              '/conditions/roads/',
+              '/conditions/official/'
             ]
           },
           {
-            title: 'Configuration',
+            title: 'resources',
             items: [
-              '/docs/settings/',
-              '/docs/sidebar/',
+              '/resources/permits/',
+              '/resources/regulations/',
+              '/resources/social/',
+              '/resources/local/',
+              '/resources/tools/'
+            ]
+          },
+          {
+            title: 'this site',
+            items: [
+              '/about/'
             ]
           }
         ]

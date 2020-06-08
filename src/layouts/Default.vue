@@ -111,12 +111,12 @@ export default {
         {
           key: 'og:image',
           name: 'og:image',
-          content: process.env.SITE_URL + '/logo.jpg',
+          content: process.env.SITE_URL + '/logo.png',
         },
         {
           key: 'twitter:image',
           name: 'twitter:image',
-          content: process.env.SITE_URL + '/logo.jpg',
+          content: process.env.SITE_URL + '/logo.png',
         },
       ]
     }
@@ -130,7 +130,7 @@ export default {
   --color-ui-typo: theme('colors.gray.700');
   --color-ui-sidebar: theme('colors.gray.200');
   --color-ui-border: theme('colors.gray.300');
-  --color-ui-primary: theme('colors.indigo.600');
+  --color-ui-primary: theme('colors.green.600');
 }
 
 html[lights-out] {
@@ -138,7 +138,7 @@ html[lights-out] {
   --color-ui-typo: theme('colors.gray.100');
   --color-ui-sidebar: theme('colors.gray.800');
   --color-ui-border: theme('colors.gray.800');
-  --color-ui-primary: theme('colors.indigo.500');
+  --color-ui-primary: theme('colors.green.500');
 
   pre[class*="language-"],
   code[class*="language-"] {

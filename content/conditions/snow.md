@@ -1,11 +1,11 @@
 ---
 description: ''
-sidebar: 'docs'
-prev: '/docs/'
-next: '/docs/writing-content/'
+sidebar: 'sierra'
+prev: '/conditions/trip/'
+next: '/conditions/roads/'
 ---
 
-# Installation
+# Snow Levels
 
 There are several ways to to install this theme.
 

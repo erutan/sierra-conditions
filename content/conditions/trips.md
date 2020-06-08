@@ -1,10 +1,10 @@
 ---
 description: ''
-sidebar: 'docs'
-prev: '/docs/settings/'
+sidebar: 'sierra'
+next: '/conditions/snow/'
 ---
 
-# Sidebar
+# Trip Reports
 
 In order to have a sidebar visible on the side of the page (like on this one for example) or on mobile devices as an off-canvas navigation, you are required to do some global configuration, as well as some configuration per markdown file.
 

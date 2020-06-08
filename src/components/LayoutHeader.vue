@@ -10,12 +10,9 @@
             title="Home"
           >
             <Logo :width="40" class="text-ui-primary" />
-            <span class="hidden ml-2 text-xl font-black tracking-tighter uppercase sm:block">
-              {{ meta.siteName }}
-            </span>
           </g-link>
 
-          <div v-if="settings.nav.links.length > 0" class="hidden ml-2 mr-5 sm:block sm:ml-8">
+          <div v-if="settings.nav.links.length > 0" class="hidden ml-2 mr-5 sm:block sm:ml-8 w-auto">
             <g-link
               v-for="link in settings.nav.links"
               :key="link.path"
@@ -37,10 +34,6 @@
 
           <a v-if="settings.web" :href="settings.web" class="hidden ml-3 sm:block" target="_blank" rel="noopener noreferrer" title="Website" name="Website">
             <GlobeIcon size="1.5x" />
-          </a>
-
-          <a v-if="settings.twitter" :href="settings.twitter" class="hidden ml-3 sm:block" target="_blank" rel="noopener noreferrer" title="Twitter" name="Twitter">
-            <TwitterIcon size="1.5x" />
           </a>
 
           <a v-if="settings.github" :href="settings.github" class="sm:ml-3" target="_blank" rel="noopener noreferrer" title="Github" name="Github">

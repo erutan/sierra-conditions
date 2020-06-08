@@ -23,4 +23,6 @@ A [classic message board](http://www.highsierratopix.com/) with a lot of good be
 
 Backcountry rangers file reports of trails they've been on, and also get beta from hikers that have reported back after a trip. Calling a wilderness center and getting beta can be very useful.
 
+Inyo is working on a trail conditions report for internal use, and may share that with the public - since we can no longer go into a ranger station and ask about previous trips that'd be another useful source of information.
+
 Note: Rangers tend to err slightly on the side of caution when describing how dangerous conditions are... it's a hassle for them when people are lost / injured / die, so don't hold it against them! The more touristy / popular an area is, the more information will tend to be padded.

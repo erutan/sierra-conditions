@@ -8,6 +8,8 @@ next: '/conditions/trips/'
 
 ## Covid 19 Back Country Permits
 
+Note: permits aren't going to go back into the pool like they normally will. If someone completes their orientation call and the permit is issued electronically, it doesn't matter if they a) never show up b) don't pick it up from the ranger station if it's printed there and left outside. Normally the permit is considered "issued" after someone comes to station in person to pick it up.
+
 ### Yosemite
 
 No more walk up permits this year.

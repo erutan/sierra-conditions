@@ -58,7 +58,7 @@ export default {
 
   metaInfo() {
     const title = 'Backcountry Conditions for the Sierra Nevada';
-    const description = 'DOCC is a starter theme with instant search and dark mode for writing great technical documentation. Based on Gridsome!';
+    const description = 'Sierra Conditions is a collection of resources useful for getting backcountry information.';
 
     return {
       title: title,

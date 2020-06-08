@@ -1,12 +1,26 @@
 ---
 description: ''
 sidebar: 'sierra'
+prev: '/conditions/breaking/'
 next: '/conditions/snow/'
 ---
 
 # Trip Reports
 
-In order to have a sidebar visible on the side of the page (like on this one for example) or on mobile devices as an off-canvas navigation, you are required to do some global configuration, as well as some configuration per markdown file.
+## Sierra Nevada Trails, Conditions, and Passes Facebook Group
 
-## Global Configuration
-Open the `gridsome.config.js`. The configuration for the sidebar is located under `settings > sidebar`.
+Yes, Facebook does have a search function, but trying to find old trip reports for XC passes isn't quite the easiest. 
+
+The lack of archival ease of use is balanced out by the lack of friction from using a social media network vs writing up blog / forum posts, there tends to be a lot of brief up to date posts from people [Sierra Nevada Trails, Conditions, and Passes](https://www.facebook.com/groups/1578540459102320/) and it's a good place to get a feel for what conditions currently are as well as ask questions.
+
+Please do use the search functionality first - if you ask for an area someone posted a trip report of yesterday, it just clutters up the feed.
+
+## High Sierra Topix
+
+A [classic message board](http://www.highsierratopix.com/) with a lot of good beta on it. If you want a little bit more info than what Secor has for a cross country pass, this is a good place to run a search. 
+
+## Ranger Stations
+
+Backcountry rangers file reports of trails they've been on, and also get beta from hikers that have reported back after a trip. Calling a wilderness center and getting beta can be very useful.
+
+Note: Rangers tend to err slightly on the side of caution when describing how dangerous conditions are... it's a hassle for them when people are lost / injured / die, so don't hold it against them! The more touristy / popular an area is, the more information will tend to be padded.

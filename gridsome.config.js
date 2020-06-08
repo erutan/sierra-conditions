@@ -17,7 +17,7 @@ module.exports = {
     github: process.env.URL_GITHUB || false,
     nav: {
       links: [
-        { path: '/conditions/trips', title: 'Information' }
+        { path: '/conditions/breaking', title: 'Navigation' }
       ]
     },
     sidebar: [
@@ -27,6 +27,7 @@ module.exports = {
           {
             title: 'conditions',
             items: [
+              '/conditions/breaking/',
               '/conditions/trips/',
               '/conditions/snow/',
               '/conditions/roads/',
@@ -36,8 +37,6 @@ module.exports = {
           {
             title: 'resources',
             items: [
-              '/resources/permits/',
-              '/resources/regulations/',
               '/resources/social/',
               '/resources/local/',
               '/resources/tools/'

@@ -21,7 +21,7 @@ From webcams to closures to traffic, there's a lot of information available at t
 
 ## Yosemite
 
-Longer term conditions and changes are listed [on their Current Conditions page](https://www.nps.gov/yose/planyourvisit/conditions.htm). 
+Longer term conditions and changes are listed [on their Current Conditions page](https://www.nps.gov/yose/planyourvisit/conditions.htm). There is a separate page for [Tioga and Glacier Point Roads Plowing Updates](https://www.nps.gov/yose/planyourvisit/tioga.htm).
 
 For more up to date information call 209/372-0200 (press 1 then 1) for a pre-recordded message of the most up-to-date conditions.
 
@@ -32,4 +32,6 @@ Longer term conditions and changes are listed [on their Current Conditions page]
 ## Minor roads
 
 It's often best to check with [local papers and sources](http://localhost:8081/resources/local/) for updates to roads to trailheads etc - it's important news for small mountain towns!
+
+[Inyo Public Works News](https://www.inyocounty.us/residents/info-center/inyo-county-news-feed?dept=27) would cover all road construction in Inyo County.
 

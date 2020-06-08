@@ -8,7 +8,7 @@ prev: '/conditions/snow/'
 
 ## Yosemite
 
-Longer term conditions and changes are listed [on their Current Conditions page](https://www.nps.gov/yose/planyourvisit/conditions.htm). 
+Longer term conditions and changes are listed [on their Current Conditions page](https://www.nps.gov/yose/planyourvisit/conditions.htm). They also have a [Wilderness Conditions](https://www.nps.gov/yose/planyourvisit/wildcond.htm) page with a general overview and more numbers to call.
 
 ## SEKI
 
@@ -17,6 +17,10 @@ Longer term conditions and changes are listed [on their Current Conditions page]
 ## Sequoia National Forest
 
 [Alerts & Notices](https://www.fs.usda.gov/alerts/sequoia/alerts-notices) &amp; [News & Events](https://www.fs.usda.gov/news/sequoia/news-events).
+
+## Inyo National Forest
+
+[Alerts & Notices](https://www.fs.usda.gov/alerts/inyo/alerts-notices) &amp; [News & Events](https://www.fs.usda.gov/news/inyo/news-events).
 
 ## Lake Kaweah
 

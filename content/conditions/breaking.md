@@ -18,4 +18,12 @@ The troutfitter has [some good information](https://thetroutfitter.com/fish-repo
 
 ## Covid 19 Back Country Permits
 
-No more walk up permits. [Recreation.gov](https://www.recreation.gov/search?lat_sw=3.6722362889127&lng_sw=-167.2815442995964&lat_ne=60.77726184625004&lng_ne=-51.637969429829155&inventory_type=permits&sort=distance) has permits for purchase online.
+No more walk up permits this year.
+
+From [FB Conditions Group](https://www.facebook.com/groups/1578540459102320/permalink/2641571529465869/):
+
+The current protocol for Inyo NF permits, which they don't quite spell out well on the website, is (1) Reserve on [Recreation.gov](https://www.recreation.gov/), (2) Call Bishop USFS 760-873-2483 or Mammoth Lakes Welcome Center 760-924-5500 weekdays within a week of your trip, provide reservation #, and talk to a ranger, (3) Ranger will email you the actual permit to print out.
+
+Sierra NF, High Sierra District:
+Sign at Prather office June 2. Phone Extension 3300 goes to the person in charge of permits. They leave the permits in the box by the door. My understanding is they are only doing same or next-day “walk-in” permits at this time. Worked for me, but some people have reported difficulty getting through on the phone.
+

@@ -12,35 +12,34 @@
       <div class="pt-8 mx-auto mt-8 border-t md:mt-16 md:pt-16 border-top border-ui-border max-w-screen-sm"></div>
 
       <div class="flex flex-wrap justify-center -mx-4">
-        <div class="flex flex-col items-center w-full px-4 mb-8 text-center md:w-1/3">
-          <ZapIcon size="3x" class="mb-6 text-ui-primary" />
+        
+        <a href="/conditions/breaking/" class="flex flex-col items-center w-full px-4 mb-8 text-center md:w-1/3">
           <h3 class="font-bold tracking-wide uppercase text-ui-primary">
             Conditions
           </h3>
           <p class="text-lg text-left">
-            Powered by Gridsome. Built on Vue. Outputs static files. It wont't get any faster than this. <span class="border-b border-dashed border-ui-primary text-ui-primary">No seriously</span>.
+            A collection of sites &amp; best practices for finding beta on current conditions.
           </p>
-        </div>
+        </a>
 
-        <div class="flex flex-col items-center w-full px-4 mb-8 text-center md:w-1/3">
-          <SearchIcon size="3x" class="mb-6 text-ui-primary" />
+        <a href="/resources/social" class="flex flex-col items-center w-full px-4 mb-8 text-center md:w-1/3">
           <h3 class="font-bold tracking-wide uppercase text-ui-primary">
             Resources
           </h3>
           <p class="text-lg text-left">
-            All headlines are indexed. Instant search powered by Fuse.js. Find what you are looking for in the <span class="border-b border-dashed border-ui-primary text-ui-primary">blink of an eye</span>.
+            Links to some broader use resources to aid your backcountry experience.
           </p>
-        </div>
+        </a>
 
-        <div class="flex flex-col items-center w-full px-4 mb-8 text-center md:w-1/3">
-          <MoonIcon size="3x" class="mb-6 text-ui-primary" />
+        <a href="/about/" class="flex flex-col items-center w-full px-4 mb-8 text-center md:w-1/3">
           <h3 class="font-bold tracking-wide uppercase text-ui-primary">
             About &amp; Contributing
           </h3>
           <p class="text-lg text-left">
-            Working late at night again? Enable dark mode with the click of a button.
+            Feel like something's missing? Help fill it in...
           </p>
-        </div>
+        </a>
+        
       </div>
 
     </div>
@@ -49,14 +48,11 @@
 
 <script>
 import Logo from '@/components/Logo';
-import { ZapIcon, CodeIcon, MoonIcon, SearchIcon } from 'vue-feather-icons';
+import { SearchIcon } from 'vue-feather-icons';
 
 export default {
   components: {
     Logo,
-    ZapIcon,
-    CodeIcon,
-    MoonIcon,
     SearchIcon
   },
 

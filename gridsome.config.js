@@ -30,16 +30,16 @@ module.exports = {
               '/conditions/breaking/',
               '/conditions/trips/',
               '/conditions/snow/',
-              '/conditions/roads/',
-              '/conditions/official/'
+              '/conditions/roads/'
+
             ]
           },
           {
             title: 'resources',
             items: [
-              '/resources/social/',
+              '/resources/official/',
               '/resources/local/',
-              '/resources/tools/'
+              '/resources/social/'
             ]
           },
           {

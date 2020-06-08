@@ -1,7 +1,7 @@
 ---
 description: ''
 sidebar: 'sierra'
-prev: '/conditions/snow/'
+next: '/resources/local/'
 ---
 
 # Official Notices

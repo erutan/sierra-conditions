@@ -1,11 +1,13 @@
 ---
 description: ''
 sidebar: 'sierra'
-prev: '/resources/social/'
-next: '/resources/tools/'
+prev: '/resources/official/'
+next: '/resources/social/'
 ---
 
-# Local News / Resources
+# Regional News
+
+Often good for things that fall through the cracks of more specific channels.
 
 ## East Side
 

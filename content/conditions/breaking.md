@@ -30,9 +30,9 @@ The current protocol for Inyo NF permits, which they don't quite spell out well 
 
 Sign at Prather office June 2. Phone Extension 3300 goes to the person in charge of permits. They leave the permits in the box by the door. My understanding is they are only doing same or next-day “walk-in” permits at this time. Worked for me, but some people have reported difficulty getting through on the phone.
 
-### [Stanislaus National Forest](https://www.fs.usda.gov/stanislaus/)
+### Stanislaus National Forest
 
-"As long as the Shelter In Place Executive Order issued by Gov. Gavin Newsom is in effect, the Stanislaus National Forest Service will not issue wilderness permits required for overnight camping in our wilderness areas.  All types of camping, including backpacking are not authorized until late stage 3 under the state’s phased reopening plan.  Until this stage of reopening is reached, the Stanislaus National Forest will not issue the required overnight camping wilderness permits to visitors.  Once the staged reopening is reached, the forest will begin issuing wilderness permits. Please keep checking here for updated information on how to request a permit. We will post instructions on how to request a permit as soon as possible."
+"As long as the Shelter In Place Executive Order issued by Gov. Gavin Newsom is in effect, the Stanislaus National Forest Service will not issue wilderness permits required for overnight camping in our wilderness areas.  All types of camping, including backpacking are not authorized until late stage 3 under the state’s phased reopening plan.  Until this stage of reopening is reached, the Stanislaus National Forest will not issue the required overnight camping wilderness permits to visitors.  Once the staged reopening is reached, the forest will begin issuing wilderness permits. Please [keep checking here](https://www.fs.usda.gov/stanislaus/) for updated information on how to request a permit. We will post instructions on how to request a permit as soon as possible."
 
 ## South Lake Road Construction
 

@@ -22,6 +22,10 @@ Longer term conditions and changes are listed [on their Current Conditions page]
 
 [Alerts & Notices](https://www.fs.usda.gov/alerts/inyo/alerts-notices) &amp; [News & Events](https://www.fs.usda.gov/news/inyo/news-events).
 
+## Humboldt-Toiyabe National Forest
+
+[Alerts & Notices](https://www.fs.usda.gov/alerts/htnf/alerts-notices) &amp; [News & Events](https://www.fs.usda.gov/news/htnf/news-events).
+
 ## Lake Kaweah
 
 [Army Corps of Engineers Homepage](https://www.spk.usace.army.mil/Locations/Sacramento-District-Parks/Lake-Kaweah/)

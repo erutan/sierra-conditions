@@ -6,9 +6,9 @@ next: '/conditions/trips/'
 
 # Time Sensitive Updates
 
-## Covid 19 Back Country Permits
+## Covid 19 Backcountry Permits
 
-Note: permits aren't going to go back into the pool like they normally will. If someone completes their orientation call and the permit is issued electronically, it doesn't matter if they a) never show up b) don't pick it up from the ranger station if it's printed there and left outside. Normally the permit is considered "issued" after someone comes to station in person to pick it up.
+Note: permits aren't going to go back into the pool like they normally do. If someone completes their orientation call and the permit is issued electronically, it doesn't matter if they a) never show up b) don't pick it up from the ranger station if it's printed there and left outside. Normally the permit is considered "issued" after someone comes to station in person to pick it up.
 
 ### Yosemite
 
@@ -44,7 +44,7 @@ The [Inyo Public Works News](https://www.inyocounty.us/residents/info-center/iny
 
 Private campgrounds are allowed to open, and short term lodging is open aside from in Mammoth Lakes, which are scheduled to open up in mid-late June.
 
-The troutfitter has [some good information](https://thetroutfitter.com/fish-report) on general eastside covid conditions. Not the most legible photo, but [here's a list of open campgrounds as of 6/2](https://thetroutfitter.com/assets/content/images/FishReport/CustomerImages/91840.jpg).
+The Troutfitter has [some good information](https://thetroutfitter.com/fish-report) on general eastside Covid conditions. Not the most legible photo, but [here's a list of open campgrounds as of 6/2](https://thetroutfitter.com/assets/content/images/FishReport/CustomerImages/91840.jpg).
 
 [Mono County Covid-19 Site](https://coronavirus.monocounty.ca.gov/)
 

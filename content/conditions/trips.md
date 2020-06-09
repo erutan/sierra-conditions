@@ -13,7 +13,7 @@ Yes, Facebook does have a search function, but trying to find old trip reports f
 
 The lack of archival ease of use is balanced out by the lack of friction from using a social media network vs writing up blog / forum posts, there tends to be a lot of brief up to date posts from people [Sierra Nevada Trails, Conditions, and Passes](https://www.facebook.com/groups/1578540459102320/) and it's a good place to get a feel for what conditions currently are as well as ask questions.
 
-Please do use the search functionality first - if you ask for an area someone posted a trip report of yesterday, it just clutters up the feed.
+Please do use the search functionality first - if you ask about an area someone posted a trip report of yesterday, it just clutters up the feed.
 
 ## High Sierra Topix
 
@@ -21,7 +21,7 @@ A [classic message board](http://www.highsierratopix.com/) with a lot of good be
 
 ## Ranger Stations
 
-Backcountry rangers file reports of trails they've been on, and also get beta from hikers that have reported back after a trip. Calling a wilderness center and getting beta can be very useful.
+Backcountry rangers file reports of trails they've been on and also get beta from hikers that have reported back after a trip. Calling a wilderness center and getting beta can be very useful.
 
 Inyo is working on a trail conditions report for internal use, and may share that with the public - since we can no longer go into a ranger station and ask about previous trips that'd be another useful source of information.
 

@@ -30,6 +30,7 @@ module.exports = {
               '/conditions/breaking/',
               '/conditions/trips/',
               '/conditions/snow/',
+              '/conditions/fire/',
               '/conditions/roads/'
 
             ]

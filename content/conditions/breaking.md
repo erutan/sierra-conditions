@@ -26,15 +26,23 @@ It's unclear how SEKI is handling their reserve of walk-in permits, but you can 
 
 From [FB Conditions Group](https://www.facebook.com/groups/1578540459102320/permalink/2641571529465869/):
 
-The current protocol for Inyo NF permits, which they don't quite spell out well on the website, is (1) Reserve on [Recreation.gov](https://www.recreation.gov/), (2) Call Bishop USFS 760-873-2483 or Mammoth Lakes Welcome Center 760-924-5500 weekdays within a week of your trip, provide reservation #, and talk to a ranger, (3) Ranger will email you the actual permit to print out.
+The current protocol for Inyo NF permits, which they don't quite spell out well on the website, is (1) Reserve on [Recreation.gov](https://www.recreation.gov/permits/233262?q=Inyo%20National%20Forest%20-%20Wilderness%20Permits), (2) Call Bishop USFS 760-873-2483 or Mammoth Lakes Welcome Center 760-924-5500 weekdays within a week of your trip, provide reservation #, and talk to a ranger, (3) Ranger will email you the actual permit to print out.
+
+Walk up permits are released every Monday, for the following Monday through Sunday.
 
 ### Sierra NF, High Sierra District
 
-Sign at Prather office June 2. Phone Extension 3300 goes to the person in charge of permits. They leave the permits in the box by the door. My understanding is they are only doing same or next-day “walk-in” permits at this time. Worked for me, but some people have reported difficulty getting through on the phone.
+"Sign at Prather office June 2. Phone Extension 3300 goes to the person in charge of permits. They leave the permits in the box by the door. My understanding is they are only doing same or next-day “walk-in” permits at this time. Worked for me, but some people have reported difficulty getting through on the phone."
 
 ### Stanislaus National Forest
 
-"As long as the Shelter In Place Executive Order issued by Gov. Gavin Newsom is in effect, the Stanislaus National Forest Service will not issue wilderness permits required for overnight camping in our wilderness areas.  All types of camping, including backpacking are not authorized until late stage 3 under the state’s phased reopening plan.  Until this stage of reopening is reached, the Stanislaus National Forest will not issue the required overnight camping wilderness permits to visitors.  Once the staged reopening is reached, the forest will begin issuing wilderness permits. Please [keep checking here](https://www.fs.usda.gov/stanislaus/) for updated information on how to request a permit. We will post instructions on how to request a permit as soon as possible."
+"June 11, 2020: FREE permits are required for overnight visits to the wilderness areas.
+
+To reduce the spread of COVID-19, the Stanislaus National Forest has updated the process for obtaining overnight wilderness permits. NOTE: All visitors are responsible for knowing and abiding by all current regulations, including campfire prohibitions in place for the 2020 summer season. Read the current campfire restrictions and regulations in the Forest Order here. NO CAMPFIRES ARE PERMITTED in Wilderness."
+
+[Information on getting permits here](https://www.fs.usda.gov/attmain/stanislaus/specialplaces)
+
+Please [keep checking here](https://www.fs.usda.gov/stanislaus/) for updated information.
 
 ## South Lake Road Construction
 

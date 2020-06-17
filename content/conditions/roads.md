@@ -1,7 +1,7 @@
 ---
 description: ''
 sidebar: 'sierra'
-prev: '/conditions/snow/'
+prev: '/conditions/fire/'
 ---
 
 # Road Closures

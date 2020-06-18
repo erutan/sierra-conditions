@@ -44,6 +44,12 @@ To reduce the spread of COVID-19, the Stanislaus National Forest has updated the
 
 Please [keep checking here](https://www.fs.usda.gov/stanislaus/) for updated information.
 
+## Access to Red's Meadow / Devil's Postpile
+
+from Peter via FB:"Regarding Reds Meadow Road, the Mammoth District Ranger station told me today that the road is opening up on June 26. Since the shuttle is not running, a limited amount of cars will be allowed down each day. They will be collecting the $10 fee.
+
+Agnew Meadows campground, I was told, is opening June 30. I did not ask about the others campgrounds or facilities. Hope this helps."
+
 ## South Lake Road Construction
 
 The [Inyo Public Works News](https://www.inyocounty.us/residents/info-center/inyo-county-news-feed?dept=27) will list all updates - as now it's 30 minute delays with certain areas closed for parking. At some point with two weeks notice they're will shut down the trailhead parking lot.

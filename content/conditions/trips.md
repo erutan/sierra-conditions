@@ -19,6 +19,12 @@ Please do use the search functionality first - if you ask about an area someone 
 
 A [classic message board](http://www.highsierratopix.com/) with a lot of good beta on it. If you want a little bit more info than what Secor has for a cross country pass, this is a good place to run a search. 
 
+## Other Facebook Groups
+
+If you are doing something very popular (or something that shares a pass or two), there are dedicated PCT, JMT, Rae Lakes, SEKI High Sierra Trail groups that should have very good information. There's also general Sierra hiking/backpacking groups that will have trip reports not in Trails, Conditions, and Passes, but there tends to be a lot of signal to noise.
+
+For the PCT there's a number of vloggers that post updates to Instagram & Youtube, so searching on those platforms early season can work out as well.
+
 ## Ranger Stations
 
 Backcountry rangers file reports of trails they've been on and also get beta from hikers that have reported back after a trip. Calling a wilderness center and getting beta can be very useful.

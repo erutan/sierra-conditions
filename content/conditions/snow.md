@@ -20,3 +20,7 @@ For medium-high resolution satellite imagery that is 4-6 days old, there's a num
 * Buying access through [Sentinel Hub](https://www.sentinel-hub.com/) is a bit pricey, but lets you integrate with mapping providers of your choice.
 * You can integrate Sentinel 2 data into [Caltopo](https://caltopo.com/) with their $50/year plan.
 * USGS's [Sentinel2Look viewer](https://landlook.usgs.gov/sentinel2/viewer.html) lets you filter for cloud cover and view historical data from 2015.
+
+## iweather.net
+
+A [google map overlay](https://www.iweathernet.com/snow/snow-depth-and-percent-coverage) that pulls in data a few times a day.

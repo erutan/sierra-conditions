@@ -12,15 +12,13 @@ Note: permits aren't going to go back into the pool like they normally do. If so
 
 The [wilderness permits topic on HST](http://www.highsierratopix.com/community/viewtopic.php?f=1&t=14947&start=140) is worth checking.
 
-### Yosemite
+### Yosemite Backpacking
 
-No more walk up permits this year.
-
-Yosemite - sixty percent of reservations are available 24 weeks in advance; the remaining 40 percent are available two weeks in advance. Their [wilderness permit page](https://www.nps.gov/yose/planyourvisit/wpres.htm) has the information you'll need if calling / mailing in a request, and a link to their [online reservation system](https://yosemite.org/yosemite-wilderness-permit-request-form/).
+No more walk up permits this year - sixty percent of reservations are available 24 weeks in advance; the remaining 40 percent are available two weeks in advance. Their [wilderness permit page](https://www.nps.gov/yose/planyourvisit/wpres.htm) has the information you'll need if calling / mailing in a request, and a link to their [online reservation system](https://yosemite.org/yosemite-wilderness-permit-request-form/).
 
 "Walk-up wilderness permits are not available in the park in 2020. Beginning June 11, 40% of permits that would normally be available first-come, first-served are instead available by lottery two weeks in advance. Beginning June 11, you can submit a request 15 days in advance of a hike, with the lottery running 14 days in advance. Unreserved permits remain available up to nine days in advance. It is not possible to obtain a wilderness permit reservation fewer than nine days in advance."
 
-#### Day use or driving on 120
+### Yosemite day use / driving on 120
 
 "You have to go to log into recreation.gov and click the day entry permit thing for yosemite. Then it brings you to entering 1 vehicle, and a calendar. I did email them because their calendar has a glitch right now... if it says not yet released, it means there are no available permits on that day (even though it has the A for available). You just have to find a date that has permits.
 

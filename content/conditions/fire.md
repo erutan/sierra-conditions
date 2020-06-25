@@ -2,7 +2,7 @@
 description: ''
 sidebar: 'sierra'
 prev: '/conditions/snow/'
-next: '/conditions/roads/'
+next: '/conditions/weather/'
 ---
 
 # Wildfires

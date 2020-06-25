@@ -1,7 +1,7 @@
 ---
 description: ''
 sidebar: 'sierra'
-prev: '/conditions/fire/'
+prev: '/conditions/weather/'
 ---
 
 # Road Closures
@@ -33,4 +33,6 @@ Longer term conditions and changes are listed [on their Current Conditions page]
 It's often best to check with [local papers and sources](http://localhost:8081/resources/local/) for updates on roads to trailheads, etc - it's important news for small mountain towns!
 
 [Inyo Public Works News](https://www.inyocounty.us/residents/info-center/inyo-county-news-feed?dept=27) would cover all road construction in Inyo County.
+
+Looking for county sheriff's departments social media pages can be useful as well - any unplaned road closures will generally be described on them.
 

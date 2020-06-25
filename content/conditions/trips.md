@@ -17,11 +17,15 @@ Please do use the search functionality first - if you ask about an area someone 
 
 ## High Sierra Topix
 
-A [classic message board](http://www.highsierratopix.com/) with a lot of good beta on it. If you want a little bit more info than what Secor has for a cross country pass, this is a good place to run a search. 
+A [classic message board](http://www.highsierratopix.com/) with a lot of good beta on it. If you want a little bit more info than what Secor has for a cross country pass (or just whether some unnamed area is doable), this is a good place to run a search. There's also some posts for current mosquito conditions etc.
+
+## Climber.org
+
+Another good source for cross country (XC) trip reporting is  [climber.org's reports section](https://www.climber.org/reports/).
 
 ## Other Facebook Groups
 
-If you are doing something very popular (or something that shares a pass or two), there are dedicated PCT, JMT, Rae Lakes, SEKI High Sierra Trail groups that should have very good information. There's also general Sierra hiking/backpacking groups that will have trip reports not in Trails, Conditions, and Passes, but there tends to be a lot of signal to noise.
+If you are doing something very popular (or something that shares a pass or two), there are dedicated PCT, JMT, Rae Lakes, SEKI High Sierra Trail, Whitney Portal, etc groups that should have very good information. There's also general Sierra hiking/backpacking groups that will have trip reports not in Trails, Conditions, and Passes, but there tends to be a lot of signal to noise.
 
 For the PCT there's a number of vloggers that post updates to Instagram & Youtube, so searching on those platforms early season can work out as well.
 

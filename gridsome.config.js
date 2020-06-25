@@ -31,6 +31,7 @@ module.exports = {
               '/conditions/trips/',
               '/conditions/snow/',
               '/conditions/fire/',
+              '/conditions/weather/',
               '/conditions/roads/'
 
             ]

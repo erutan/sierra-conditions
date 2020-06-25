@@ -26,7 +26,9 @@ It's unclear how SEKI is handling their reserve of walk-in permits, but you can 
 
 From [FB Conditions Group](https://www.facebook.com/groups/1578540459102320/permalink/2641571529465869/):
 
-The current protocol for Inyo NF permits, which they don't quite spell out well on the website, is (1) Reserve on [Recreation.gov](https://www.recreation.gov/permits/233262?q=Inyo%20National%20Forest%20-%20Wilderness%20Permits), (2) Call Bishop USFS 760-873-2483 or Mammoth Lakes Welcome Center 760-924-5500 weekdays within a week of your trip, provide reservation #, and talk to a ranger, (3) Ranger will email you the actual permit to print out.
+The current protocol for Inyo NF permits, which they don't quite spell out well on the website, is (1) Reserve on [Recreation.gov](https://www.recreation.gov/permits/233262?q=Inyo%20National%20Forest%20-%20Wilderness%20Permits), (2) Call Bishop USFS 760-873-2483 or Mammoth Lakes Welcome Center 760-924-5500 weekdays within a week of your trip, provide  and leave a voicemail with info below (3) Ranger will email you the actual permit to print out.
+
+update from the group: "I spoke to someone at the Mammoth Lakes Welcome Center in regards to confirming my overnight permit for next week. She let me know that they are no longer answering phone calls, instead they are going through the voicemail (in order of receiving them). In your voicemail be sure to include your permit number, confirming you will be going, and leave a phone number for call back. They may call you back to confirm backpacking rules / guidelines, but if you mention you’ve gone over the rules already with a ranger (on your voicemail), they may not even call you back and will send the permit over via email. She said it’s taking about a day or so to get the voicemails, so be sure to call a few days before your overnight trip"
 
 Walk up permits are released every Monday, for the following Monday through Sunday.
 

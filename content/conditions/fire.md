@@ -5,7 +5,7 @@ prev: '/conditions/snow/'
 next: '/conditions/weather/'
 ---
 
-# Wildfires
+# Wildfires & Smoke
 
 [Cal Fire Incidents](https://www.fire.ca.gov/incidents/) has information on all known wildfires in California, and is a good place to check if you notice smoke. Information on fires can be updated a few times a day.
 

@@ -44,7 +44,25 @@ Walk up permits are released every Monday, for the following Monday through Sund
 
 ### Sierra NF, High Sierra District
 
+from the group 
+
 "Sign at Prather office June 2. Phone Extension 3300 goes to the person in charge of permits. They leave the permits in the box by the door. My understanding is they are only doing same or next-day “walk-in” permits at this time. Worked for me, but some people have reported difficulty getting through on the phone."
+
+from their website:
+
+"Wilderness Permits are still available by reservation or first come first served opportunities. For more information on how you can obtain a wilderness permit, please follow this link Wilderness Permits. Or to speak with a Forest Representative please call:
+
+Ansel Adams Wilderness :
+
+Bass Lake Ranger District Office at 559-877-2218 ex. 0
+
+John Muir, Kaiser, Dinkey Lakes, and Ansel Adams Wilderness :
+
+High Sierra Ranger District Office at 559-855-5355 ex. 0"
+
+### Desolation Wilderness
+
+Permits are available via [recreation.gov](https://www.recreation.gov/permits/233261) and are fairly normal aside from the fact that "Digital permits will be temporarily accepted during COVID-19" (note that's the permit pdf, not the confirmation email).
 
 ### Stanislaus National Forest
 
@@ -56,19 +74,13 @@ To reduce the spread of COVID-19, the Stanislaus National Forest has updated the
 
 Please [keep checking here](https://www.fs.usda.gov/stanislaus/) for updated information.
 
-## Access to Red's Meadow / Devil's Postpile
-
-from Peter via FB:"Regarding Reds Meadow Road, the Mammoth District Ranger station told me today that the road is opening up on June 26. Since the shuttle is not running, a limited amount of cars will be allowed down each day. They will be collecting the $10 fee.
-
-Agnew Meadows campground, I was told, is opening June 30. I did not ask about the others campgrounds or facilities. Hope this helps."
-
 ## South Lake Road Construction
 
 The [Inyo Public Works News](https://www.inyocounty.us/residents/info-center/inyo-county-news-feed?dept=27) will list all updates - as now it's 30 minute delays with certain areas closed for parking. At some point with two weeks notice they're will shut down the trailhead parking lot.
 
 ## Covid 19 Front Country 
 
-Private campgrounds are allowed to open, and short term lodging is open aside from in Mammoth Lakes, which are scheduled to open up in mid-late June.
+Campgrounds both public and private are opening up / should be open.
 
 The Troutfitter has [some good information](https://thetroutfitter.com/fish-report) on general eastside Covid conditions. Not the most legible photo, but [here's a list of open campgrounds as of 6/2](https://thetroutfitter.com/assets/content/images/FishReport/CustomerImages/91840.jpg).
 

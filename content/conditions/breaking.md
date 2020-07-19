@@ -27,7 +27,6 @@ Another option is the 2 days before an "A" day on the calendar, you can try to g
 
 If you are driving through the park "you still need a day-use reservation. Tioga Road, which connects with Highway 120 at the park boundaries near Big Oak Flat and Tioga Pass, is not and has never been a state highway. Originally a private mining road, private citizens purchased the road and donated it to the National Park Service, which has improved and maintained the road ever since. The National Park Service is solely responsible for providing road maintenance, as well as law enforcement and emergency services, along all roads within Yosemite National Park." (via [Yosemite](https://www.nps.gov/yose/planyourvisit/covid19.htm?fbclid=IwAR1GlDCyRLpzhhTpSqSWESx_G8DsuFuidnRRoxGa-h1VtGh73O7AQ6t4FhE))
 
-
 ### SEKI
 
 It's unclear how SEKI is handling their reserve of walk-in permits, but you can find out information on [reserving permits from their website](https://www.nps.gov/seki/planyourvisit/wilderness_permits.htm). It's a bit of a process.

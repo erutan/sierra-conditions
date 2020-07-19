@@ -19,9 +19,13 @@ Please do use the search functionality first - if you ask about an area someone 
 
 A [classic message board](http://www.highsierratopix.com/) with a lot of good beta on it. If you want a little bit more info than what Secor has for a cross country pass (or just whether some unnamed area is doable), this is a good place to run a search. There's also some posts for current mosquito conditions etc.
 
+## Summitpost
+
+[Summitpost](https://www.summitpost.org/)eared more towards climbers & mountaineers vs backpackers, but a lot of cross country (XC) routes will cover terrain climbers will take to a peak.
+
 ## Climber.org
 
-Another good source for cross country (XC) trip reporting is  [climber.org's reports section](https://www.climber.org/reports/).
+Another good source for XC trip reporting is  [climber.org's reports section](https://www.climber.org/reports/).
 
 ## Other Facebook Groups
 

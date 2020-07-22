@@ -6,6 +6,14 @@ next: '/conditions/trips/'
 
 # 2020 Specific Info
 
+## Fire Bans
+
+SEKI is the only remaining area in the Sierra Nevada that allows campfires outside of front-country campgrounds. Normal regulations and restrictions apply.
+
+## South Lake Road Construction
+
+The [Inyo Public Works News](https://www.inyocounty.us/residents/info-center/inyo-county-news-feed?dept=27) will list all updates.
+
 ## Covid 19 Backcountry Permits
 
 Note: permits aren't going to go back into the pool like they normally do. If someone completes their orientation call and the permit is issued electronically, it doesn't matter if they a) never show up b) don't pick it up from the ranger station if it's printed there and left outside. Normally the permit is considered "issued" after someone comes to station in person to pick it up.
@@ -72,17 +80,3 @@ To reduce the spread of COVID-19, the Stanislaus National Forest has updated the
 [Information on getting permits here](https://www.fs.usda.gov/attmain/stanislaus/specialplaces)
 
 Please [keep checking here](https://www.fs.usda.gov/stanislaus/) for updated information.
-
-## South Lake Road Construction
-
-The [Inyo Public Works News](https://www.inyocounty.us/residents/info-center/inyo-county-news-feed?dept=27) will list all updates - as now it's 30 minute delays with certain areas closed for parking. At some point with two weeks notice they're will shut down the trailhead parking lot.
-
-## Covid 19 Front Country 
-
-Campgrounds both public and private are opening up / should be open.
-
-The Troutfitter has [some good information](https://thetroutfitter.com/fish-report) on general eastside Covid conditions. Not the most legible photo, but [here's a list of open campgrounds as of 6/2](https://thetroutfitter.com/assets/content/images/FishReport/CustomerImages/91840.jpg).
-
-[Mono County Covid-19 Site](https://coronavirus.monocounty.ca.gov/)
-
-[Inyo County Covid-19 Site](https://www.inyocounty.us/covid-19)

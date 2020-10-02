@@ -19,6 +19,4 @@ Depending on jursidction fires may also show up on Inciweb you can use either th
 
 [BlueSky Daily Runs](https://tools.airfire.org/websky/v2/run/standard/DRI4km-CMAQ/2020082100/#viewer) is a great visual tool to show how smoke spread recently.
 
-[Wildland Fires & Smoke](https://wildlandfiresmoke.net/) has a lot of useful information about both fires and air quality.
-
 [San Joaquin Valley Air Piollution Control District](https://www.valleyair.org/Home.htm) covers some of the southern Sierra and surrounding areas.

@@ -22,7 +22,7 @@
           </p>
         </a>
 
-        <a href="/resources/social" class="flex flex-col items-center w-full px-4 mb-8 text-center md:w-1/3">
+        <a href="/resources/official" class="flex flex-col items-center w-full px-4 mb-8 text-center md:w-1/3">
           <h3 class="font-bold tracking-wide uppercase text-ui-primary">
             Resources
           </h3>

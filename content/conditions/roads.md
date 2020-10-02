@@ -8,15 +8,7 @@ prev: '/conditions/weather/'
 
 ## Caltrans Road Conditions 
 
-This information is very accurate and updated often. 
-
-### By Highway 
-
-If you know the highway you're looking for (120, 108, 88, etc) enter it on the [road information page](https://roads.dot.ca.gov/roadscell.php).
-
-### Visually via Interactive Map
-
-From webcams to closures to traffic, there's a lot of information available at the [Caltrans Quickmap](http://quickmap.dot.ca.gov/) - under 'options' webcams, and message signs are often very useful, as well as all of the road conditions.
+This information is very accurate and updated often.  If you know the highway you're looking for (120, 108, 88, etc) enter it on the [road information page](https://roads.dot.ca.gov/roadscell.php). From webcams to closures to traffic, there's a lot of information available at the [Caltrans Quickmap](http://quickmap.dot.ca.gov/) - under 'options' webcams, and message signs are often very useful, as well as all of the road conditions.
 
 ## Yosemite
 

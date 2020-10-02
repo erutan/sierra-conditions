@@ -7,6 +7,8 @@ next: '/conditions/weather/'
 
 # Wildfires & Smoke
 
+## Wildfires
+
 [Cal Fire Incidents](https://www.fire.ca.gov/incidents/) has information on all known wildfires in California, and is a good place to check if you notice smoke. Information on fires can be updated a few times a day.
 
 Depending on jursidction fires may also show up on Inciweb you can use either their [map view](https://inciweb.nwcg.gov/) or their [Table of Incidents](https://inciweb.nwcg.gov/accessible-view/).

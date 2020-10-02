@@ -21,8 +21,8 @@ There is also [a mobile version](https://mobile.weather.gov/).
 
 ## Mountain Forecast
 
-"Mountain forecast seems to always forecast colder which is fine by me as you should be layering anyway at altitude. I believe the rangers in eastern Sierra have told me they look at the NOAA. I check them all usually"
+"[Mountain forecast](https://www.mountain-forecast.com/) seems to always forecast colder which is fine by me as you should be layering anyway at altitude. I believe the rangers in eastern Sierra have told me they look at the NOAA. I check them all usually"
 
 ## Open Summit
 
-[Open Summit](https://opensummit.com/) like it has a great UI in their dedicated mobile apps - detailed two day forecasts for free, five day forecasts for $20 a month. Seems great for peakbagging, of less use for longer backpacking trips, but if you're already subscribed to Open Snow why not?
+[Open Summit](https://opensummit.com/) has a great UI in their dedicated mobile apps - detailed two day forecasts for free, five day forecasts for $20 a month. Seems great for peakbagging, of less use for longer backpacking trips, but if you're already subscribed to Open Snow why not?

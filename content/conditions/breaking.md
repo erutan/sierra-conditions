@@ -6,6 +6,10 @@ next: '/conditions/trips/'
 
 # 2020 Specific Info
 
+## Land closures due to CA wildfires.
+
+Wilderness areas in NFS land (the good stuff) in the High Sierra are closed for use through the fall. Yosemite & SEKI are open, though with usual covid restrictions and reduced services. NFS land north of 108/Emigrant is worth checking with the relevant agency that manages it regarding access.
+
 ## Fire Bans
 
 SEKI is the only remaining area in the Sierra Nevada that allows campfires outside of front-country campgrounds. Normal regulations and restrictions apply.

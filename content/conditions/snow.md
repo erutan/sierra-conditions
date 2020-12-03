@@ -21,6 +21,10 @@ For medium-high resolution satellite imagery that is 4-6 days old, there's a num
 * You can integrate Sentinel 2 data into [Caltopo](https://caltopo.com/) with their $50/year plan.
 * USGS's [Sentinel2Look viewer](https://landlook.usgs.gov/sentinel2/viewer.html) lets you filter for cloud cover and view historical data from 2015.
 
+## Gaia "FreshSat" (Sentinel 2 Satellite Imagery + Landsat-8)
+
+* GaiaGPS has a clever map layer called "[FreshSat](https://blog.gaiagps.com/view-recent-conditions-with-fresh-sat-maps/)" which tries to mix the best of Sentinel 2 and Landsat data. While this is theoretically better than the above, there may be some contrast and lineup issues. It's available for all users on the web, and on the application with a Gaia GPS premium membership. 
+
 ## iweather.net
 
 A [google map overlay](https://www.iweathernet.com/snow/snow-depth-and-percent-coverage) that pulls in data a few times a day.

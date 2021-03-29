@@ -21,7 +21,7 @@ The USDA's [snowtel map](https://www.nrcs.usda.gov/wps/portal/wcc/home/quicklink
 
 For medium-high resolution satellite imagery that is 4-6 days old, there's a number of ways to get Sentinel data. 
 
-* The [Sentinel Playground](https://www.sentinel-hub.com/explore/sentinelplayground/) is free, and while you can't layer a topo on top of it you'll get flickers of topo when you're changing zoom levels and tiles load. In the left menu sidebar, go from rendering to effects, and toggle "show aquisition dates" to able to see when the actual imagery is from. 
+* The [Sentinel Playground](https://www.sentinel-hub.com/explore/sentinelplayground/) is free! To make it easier to find the area you're interested in, you can turn all the satellite images off with the datasets pull down on the right side. That then let’s you navigate much easier on a base map - it’s not quite a topo map - but much easier than trying to navigate with the satellite image on. In order to see what date the imagery is from, go to the left menu sidebar, switch from rendering to effects, and toggle "show aquisition dates" and date overlays will overlay on the slices of images.
 * [EO Browser](https://apps.sentinel-hub.com/eo-browser/?zoom=10&lat=37.35761&lng=-118.9016&themeId=DEFAULT-THEME) is another free offering from Sentinel Hub, which has more options to it if you want to play around a bit. It's a bit easier to navigate via OSM topo and then to search for available satellite data for a particular area.
 * Buying access through [Sentinel Hub](https://www.sentinel-hub.com/) is a bit pricey, but lets you integrate with mapping providers of your choice.
 * You can integrate Sentinel 2 data into [Caltopo](https://caltopo.com/) with their $50/year plan.

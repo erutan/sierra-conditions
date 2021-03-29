@@ -36,3 +36,5 @@ For medium-high resolution satellite imagery that is 4-6 days old, there's a num
 iWeathernet [google map overlay](https://www.iweathernet.com/snow/snow-depth-and-percent-coverage) that pulls in data a few times a day.
 
 [GISsurfer](https://mappingsupport.com/p2/gissurfer-interactive-recreation-disaster-maps.html) is a little janky, but allows you to play around with a ton of GIS layers including snow and water.
+
+For water levels, as opposed to snow, [Dreamflows](https://www.dreamflows.com/flows.php?zone=canv&page=real&form=norm&mark=All) has gathered up stream flow sensors in California & Nevada and done a good job of providing at a glance comments on it to put the data in context. Mostly lower elevation larger rivers or reservoir related, but could be useful.

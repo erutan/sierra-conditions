@@ -13,3 +13,5 @@ You can keep an eye on historical snow levels at ca.gov's [Snow Water Equivalent
 ## Permits
 
 The 60% of reservable backcountry permits on recreation.gov permits sold out in hours - it's unsure if we'll go back to normal walk-up permits or if it'll be a similar release the 40% of permits for two weeks out every Monday mid-dayish as in 2020. Hopefully COVID vaccinations keep at a good pace and offices will be open ~July.
+
+FWIW, there's a [petition on change.org](https://www.change.org/p/chief-vicki-christiansen-changing-walk-in-permits-system-back-to-pre-covid-system?recruiter=1180856820&utm_source=share_petition&utm_medium=copylink&utm_campaign=share_petition&utm_term=share_petition) to go back to normal walk-up permits in 2021. At the end of the day it will come down to percieved safety of rangers and the public, but it can't hurt to let it be known people prefer the old way of doing things (assuming you do, that is).

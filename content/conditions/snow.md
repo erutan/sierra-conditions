@@ -7,7 +7,7 @@ next: '/conditions/fire/'
 
 # Snow Levels
 
-## California
+## Historic Snow Levels
 
 The [Snow Water Equivalents](https://cdec.water.ca.gov/snowapp/sweq.action) page gives you a good high level overview of where snow levels are at historically. Useful in the winter/spring to try and figure out when summer in the alpine will start.
 

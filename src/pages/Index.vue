@@ -18,7 +18,7 @@
             Conditions
           </h3>
           <p class="text-lg text-left">
-            A collection of sites &amp; best practices for finding beta on current conditions.
+            A collection of sites &amp; best practices for finding beta on current conditions. Includes information on snow levels, fire and smoke info, road conditions, tips on the weather, and breaking news that is contextual to the current year.
           </p>
         </a>
 
@@ -27,7 +27,7 @@
             Resources
           </h3>
           <p class="text-lg text-left">
-            Links to some broader use resources to aid your backcountry experience.
+            Links to some broader use resources to aid your backcountry experience - it's good to keep an eye on any alerts or news from agencies that manage the land you're going to, and local papers will often have articles on lakes, roads, and anything out of the ordinary that would concern their fellow citizens.
           </p>
         </a>
 
@@ -36,7 +36,7 @@
             About &amp; Contributing
           </h3>
           <p class="text-lg text-left">
-            Feel like something's missing? Help fill it in...
+            Feel like something's missing? Help fill it in... :) Gives a number of ways to help contribute resources or feedback to the site.
           </p>
         </a>
         

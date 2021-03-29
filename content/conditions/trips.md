@@ -7,11 +7,11 @@ next: '/conditions/snow/'
 
 # Trip Reports
 
-## Sierra Nevada Trails, Conditions, and Passes Facebook Group
+## Sierra Nevada Trip Reports & Current Conditions
 
 Yes, Facebook does have a search function, but trying to find old trip reports for XC passes isn't quite the easiest. 
 
-The lack of archival ease of use is balanced out by the lack of friction from using a social media network vs writing up blog / forum posts, there tends to be a lot of brief up to date posts from people [Sierra Nevada Trails, Conditions, and Passes](https://www.facebook.com/groups/1578540459102320/) and it's a good place to get a feel for what conditions currently are as well as ask questions.
+The lack of archival ease of use is balanced out by the lack of friction from using a social media network vs writing up blog / forum posts, there tends to be a lot of brief up to date posts from people [Sierra Nevada Trip Reports & Current Conditions](https://www.facebook.com/groups/1578540459102320/) and it's a good place to get a feel for what conditions currently are as well as ask questions.
 
 Please do use the search functionality first - if you ask about an area someone posted a trip report of yesterday, it just clutters up the feed.
 
@@ -19,11 +19,9 @@ Please do use the search functionality first - if you ask about an area someone 
 
 A [classic message board](http://www.highsierratopix.com/) with a lot of good beta on it. If you want a little bit more info than what Secor has for a cross country pass (or just whether some unnamed area is doable), this is a good place to run a search. There's also some posts for current mosquito conditions, annual trip report threads, etc.
 
-## Climber.org
+## Climber resources
 
 Another good source for XC trip reporting is  [climber.org's reports section](https://www.climber.org/reports/). The interface is a bit dated, and there's often more technical XC beta included in trip reports than backpackers will find useful, but a lot of interesting terrain is on the way to a peak somewhere.
-
-## Summitpost
 
 [Summitpost](https://www.summitpost.org/) is geared more towards climbers & mountaineers vs backpackers, but as with climber.org there's overlap and looking up a peak can be a great starting point in planning.
 
@@ -40,3 +38,7 @@ Backcountry rangers file reports of trails they've been on and also get beta fro
 Inyo is working on a trail conditions report for internal use, and may share that with the public - since we can no longer go into a ranger station and ask about previous trips that'd be another useful source of information.
 
 Note: Rangers tend to err slightly on the side of caution when describing how dangerous conditions are... it's a hassle for them when people are lost / injured / die, so don't hold it against them! The more touristy / popular an area is, the more information will tend to be padded.
+
+## Other resources
+
+[Postholer google map overlay](https://www.postholer.com/gmap/gmap.php) lets you pull in a ton of info on PCT segments. 

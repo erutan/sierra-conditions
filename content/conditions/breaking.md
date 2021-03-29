@@ -8,7 +8,7 @@ next: '/conditions/trips/'
 
 ## Conditions
 
-You can keep an eye on historical snow levels at ca.gov's [Snow Water Equivalents](https://cdec.water.ca.gov/snowapp/sweq.action) page, which gives you a good high level overview of where snow levels are at historically. Useful in the winter/spring to try and figure out when summer in the alpine will start.
+You can keep an eye on historical snow levels at ca.gov's [Snow Water Equivalents](https://cdec.water.ca.gov/snowapp/sweq.action) page, which gives you a good high level overview of where snow levels are at historically. Useful in the winter/spring to try and figure out when summer in the alpine will start. For more detailed sources, check out the snow page.
 
 ## Permits
 

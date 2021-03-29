@@ -7,17 +7,15 @@ next: '/conditions/fire/'
 
 # Snow Levels
 
-## CA State Sites
+## Official monitoring data
 
 The [Snow Water Equivalents](https://cdec.water.ca.gov/snowapp/sweq.action) page gives you a good high level overview of where snow levels are at historically. Useful in the winter/spring to try and figure out when summer in the alpine will start. 
 
-For more detailed information you need to dig into, check out the [California Data Exchange Center](https://cdec.water.ca.gov/snow/current/snow/) for individual snow levels in various locations.
+For more detailed information you need to dig into, check out the [California Data Exchange Center](https://cdec.water.ca.gov/snow/current/snow/) for individual snow levels in various locations. You can also sort by [river basin](https://cdec.water.ca.gov/cgi-progs/getAll?sens_num=3) and check a list of [active snow sensors](https://cdec.water.ca.gov/misc/SnowDepth.html). They publish bulletins on [ the second week of February, March, April, and May](https://cdec.water.ca.gov/snow/bulletin120/index2.html#) containing forecasts of the volume of seasonal runoff from the state's major watersheds, and summaries of precipitation, snowpack, reservoir storage, and runoff in various regions of the State.
 
-## Snowtel
+The NOAA's [regional snow analyses for the Sierra Nevada](https://www.nohrsc.noaa.gov/nsa/index.html?year=2008&month=1&day=23&units=e&region=Sierras) has a lot of discrete snow information in graphical form. They also have [kmz information you can pull into Google Earth](https://www.nohrsc.noaa.gov/earth/) or a similar tool.
 
-The USDA's [snowtel map](https://www.nrcs.usda.gov/wps/portal/wcc/home/quicklinks/imap#version=115&elements=&networks=!&states=CA&counties=!&hucs=&minElevation=&maxElevation=&elementSelectType=all&activeOnly=true&activeForecastPointsOnly=false&hucLabels=false&hucIdLabels=false&hucParameterLabels=false&stationLabels=&overlays=&hucOverlays=&basinOpacity=100&basinNoDataOpacity=100&basemapOpacity=100&maskOpacity=0&mode=data&openSections=dataElement,parameter,date,basin,elements,location,networks&controlsOpen=true&popup=&popupMulti=&base=esriNgwm&displayType=station&basinType=6&dataElement=WTEQ&depth=-8&parameter=PCTPORMED&frequency=DAILY&duration=I&customDuration=&dayPart=E&year=2020&month=6&day=7&monthPart=E&forecastPubMonth=6&forecastPubDay=1&forecastExceedance=50&seqColor=1&divColor=3&scaleType=D&scaleMin=&scaleMax=&referencePeriodType=POR&referenceBegin=1981&referenceEnd=2010&minimumYears=20&hucAssociations=true&lat=37.936&lon=-118.875&zoom=8.0) shows data from monitoring stations across the Sierra Nevada. You can also get a [listing of stations](https://wcc.sc.egov.usda.gov/reportGenerator/view/customMultipleStationReport/daily/state=%22CA%22%20AND%20network=%22SNTLT%22,%22SNTL%22%20AND%20element=%22SNWD%22%20AND%20outServiceDate=%222100-01-01%22%7cname/0,0/name,stationId,WTEQ::value,WTEQ::delta,SNWD::value,SNWD::delta?fitToScreen=false) for California.
-
-Gaia GPS premium members can get [snowtel overlays showing recent changes](https://blog.gaiagps.com/find-fresh-snow-with-the-new-snow-stations-daily-map/) when they have an active internet connection.
+The USDA's [snowtel map](https://www.nrcs.usda.gov/wps/portal/wcc/home/quicklinks/imap#version=115&elements=&networks=!&states=CA&counties=!&hucs=&minElevation=&maxElevation=&elementSelectType=all&activeOnly=true&activeForecastPointsOnly=false&hucLabels=false&hucIdLabels=false&hucParameterLabels=false&stationLabels=&overlays=&hucOverlays=&basinOpacity=100&basinNoDataOpacity=100&basemapOpacity=100&maskOpacity=0&mode=data&openSections=dataElement,parameter,date,basin,elements,location,networks&controlsOpen=true&popup=&popupMulti=&base=esriNgwm&displayType=station&basinType=6&dataElement=WTEQ&depth=-8&parameter=PCTPORMED&frequency=DAILY&duration=I&customDuration=&dayPart=E&year=2020&month=6&day=7&monthPart=E&forecastPubMonth=6&forecastPubDay=1&forecastExceedance=50&seqColor=1&divColor=3&scaleType=D&scaleMin=&scaleMax=&referencePeriodType=POR&referenceBegin=1981&referenceEnd=2010&minimumYears=20&hucAssociations=true&lat=37.936&lon=-118.875&zoom=8.0) shows data from monitoring stations across the Sierra Nevada. You can also get a [listing of stations](https://wcc.sc.egov.usda.gov/reportGenerator/view/customMultipleStationReport/daily/state=%22CA%22%20AND%20network=%22SNTLT%22,%22SNTL%22%20AND%20element=%22SNWD%22%20AND%20outServiceDate=%222100-01-01%22%7cname/0,0/name,stationId,WTEQ::value,WTEQ::delta,SNWD::value,SNWD::delta?fitToScreen=false) for California. Gaia GPS premium members can get [snowtel overlays showing recent changes](https://blog.gaiagps.com/find-fresh-snow-with-the-new-snow-stations-daily-map/) when they have an active internet connection.
 
 ## Sentinel 2 Satellite Imagery
 
@@ -37,4 +35,4 @@ For medium-high resolution satellite imagery that is 4-6 days old, there's a num
 
 iWeathernet [google map overlay](https://www.iweathernet.com/snow/snow-depth-and-percent-coverage) that pulls in data a few times a day.
 
-
+[GISsurfer](https://mappingsupport.com/p2/gissurfer-interactive-recreation-disaster-maps.html) is a little janky, but allows you to play around with a ton of GIS layers including snow and water.

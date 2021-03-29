@@ -21,15 +21,15 @@ A [classic message board](http://www.highsierratopix.com/) with a lot of good be
 
 ## Climber.org
 
-Another good source for XC trip reporting is  [climber.org's reports section](https://www.climber.org/reports/). The interface is a bit dated, but there's often more technical XC beta included in trip reports that experienced backpackers will find useful.
+Another good source for XC trip reporting is  [climber.org's reports section](https://www.climber.org/reports/). The interface is a bit dated, and there's often more technical XC beta included in trip reports than backpackers will find useful, but a lot of interesting terrain is on the way to a peak somewhere.
 
 ## Summitpost
 
-[Summitpost](https://www.summitpost.org/) is geared more towards climbers & mountaineers vs backpackers, but a lot of cross country (XC) routes will cover terrain climbers will take to a peak.
+[Summitpost](https://www.summitpost.org/) is geared more towards climbers & mountaineers vs backpackers, but as with climber.org there's overlap and looking up a peak can be a great starting point in planning.
 
 ## Other Facebook Groups
 
-If you are doing something very popular (or something that shares a pass or two), there are dedicated PCT, JMT, Rae Lakes, SEKI High Sierra Trail, Whitney Portal, etc groups that should have very good information. There's also general Sierra hiking/backpacking groups that will have trip reports not in Trails, Conditions, and Passes, but there tends to be a lot of signal to noise.
+If you are doing something very popular (or something that shares a pass or two), there are dedicated PCT, JMT, Rae Lakes, SEKI High Sierra Trail, Whitney Portal, etc groups that should have very good information. There's also general Sierra hiking/backpacking groups that will have trip reports, but there tends to be a lot of noise to signal.
 
 For the PCT there's a number of vloggers that post updates to Instagram & Youtube, so searching on those platforms early season can work out as well.
 

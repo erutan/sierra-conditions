@@ -20,6 +20,22 @@ For more up to date information call 209/372-0200 (press 1 then 1) for a pre-rec
 
 Longer term conditions and changes are listed [on their Current Conditions page](https://www.nps.gov/seki/planyourvisit/conditions.htm). They also have a specific [road construction page](https://www.nps.gov/seki/planyourvisit/road-construction.htm)
 
+
+## Western Sierra Ranger Districts
+
+- [Sierra National Forest Roads](https://www.fs.usda.gov/detail/sierra/home/?cid=stelprdb5399344)
+
+## Eastern Sierra Ranger Districts
+
+North to south:
+- [Mono Lake Ranger District](https://www.fs.usda.gov/recarea/inyo/recarea/?recid=20252)
+- [Mammoth Ranger District](https://www.fs.usda.gov/recarea/inyo/recarea/?recid=20238)
+- [White Mountain](https://www.fs.usda.gov/recarea/inyo/recreation/hiking/recarea/?recid=20230&actid=51)
+- [Mt. Whitney Ranger District](https://www.fs.usda.gov/recarea/inyo/recarea/?recid=20258)
+
+## Tahoe / Northern Sierra Ranger Districts
+- [Tahoe National Forest Road Information arranged by Travel Corridor](https://www.fs.usda.gov/detail/tahoe/alerts-notices/?cid=stelprdb5299395)
+
 ## Minor roads
 
 It's often best to check with [local papers and sources](/resources/local/) for updates on roads to trailheads, etc - it's important news for small mountain towns!

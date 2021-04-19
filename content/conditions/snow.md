@@ -31,6 +31,10 @@ For medium-high resolution satellite imagery that is 4-6 days old, there's a num
 
 * GaiaGPS has a clever map layer called "[FreshSat](https://blog.gaiagps.com/view-recent-conditions-with-fresh-sat-maps/)" which tries to mix the best of Sentinel 2 and Landsat data. While this is theoretically better than the above, there may be some contrast and lineup issues. It's available for all users on the web, and on the application with a Gaia GPS premium membership. 
 
+## Sierra Avalanche Center
+
+[https://www.sierraavalanchecenter.org/](SAC) has a lot of detailed qualitative & quantitative information on snow throughout the Sierra. Their [https://www.sierraavalanchecenter.org/observations](observations) page has trip reports from various spots.
+
 ## Other resources
 
 iWeathernet [google map overlay](https://www.iweathernet.com/snow/snow-depth-and-percent-coverage) that pulls in data a few times a day.

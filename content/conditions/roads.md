@@ -29,6 +29,8 @@ North to south:
 - [White Mountain](https://www.fs.usda.gov/recarea/inyo/recreation/hiking/recarea/?recid=20230&actid=51)
 - [Mt. Whitney Ranger District](https://www.fs.usda.gov/recarea/inyo/recarea/?recid=20258)
 
+[Inyo Public Works Road Department](https://www.inyocounty.us/services/public-works/road-department) has links to the status of trailhead roads & construction info in Inyo County.
+
 ## Western Sierra Ranger Districts
 
 - [Sierra National Forest Roads](https://www.fs.usda.gov/detail/sierra/home/?cid=stelprdb5399344)
@@ -41,7 +43,5 @@ North to south:
 
 It's often best to check with [local papers and sources](/resources/local/) for updates on roads to trailheads, etc - it's important news for small mountain towns!
 
-[Inyo Public Works News](https://www.inyocounty.us/residents/info-center/inyo-county-news-feed?dept=27) would cover all road construction in Inyo County.
-
-Looking for county sheriff's departments social media pages can be useful as well - any unplaned road closures will generally be described on them.
+Looking for county sheriff's departments social media pages can be useful as well - any unplanned road closures will generally be described on them.
 

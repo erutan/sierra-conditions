@@ -29,7 +29,7 @@ North to south:
 - [White Mountain](https://www.fs.usda.gov/recarea/inyo/recreation/hiking/recarea/?recid=20230&actid=51)
 - [Mt. Whitney Ranger District](https://www.fs.usda.gov/recarea/inyo/recarea/?recid=20258)
 
-[Inyo Public Works Road Department](https://www.inyocounty.us/services/public-works/road-department) has links to the status of trailhead roads & construction info in Inyo County.
+County road departments: [Inyo County Public Works](https://www.inyocounty.us/services/public-works/road-department) & [Mono County Public Works](https://www.monocounty.ca.gov/roads) have information, including expected opening dates, for trailhead access roads along the Eastern Sierra.
 
 ## Western Sierra Ranger Districts
 

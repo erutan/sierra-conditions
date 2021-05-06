@@ -31,9 +31,9 @@ For medium-high resolution satellite imagery that is 4-6 days old, there's a num
 
 * GaiaGPS has a clever map layer called "[FreshSat](https://blog.gaiagps.com/view-recent-conditions-with-fresh-sat-maps/)" which tries to mix the best of Sentinel 2 and Landsat data. While this is theoretically better than the above, there may be some contrast and lineup issues. It's available for all users on the web, and on the application with a Gaia GPS premium membership. 
 
-## Sierra Avalanche Center
+## (Eastern) Sierra Avalanche Center
 
-[https://www.sierraavalanchecenter.org/](SAC) has a lot of detailed qualitative & quantitative information on snow throughout the Sierra. Their [https://www.sierraavalanchecenter.org/observations](observations) page has trip reports from various spots.
+[ESAC](https://esavalanche.org/) [observations](https://esavalanche.org/ObservationsPage) page with trip reports)covers the region from Lee vining down to Bishop, and [SAC](https://www.sierraavalanchecenter.org/) ([observations](https://www.sierraavalanchecenter.org/observations) page with trip reports) covers the area between Ebbetts and Yuba. The forecasts pages on both are also worth checking, as well as general information regarding avalanche safety. [Avalance.org](https://avalanche.org/) shows all forecsat areas in the US.
 
 ## Other resources
 

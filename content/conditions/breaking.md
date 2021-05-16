@@ -12,7 +12,7 @@ You can keep an eye on historical snow levels at ca.gov's [Snow Water Equivalent
 
 ## Covid related changes
 
-Yosemite's [Covid-19 page](https://www.nps.gov/yose/planyourvisit/covid19.htm) states they will still have a quote for day use similar to 2020, but [backpacking permits are (slightly) more convenient](https://www.nps.gov/yose/planyourvisit/covid19.htm#onthisPage-2).
+Yosemite's [Covid-19 page](https://www.nps.gov/yose/planyourvisit/covid19.htm) states they will still have a quota for day use similar to 2020 (but generall more permissive) and [backpacking permits are more convenient](https://www.nps.gov/yose/planyourvisit/covid19.htm#onthisPage-2).
 
 SEKI is [tentatively planning to go back to walk-up permits](https://www.nps.gov/seki/planyourvisit/wilderness_permits.htm): "At this time, we are also planning to resume in-person, “walk-up” permit issuance for the 2021 quota season. This means that a limited number of first-come, first-served permits will be available daily at select permit issuing stations in Cedar Grove, Grant Grove, Lodgepole, the Foothills, and Mineral King. Because of the pandemic, we are working on safety measures to make this possible while protecting visitor and employee health. Walk up permit availability will be subject to possible change if pandemic conditions necessitate to ensure visitor and staff safety. 
 

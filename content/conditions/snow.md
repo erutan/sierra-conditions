@@ -29,7 +29,7 @@ For medium-high resolution satellite imagery that is 4-6 days old, there's a num
 
 ## Gaia "FreshSat" (Sentinel 2 + Landsat-8)
 
-* GaiaGPS has a clever map layer called "[FreshSat](https://blog.gaiagps.com/view-recent-conditions-with-fresh-sat-maps/)" which tries to mix the best of Sentinel 2 and Landsat data. While this is theoretically better than the above, there may be some contrast and lineup issues. It's available for all users on the web, and on the application with a Gaia GPS premium membership. 
+* GaiaGPS has a clever map layer called "[FreshSat](https://blog.gaiagps.com/view-recent-conditions-with-fresh-sat-maps/)" which tries to mix the best of Sentinel 2 and Landsat data. While this is theoretically better than the above, there may be some contrast and lineup issues. It's available for all users on the web, and on the application with a Gaia GPS premium membership. As of May 2021 their cloud detection is less sophisticated than the sentinel-hub site, and without the functionality to go back to previous scans it works as a quick first check but you might need to follow up elsewhere.
 
 ## (Eastern) Sierra Avalanche Center
 

@@ -15,6 +15,8 @@ Depending on jursidction fires may also show up on Inciweb you can use either th
 
 [Wildland Fires & Smoke](https://wildlandfiresmoke.net/) has a lot of useful information about both fires and air quality.
 
+Gaia GPS has layers for [satellite heat detection and current wildfires](https://blog.gaiagps.com/find-and-avoid-wildfires-with-new-heat-detection-layer/) for free users on both their web and mobile apps. [Caltopo](https://caltopo.com) has corresponding map overlays for free users as well: [fire activity and GOES 17 live fire detection](https://caltopo.com/map.html#ll=37.63354,-119.23153&z=11&b=mbt&o=mbt%2Cr&n=1,0.21&a=modis_vp%2Cgoesfire).
+
 ## Smoke & Air Quality Levels
 
 [AirNow Fire & Smoke Map](https://fire.airnow.gov/?lat=44.50506000000007&lng=-73.48001999999997&zoom=12) you can now get the high quality (but slower updating) AirNow sensors combined with Purple Air's lower quality but faster updating ones in a single map!
@@ -24,3 +26,9 @@ Depending on jursidction fires may also show up on Inciweb you can use either th
 [San Joaquin Valley Air Piollution Control District](https://www.valleyair.org/Home.htm) covers some of the southern Sierra and surrounding areas.
 
 [California Smoke Information](http://californiasmokeinfo.blogspot.com/) is an outreach point that multiple CA agencies use.
+
+## Historical burn areas
+
+Caltopo allows free / anonymous members to check historical burn layers with their [fire history map layer](https://caltopo.com/map.html#ll=37.52906,-119.04819&z=11&b=mbt&o=mbt%2Cr&n=1,0.21&a=fire).
+
+If you're a premium member of Gaia you can use their [historical wildfire layer](https://blog.gaiagps.com/view-areas-affected-us-wildfire-gaia-gps-image-httpsgaiagps-quip-com-blobbyxaaanbuhc-9cifqlxchgppfzpymhdwq/) to see where past fires have been.

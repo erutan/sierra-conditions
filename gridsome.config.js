@@ -40,8 +40,7 @@ module.exports = {
             title: 'resources',
             items: [
               '/resources/official/',
-              '/resources/local/',
-              '/resources/social/'
+              '/resources/local/'
             ]
           },
           {

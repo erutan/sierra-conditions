@@ -27,9 +27,9 @@ Another good source for XC trip reporting is  [climber.org's reports section](ht
 
 ## Other Facebook Groups
 
-If you are doing something very popular (or something that shares a pass or two), there are dedicated PCT, JMT, Rae Lakes, SEKI High Sierra Trail, Whitney Portal, etc groups that should have very good information. There's also general Sierra hiking/backpacking groups that will have trip reports, but there tends to be a lot of noise to signal.
+If you are doing something very popular (or something that shares a pass or two), there are dedicated [PCT](https://www.facebook.com/groups/PCNST/), [JMT](https://www.facebook.com/groups/JohnMuirTrail/) & the [JMT NoBo Info Hub](https://www.facebook.com/groups/JMT.NOBO/), [Rae Lakes loop](https://www.facebook.com/groups/496524253873881/), [SEKI High Sierra Trail](https://www.facebook.com/groups/HighSierraTrail/), [Whitney](https://www.facebook.com/groups/30962451768/), etc groups that should have very good information on those specific areas. Many often have yearly groups as well, which are probably more informative and less navel-gazey nostalgia. There's a few general Sierra Nevada groups that will have trip reports, but there tends to be a lot of noise to signal. [Eastern Sierra Hiking & Backpacking](https://www.facebook.com/groups/easternsierrahiking) is one of the more informative ones.
 
-For the PCT there's a number of vloggers that post updates to Instagram & Youtube, so searching on those platforms early season can work out as well.
+For the PCT there's a number of vloggers that post updates to Instagram & Youtube, so searching on those platforms to check for passes early season can work out as well.
 
 ## Ranger Stations
 

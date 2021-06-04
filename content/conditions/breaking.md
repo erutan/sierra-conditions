@@ -6,10 +6,6 @@ next: '/conditions/trips/'
 
 # 2021 Specific Info
 
-## Conditions
-
-You can keep an eye on historical snow levels at ca.gov's [Snow Water Equivalents](https://cdec.water.ca.gov/snowapp/sweq.action) page, which gives you a good high level overview of where snow levels are at historically. Useful in the winter/spring to try and figure out when summer in the alpine will start. For more detailed sources, check out the [snow page of this site](../snow/).
-
 ## Permits & Access
 
 Yosemite's [Covid-19 page](https://www.nps.gov/yose/planyourvisit/covid19.htm) states they will still have a quota for day use similar to 2020 (but generall more permissive) and [backpacking permits are more convenient](https://www.nps.gov/yose/planyourvisit/covid19.htm#onthisPage-2).
@@ -24,6 +20,12 @@ SEKI is [tentatively planning to go back to walk-up permits](https://www.nps.gov
 - If quota space is available, reservations can be made until one day before the trip.
 - Canceled space is returned to the reservation calendar at a random time within 24 hours."
 
-[Sierra NF](https://www.fs.usda.gov/detail/sierra/passes-permits/?cid=fsbdev7_018115) is worded bit ambiguously. "40% of the trailhead quota traditionally is set aside for walk up permits is being added to the reservation website and updated with each reservation. Due to the ability to reserve these permits, there will be a fee of $6.00 per permit and $5.00 per person." They seem to be released in the same manner as Inyo, two weeks out.
+When you reserve a permit (but before you recieve it) you'll get an email with instructions. You must check in by phone or email at least two days before your trip, then once you recieve your actual permit print it out and sign it.
+
+[Sierra NF](https://www.fs.usda.gov/detail/sierra/passes-permits/?cid=fsbdev7_018115) is worded bit ambiguously. "40% of the trailhead quota traditionally is set aside for walk up permits is being added to the reservation website and updated with each reservation. Due to the ability to reserve these permits, there will be a fee of $6.00 per permit and $5.00 per person." All permits must be purchased from recreation.gov, and at this point require you to physically pick them up. When you reserve a permit (but before you recieve it) you'll get an email with instructions.
 
 [Humbolt Toiyobe](https://www.fs.usda.gov/detail/htnf/passes-permits/?cid=fseprd673368) "50 percent [of permits are] available on a first-come, first-served basis at the Bridgeport Ranger District office beginning at 1 p.m. the day before or the day of a wilderness trip." Their socially distanced curbside pickup setup is described on the link above
+
+## Conditions
+
+You can keep an eye on historical snow levels at ca.gov's [Snow Water Equivalents](https://cdec.water.ca.gov/snowapp/sweq.action) page, which gives you a good high level overview of where snow levels are at historically. Useful in the winter/spring to try and figure out when summer in the alpine will start. For more detailed sources, check out the [snow page of this site](../snow/).

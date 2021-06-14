@@ -26,7 +26,7 @@ When you reserve a permit (but before you recieve it) you'll get an email with i
 
 [Humbolt Toiyobe](https://www.fs.usda.gov/detail/htnf/passes-permits/?cid=fseprd673368) "50 percent [of permits are] available on a first-come, first-served basis at the Bridgeport Ranger District office beginning at 1 p.m. the day before or the day of a wilderness trip." Their socially distanced curbside pickup setup is described on the link above. Self-service permits left in a drop box before quotas come into place on the last Saturday in June.
 
-## Fire bans
+## Fire Restrictions
 
 As of 06/13/21 (click the links to see if there's been updates)
 

@@ -24,8 +24,14 @@ When you reserve a permit (but before you recieve it) you'll get an email with i
 
 [Sierra NF](https://www.fs.usda.gov/detail/sierra/passes-permits/?cid=fsbdev7_018115) is worded bit ambiguously. "40% of the trailhead quota traditionally is set aside for walk up permits is being added to the reservation website and updated with each reservation. Due to the ability to reserve these permits, there will be a fee of $6.00 per permit and $5.00 per person." All permits must be purchased from recreation.gov, and at this point require you to physically pick them up. When you reserve a permit (but before you recieve it) you'll get an email with instructions.
 
-[Humbolt Toiyobe](https://www.fs.usda.gov/detail/htnf/passes-permits/?cid=fseprd673368) "50 percent [of permits are] available on a first-come, first-served basis at the Bridgeport Ranger District office beginning at 1 p.m. the day before or the day of a wilderness trip." Their socially distanced curbside pickup setup is described on the link above
+[Humbolt Toiyobe](https://www.fs.usda.gov/detail/htnf/passes-permits/?cid=fseprd673368) "50 percent [of permits are] available on a first-come, first-served basis at the Bridgeport Ranger District office beginning at 1 p.m. the day before or the day of a wilderness trip." Their socially distanced curbside pickup setup is described on the link above. Self-service permits left in a drop box before quotas come into place on the last Saturday in June.
 
-## Conditions
+## Fire bans
 
-You can keep an eye on historical snow levels at ca.gov's [Snow Water Equivalents](https://cdec.water.ca.gov/snowapp/sweq.action) page, which gives you a good high level overview of where snow levels are at historically. Useful in the winter/spring to try and figure out when summer in the alpine will start. For more detailed sources, check out the [snow page of this site](../snow/).
+As of 06/13/21 (click the links to see if there's been updates)
+
+[Humboldt Toiyobe National Forest](https://www.fs.usda.gov/alerts/htnf/alerts-notices/?aid=54212): mostly unrestricted (normal rules apply).
+[Yosemite](https://www.nps.gov/yose/blogs/fireinfo.htm): stage 1 restrictions - no backcountry campfires below 6000ft or above 9600ft.
+[Inyo National Forest](https://www.fs.usda.gov/alerts/inyo/alerts-notices/?aid=23491): ban on all fires outside of campfire rings in front-country campgrounds.
+[SEKI](https://www.nps.gov/seki/learn/nature/fire-restrictions.htm): stage 2 restrictions (similar to yosemite but with more specificity)
+[Sequoia National Forest](https://www.fs.usda.gov/alerts/sequoia/alerts-notices) campfires only allowed in established campgrounds above 5000ft.

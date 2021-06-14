@@ -31,7 +31,11 @@ When you reserve a permit (but before you recieve it) you'll get an email with i
 As of 06/13/21 (click the links to see if there's been updates)
 
 [Humboldt Toiyobe National Forest](https://www.fs.usda.gov/alerts/htnf/alerts-notices/?aid=54212): mostly unrestricted (normal rules apply).
+
 [Yosemite](https://www.nps.gov/yose/blogs/fireinfo.htm): stage 1 restrictions - no backcountry campfires below 6000ft or above 9600ft.
+
 [Inyo National Forest](https://www.fs.usda.gov/alerts/inyo/alerts-notices/?aid=23491): ban on all fires outside of campfire rings in front-country campgrounds.
-[SEKI](https://www.nps.gov/seki/learn/nature/fire-restrictions.htm): stage 2 restrictions (similar to yosemite but with more specificity)
+
+[SEKI](https://www.nps.gov/seki/learn/nature/fire-restrictions.htm): stage 2 restrictions (similar to yosemite but with more specificity).
+
 [Sequoia National Forest](https://www.fs.usda.gov/alerts/sequoia/alerts-notices) campfires only allowed in established campgrounds above 5000ft.

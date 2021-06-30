@@ -30,7 +30,7 @@ When you reserve a permit (but before you recieve it) you'll get an email with i
 
 As of 06/30/21 (click the links to see if there's been changes since!):
 
-[Stanislaus National Forest](https://www.fs.usda.gov/alerts/stanislaus/alerts-notices) fires restricted in the high risk area ([check map](https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/fseprd915401.pdf)). Pretty much everything aside from the NE corner.
+[Stanislaus National Forest](https://www.fs.usda.gov/alerts/stanislaus/alerts-notices) fires restricted in the moderate & high risk areas ([check map](https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/fseprd915401.pdf)). Pretty much everything aside from the NE corner.
 
 [Humboldt Toiyobe National Forest](https://www.fs.usda.gov/alerts/htnf/alerts-notices/?aid=54212): mostly unrestricted (normal rules apply).
 

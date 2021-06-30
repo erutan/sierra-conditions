@@ -16,13 +16,13 @@ As of 06/30/21 (click the links to see if there's been changes since!):
 
 [Yosemite](https://www.nps.gov/yose/blogs/fireinfo.htm): stage 1 restrictions - no backcountry campfires below 6000ft or above 9600ft.  Alcohol stoves are allowed, but no wood/twig/charcoal ones (biolite, etc).
 
-[Inyo National Forest](https://www.fs.usda.gov/alerts/inyo/alerts-notices/?aid=23491): all campfires & wood stoves are banned (outside of in campfire rings in developed frontcountry campgrounds), along with alcohol stoves or other stoves without shutoff valves.
+[Inyo National Forest](https://www.fs.usda.gov/alerts/inyo/alerts-notices/?aid=23491): all campfires & wood/twig/charcoal stoves are banned (outside of in campfire rings in developed frontcountry campgrounds), along with alcohol stoves or other stoves without shutoff valves.
 
 [SEKI](https://www.nps.gov/seki/learn/nature/fire-restrictions.htm): On July 1st stage 3 fire restrictions - no campfires or smoking will be allowed anywhere in the park, frontcountry campgrounds or backcountry at any altitude. Alcohol stoves are allowed, but no wood/twig/charcoal ones (biolite, etc).
 
-[Sequoia National Forest](https://www.fs.usda.gov/alerts/sequoia/alerts-notices) all campfires & wood stoves are banned (frontcountry campgrounds or backcountry at any altitude), along with alcohol stoves or other stoves without shutoff valves.
+[Sequoia National Forest](https://www.fs.usda.gov/alerts/sequoia/alerts-notices) all campfires & wood/twig/charcoal stoves are banned (frontcountry campgrounds or backcountry at any altitude), along with alcohol stoves or other stoves without shutoff valves.
 
-NOTE: [CA Campfire permits](https://www.readyforwildfire.org/permits/campfire-permit/) are required for stove use in the backcountry - you have to watch a video of how to dig out a giant hole in a meadow and then fill it in with a shovel and douse with buckets of water lol.
+NOTE: [CA Campfire permits](https://www.readyforwildfire.org/permits/campfire-permit/) are required for stove use in the backcountry - you have to watch a video of how to dig out a giant hole in a meadow and then fill it in with a shovel and douse it with buckets of water lol.
 
 ## Permits & Access
 

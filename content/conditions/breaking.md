@@ -20,7 +20,7 @@ As of 06/30/21 (click the links to see if there's been changes since!):
 
 [SEKI](https://www.nps.gov/seki/learn/nature/fire-restrictions.htm): On July 1st stage 3 fire restrictions - no campfires or smoking will be allowed anywhere in the park, frontcountry campgrounds or backcountry at any altitude. Alcohol stoves are allowed, but no wood/twig/charcoal ones (biolite, etc).
 
-[Sequoia National Forest](https://www.fs.usda.gov/alerts/sequoia/alerts-notices) all campfires & wood stoves are banned, along with alcohol stoves or other stoves without shutoff valves.
+[Sequoia National Forest](https://www.fs.usda.gov/alerts/sequoia/alerts-notices) all campfires & wood stoves are banned (frontcountry campgrounds or backcountry at any altitude), along with alcohol stoves or other stoves without shutoff valves.
 
 NOTE: [CA Campfire permits](https://www.readyforwildfire.org/permits/campfire-permit/) are required for stove use in the backcountry - you have to watch a video of how to dig out a giant hole in a meadow and then fill it in with a shovel and douse with buckets of water lol.
 

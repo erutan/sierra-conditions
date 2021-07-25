@@ -40,6 +40,8 @@ SEKI is [tentatively planning to go back to walk-up permits](https://www.nps.gov
 
 When you reserve a permit (but before you recieve it) you'll get an email with instructions. You must check in by phone or email at least two days before your trip, then once you recieve your actual permit print it out and sign it.
 
+You can now pick up permits in person (though only the office near Lone Pine is open Tues-Wed). Your reservation confirmation email has hours, phone numbers, email requirements etc on it depending on how you want to check in and recieve your permit.
+
 [Sierra NF](https://www.fs.usda.gov/detail/sierra/passes-permits/?cid=fsbdev7_018115) is worded bit ambiguously. "40% of the trailhead quota traditionally is set aside for walk up permits is being added to the reservation website and updated with each reservation. Due to the ability to reserve these permits, there will be a fee of $6.00 per permit and $5.00 per person." All permits must be purchased from recreation.gov, and at this point require you to physically pick them up. When you reserve a permit (but before you recieve it) you'll get an email with instructions.
 
 [Humbolt Toiyobe](https://www.fs.usda.gov/detail/htnf/passes-permits/?cid=fseprd673368) "50 percent [of permits are] available on a first-come, first-served basis at the Bridgeport Ranger District office beginning at 1 p.m. the day before or the day of a wilderness trip." Their socially distanced curbside pickup setup is described on the link above. Self-service permits left in a drop box before quotas come into place on the last Saturday in June.

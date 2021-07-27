@@ -5,6 +5,12 @@ prev: '/conditions/fire/'
 next: '/conditions/roads/'
 ---
 
+# Understanding Systems
+
+[Mountain Thunderstorms - Their Formation and some Field-Forecasting Guidelines](https://www.fs.fed.us/psw/cirmount/wkgrps/gloria/publications/pdf/Bishop_mtn_thunderstorms_031607.pdf) by Jim Bishop is a short read and will help you understand how a storm is building. [Practical Mountain Weather](https://www.dropbox.com/s/dvaswkn4ymtiros/MountainWeather.pdf?dl=0) by John Papineau gets into more detail into how weather forms in the mountains, including wind patterns etc. [Mountain Weather](https://www.amazon.com/Mountain-Weather-Backcountry-Snowboarders-Mountaineers-ebook/dp/B001GQ2MK8/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=) by John Renner similarly has a large section on how weather in mountains generally works, and is then followed by regional examples in North America.
+
+It's highly recommended to have a basic understanding of how weather works - on longer trips you can't rely on forecasts. Similar to reading the mountain, not just maps, it helps to be able to read the sky.
+
 # Weather & Temperature
 
 ## Weather.gov

@@ -31,7 +31,7 @@ Gaia GPS has layers for [satellite heat detection and current wildfires](https:/
 
 [California Smoke Information](http://californiasmokeinfo.blogspot.com/) is an outreach point that multiple CA agencies use.
 
-[Windy](https://www.windy.com/-PM2-5-pm2p5?cams,pm2p5,37.810,-119.221,8) has wind & air quality predictions. The further out they are, the less useful they are, and fires can create and alter their own patterns, but it's useful. You can get a longer view out on [just wind patterns](https://www.windy.com/?37.571,-118.714,9).
+[Windy](https://www.windy.com/-PM2-5-pm2p5?cams,pm2p5,37.810,-119.221,8) has wind & air quality predictions. The further out they are, the less useful they are, and fires can create and alter their own patterns, but it's at least a good general idea of what to expect. You can get a longer view out on [just wind patterns](https://www.windy.com/?37.571,-118.714,9).
 
 ## Historical burn areas
 

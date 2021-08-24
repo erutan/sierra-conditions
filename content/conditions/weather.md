@@ -27,6 +27,10 @@ From the group: "I use [weather.gov](weather.gov) along with Mountain forecast f
 
 There is also [a mobile version](https://mobile.weather.gov/).
 
+### Windy
+
+[Windy](https://www.windy.com/-Thunderstorms-thunder?thunder,2021-08-27-21,37.810,-119.221,8) has a nice map view of thunderstorm predictions fairly far out. Obviously accuracy at the tail end will be somewhat low, but it can be useful to visualize where a storm is coming from and maybe flip a loop to be low when it hits the worst, or be on the west if it's coming from the east or vice versa.
+
 ### Mountain Forecast
 
 "[Mountain forecast](https://www.mountain-forecast.com/) seems to always forecast colder which is fine by me as you should be layering anyway at altitude. I believe the rangers in eastern Sierra have told me they look at the NOAA. I check them all usually"

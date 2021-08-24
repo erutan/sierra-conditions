@@ -19,7 +19,9 @@ Gaia GPS has layers for [satellite heat detection and current wildfires](https:/
 
 ## Smoke & Air Quality Levels
 
-[AirNow Fire & Smoke Map](https://fire.airnow.gov/?lat=44.50506000000007&lng=-73.48001999999997&zoom=12) you can now get the high quality (but slower updating) AirNow sensors combined with Purple Air's lower quality but faster updating ones in a single map!
+https://www.windy.com/33.450/-112.080?37.296,-118.781,8
+
+[AirNow Fire & Smoke Map](https://fire.airnow.gov/?lat=37.661622799999996&lng=-119.8005027&zoom=10#) you can now get the high quality (but slower updating) AirNow sensors combined with Purple Air's lower quality but faster updating ones in a single map!
 
 [Purple Air's Map](https://www.purpleair.com/map?opt=1/mAQI/a10/cC0#8.02/37.519/-118.825) still has more sensors than the combined version above.
 
@@ -28,6 +30,8 @@ Gaia GPS has layers for [satellite heat detection and current wildfires](https:/
 [San Joaquin Valley Air Piollution Control District](https://www.valleyair.org/Home.htm) covers some of the southern Sierra and surrounding areas.
 
 [California Smoke Information](http://californiasmokeinfo.blogspot.com/) is an outreach point that multiple CA agencies use.
+
+[Windy](https://www.windy.com/-PM2-5-pm2p5?cams,pm2p5,37.810,-119.221,8) has wind & air quality predictions. The further out they are, the less useful they are, and fires can create and alter their own patterns, but it's useful.
 
 ## Historical burn areas
 

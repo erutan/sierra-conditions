@@ -23,7 +23,7 @@ Gaia GPS has layers for [satellite heat detection and current wildfires](https:/
 
 [Purple Air's Map](https://www.purpleair.com/map?opt=1/mAQI/a10/cC0#8.02/37.519/-118.825) still has more sensors than the combined version above.
 
-[NASA's Worldview](https://worldview.earthdata.nasa.gov/?v=-122.31118585489266,33.45679500585166,-115.98306085489266,39.60619096789932&l=Reference_Labels,Reference_Features(hidden),Coastlines,MODIS_Aqua_CorrectedReflectance_TrueColor(hidden),MODIS_Terra_CorrectedReflectance_TrueColor&lg=false&t=2015-08-24-T00%3A00%3A00Z), [BlueSky Daily Runs](https://tools.airfire.org/websky/v2/run/standard/DRI4km-CMAQ/2020082100/#viewer), and  are great visual tools to show how smoke spread recently.
+[NASA's Worldview](https://worldview.earthdata.nasa.gov/?v=-122.31118585489266,33.45679500585166,-115.98306085489266,39.60619096789932&l=Reference_Labels,Reference_Features(hidden),Coastlines,MODIS_Aqua_CorrectedReflectance_TrueColor(hidden),MODIS_Terra_CorrectedReflectance_TrueColor&lg=false&t=2015-08-24-T00%3A00%3A00Z) and [BlueSky Daily Runs](https://tools.airfire.org/websky/v2/run/standard/DRI4km-CMAQ/2020082100/#viewer) are great visual tools to show how smoke spread recently.
 
 [Great Basin Unified Air Pollution Control District](https://www.gbuapcd.org/) covers Inyo & Mono.
 

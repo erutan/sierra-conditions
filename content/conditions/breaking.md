@@ -12,11 +12,11 @@ next: '/conditions/trips/'
 
 tl;dr - all walk-up Backcountry Permits for the High Sierra outside of SEKI are now on rec.gov released either 3, 7, or 14 days in advance.
 
-Yosemite's [walk up permits are now renamed to "Week-Ahead Reservations"](https://www.nps.gov/yose/planyourvisit/wpres.htm).  and operate similarly to Inyo in 2021 except they're 7 days out vs 14
+[Yosemite](https://www.nps.gov/yose/planyourvisit/wpres.htm)'s walk up permits are now renamed to "Week-Ahead Reservations".  and operate similarly to Inyo in 2021 except they're 7 days out vs 14
 
 "For the 2022 season, the remaining 40% of trailhead quotas will be released on a first-come, first-served basis on Recreation.gov seven days in advance at 7 am PDT. Popular trailheads will fill very quickly; be logged on and ready to reserve promptly at 7 am PDT seven days in advance of your desired start date. The latest you can make a reservation is three days before a trip (although, few reservations will be available at that point)."
 
-SEKI [still has walk-up permits](https://www.nps.gov/seki/planyourvisit/wilderness_permits.htm).
+[SEKI](https://www.nps.gov/seki/planyourvisit/wilderness_permits.htm) still has walk-up permits.
 
 "Walk-up permits can be obtained starting from 1:00pm the day before your trip begins. Permits are only issued during hours of operation by trailhead rangers who provide important area information. You must arrive at the correct trailhead desk for the trailhead you are hoping to obtain a walk up permit for. Bring your entire party to the orientation. You will pay the fee of $15 per permit plus $5 per person at the issuing station. Credit cards are the preferred payment method. Trailhead rangers will not be able to make change for transactions. 
 

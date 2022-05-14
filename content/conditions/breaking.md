@@ -4,44 +4,39 @@ sidebar: 'sierra'
 next: '/conditions/trips/'
 ---
 
-# 2021 Specific Info
+# 2022 Specific Info
 
 ## Fire Restrictions
 
-As of 06/30/21 (click the links to see if there's been changes since!):
+## Backcountry Permits & Quotas
 
-[Stanislaus National Forest](https://www.fs.usda.gov/alerts/stanislaus/alerts-notices) fires restricted in the moderate & high risk areas ([check map](https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/fseprd915401.pdf)). Pretty much everything aside from the NE corner.
+tl;dr - all walk-up Backcountry Permits for the High Sierra outside of SEKI are now on rec.gov released either 3, 7, or 14 days in advance.
 
-[Humboldt Toiyobe National Forest](https://www.fs.usda.gov/alerts/htnf/alerts-notices/?aid=54212): mostly unrestricted (normal rules apply).
+Yosemite's [walk up permits are now renamed to "Week-Ahead Reservations"](https://www.nps.gov/yose/planyourvisit/wpres.htm).  and operate similarly to Inyo in 2021 except they're 7 days out vs 14
 
-[Yosemite](https://www.nps.gov/yose/blogs/fireinfo.htm): stage 1 restrictions - no backcountry campfires below 6000ft or above 9600ft.  Alcohol stoves are allowed, but no wood/twig/charcoal ones (biolite, etc).
+"For the 2022 season, the remaining 40% of trailhead quotas will be released on a first-come, first-served basis on Recreation.gov seven days in advance at 7 am PDT. Popular trailheads will fill very quickly; be logged on and ready to reserve promptly at 7 am PDT seven days in advance of your desired start date. The latest you can make a reservation is three days before a trip (although, few reservations will be available at that point)."
 
-[Inyo National Forest](https://www.fs.usda.gov/alerts/inyo/alerts-notices/?aid=23491): all campfires & wood/twig/charcoal stoves are banned (outside of in campfire rings in developed frontcountry campgrounds), along with alcohol stoves or other stoves without shutoff valves.
+SEKI [still has walk-up permits](https://www.nps.gov/seki/planyourvisit/wilderness_permits.htm).
 
-[SEKI](https://www.nps.gov/seki/learn/nature/fire-restrictions.htm): On July 1st stage 3 fire restrictions - no campfires or smoking will be allowed anywhere in the park, frontcountry campgrounds or backcountry at any altitude. Alcohol stoves are allowed, but no wood/twig/charcoal ones (biolite, etc).
+"Walk-up permits can be obtained starting from 1:00pm the day before your trip begins. Permits are only issued during hours of operation by trailhead rangers who provide important area information. You must arrive at the correct trailhead desk for the trailhead you are hoping to obtain a walk up permit for. Bring your entire party to the orientation. You will pay the fee of $15 per permit plus $5 per person at the issuing station. Credit cards are the preferred payment method. Trailhead rangers will not be able to make change for transactions. 
 
-[Sequoia National Forest](https://www.fs.usda.gov/alerts/sequoia/alerts-notices) all campfires & wood/twig/charcoal stoves are banned (frontcountry campgrounds or backcountry at any altitude), along with alcohol stoves or other stoves without shutoff valves.
+On your desired entrance date, once all of the quota for walk up permits is taken, a list will be started for permits that become available if a reserved party does not show up by the 10:00 am deadline. These no-show permits will become available for first-come first-serve walk ups."
 
-NOTE: [CA Campfire permits](https://www.readyforwildfire.org/permits/campfire-permit/) are required for stove use in the backcountry - you have to watch a video of how to dig out a giant hole in a meadow and then fill it in with a shovel and douse it with buckets of water lol.
-
-## Permits & Access
-
-Yosemite's [Covid-19 page](https://www.nps.gov/yose/planyourvisit/covid19.htm) states they will still have a quota for day use similar to 2020 (but generall more permissive) and [backpacking permits are more convenient](https://www.nps.gov/yose/planyourvisit/covid19.htm#onthisPage-2).
-
-SEKI is [tentatively planning to go back to walk-up permits](https://www.nps.gov/seki/planyourvisit/wilderness_permits.htm): "At this time, we are also planning to resume in-person, “walk-up” permit issuance for the 2021 quota season. This means that a limited number of first-come, first-served permits will be available daily at select permit issuing stations in Cedar Grove, Grant Grove, Lodgepole, the Foothills, and Mineral King. Because of the pandemic, we are working on safety measures to make this possible while protecting visitor and employee health. Walk up permit availability will be subject to possible change if pandemic conditions necessitate to ensure visitor and staff safety. 
-
-[Inyo NF](https://www.fs.usda.gov/detail/inyo/passes-permits/recreation/?cid=fsbdev3_003808) is similar to last year, but more everything isn't bunched up on a Monday and there's a set time to check:
+[Inyo NF](https://www.fs.usda.gov/detail/inyo/passes-permits/recreation/?cid=fsbdev3_003808) is the same as 2021.
 
 "If you see a W displayed it means additional space will be added for short term reservations two weeks before the trip. at 7am Pacific time.  Example: you would look on the recreation.gov website at 7am Pacific Time on the same day of the week, two weeks before your trip entry date.
 
-- 40% of quota traditionally set aside for walk up permits is being added to the reservation website every day, 2 weeks before the trip.
-- If quota space is available, reservations can be made until one day before the trip.
-- Canceled space is returned to the reservation calendar at a random time within 24 hours."
+60% of the quota space can be reserved starting 6 months in advance.
+40% of quota traditionally set aside for walk up permits is being added to the reservation website every day, 2 weeks before the trip.
+If quota space is available, reservations can be made until one day before the trip.
+Canceled space is returned to the reservation calendar at a random time within 24 hours."
 
-When you reserve a permit (but before you recieve it) you'll get an email with instructions. You must check in by phone or email at least two days before your trip, then once you recieve your actual permit print it out and sign it.
+[Sierra NF](https://www.fs.usda.gov/detail/sierra/passes-permits/?cid=fsbdev7_018115) now require rec.gov and operates similarly to Inyo 2021.
 
-You can now pick up permits in person (though only the office near Lone Pine is open Tues-Wed). Your reservation confirmation email has hours, phone numbers, email requirements etc on it depending on how you want to check in and recieve your permit.
+"reservations will become available in a rolling window six months up to 14 days in advance of entry dates, if quota space is available, reservations can be made until one day before the trip [...] 40% of  the trailhead quota traditionally is set aside for walk up permits is being added to the reservation website and updated with each reservation."
 
-[Sierra NF](https://www.fs.usda.gov/detail/sierra/passes-permits/?cid=fsbdev7_018115) is worded bit ambiguously. "40% of the trailhead quota traditionally is set aside for walk up permits is being added to the reservation website and updated with each reservation. Due to the ability to reserve these permits, there will be a fee of $6.00 per permit and $5.00 per person." All permits must be purchased from recreation.gov, and at this point require you to physically pick them up. When you reserve a permit (but before you recieve it) you'll get an email with instructions.
+[Humbolt Toiyobe](https://www.fs.usda.gov/detail/htnf/passes-permits/?cid=fseprd673368) has a similar 3 day window for walk permits (yay), but is now using rec.gov as well. It's unclear if you can still get quota permits from the ranger stations.
 
-[Humbolt Toiyobe](https://www.fs.usda.gov/detail/htnf/passes-permits/?cid=fseprd673368) "50 percent [of permits are] available on a first-come, first-served basis at the Bridgeport Ranger District office beginning at 1 p.m. the day before or the day of a wilderness trip." Their socially distanced curbside pickup setup is described on the link above. Self-service permits left in a drop box before quotas come into place on the last Saturday in June.
+"Visit Recreation.gov to make a reservation under “Humboldt-Toiyabe National Forest – Wilderness Permits." Of each daily quota for a trailhead, 50 percent can be reserved ahead of time six months in advance of the desired entry date. The remaining 50 percent is available within three days of the date of entry." 
+
+Emigrant still doesn't have a quota for backcountry permits.

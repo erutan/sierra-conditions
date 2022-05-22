@@ -8,6 +8,8 @@ next: '/conditions/trips/'
 
 ## Fire Restrictions
 
+None yet, but expect them to start cropping up in late June or so.
+
 ## Backcountry Permits & Quotas
 
 tl;dr - all walk-up Backcountry Permits for the High Sierra outside of SEKI are now on rec.gov released either 3, 7, or 14 days in advance.

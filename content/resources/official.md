@@ -12,7 +12,7 @@ Longer term conditions and changes are listed [on their Current Conditions page]
 
 ## SEKI
 
-Longer term conditions and changes are listed [on their Current Conditions page](https://www.nps.gov/seki/planyourvisit/conditions.htm).
+Longer term conditions and changes are listed [on their Current Conditions page](https://www.nps.gov/seki/planyourvisit/conditions.htm). Their [Wilderness Permits & Reservations](https://www.nps.gov/seki/planyourvisit/wilderness_permits.htm) page also has backcountry info.
 
 ## Sequoia National Forest
 

@@ -8,7 +8,15 @@ next: '/conditions/trips/'
 
 ## Fire Restrictions
 
-None yet, but expect them to start cropping up in late June or so.
+NOTE: Updated June 8th, follow the links to check if further restrictions have been made since this page was updated!
+
+Inyo NF & Bishop BLM have [banned wilderness campfires](https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/fseprd1031603.pdf) for the year. Portable stoves are still fine for backcountry use with a [free CA fire permit](https://www.readyforwildfire.org/permits/campfire-permit/?fbclid=IwAR1W_m_PCR4xdaF6MHH2OAXWh_sFEVHXUl9NkH8jdmFIUgOaECb7aCuEw6E).
+
+SEKI instituted [stage 2 (very high) fire restrictions](https://home.nps.gov/seki/learn/nature/fire-restrictions.htm) on May 27th, banning wilderness fires below 6000ft along with the standard high altitude restrictions.
+
+Yosemite currently doesn't have [any fire restrictions](https://www.nps.gov/yose/planyourvisit/firerestrictions.htm).
+
+Sierra NF currently doesn't have [any fire restrictions](https://www.fs.usda.gov/news/sierra/news-events).
 
 ## Backcountry Permits & Quotas
 

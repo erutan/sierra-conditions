@@ -17,7 +17,7 @@ Please do use the search functionality first - if you ask about an area someone 
 
 ## High Sierra Topix
 
-A [classic message board](http://www.highsierratopix.com/) with a lot of good beta on it. If you want a little bit more info than what Secor has for a cross country pass (or just whether some unnamed area is doable), this is a good place to run a search. There's also some posts for current mosquito conditions, annual trip report threads, etc.
+A [classic message board](http://www.highsierratopix.com/) with a lot of good beta on it. If you want a little bit more info than what Secor has for a cross country pass or are interested in an area this is a good place to start. There's yearly [conditions threads](https://www.highsierratopix.com/community/viewforum.php?f=34), though the community is more focused on traditional narrative trip reports.
 
 ## Alltrails
 

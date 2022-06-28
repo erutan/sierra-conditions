@@ -29,6 +29,14 @@ If you are doing something very popular (or something that shares a pass or two)
 
 For the PCT there's a number of vloggers that post updates to Instagram & Youtube, so searching on those platforms to check for passes early season can work out as well.
 
+## Ranger Stations
+
+Backcountry rangers file reports of trails they've been on and also get beta from hikers that have reported back after a trip. Calling a wilderness center and getting beta can be very useful.
+
+Yosemite updates their [Wilderness Conditions](https://www.nps.gov/yose/planyourvisit/wildcond.htm) page with information gathered from backcountry rangers on a somewhat regular basis. SEKI has a similar [Trail Conditions](https://www.nps.gov/seki/planyourvisit/trailcond.htm) page.
+
+Note: Rangers tend to err slightly on the side of caution when describing how dangerous conditions are... it's a hassle for them when people are lost / injured / die, so don't hold it against them! The more touristy / popular an area is, the more information will tend to be padded.
+
 ## Climbing resources
 
 Another good source for XC trip reporting is  [climber.org's reports section](https://www.climber.org/reports/). The interface is a bit dated, and there's often more technical XC beta included in trip reports than backpackers will find useful, but a lot of interesting terrain is on the way to a peak somewhere.
@@ -39,13 +47,7 @@ The Sierra Club [SPS Trip Reports](https://www.sierraclub.org/angeles/sierra-pea
 
 [Bob Burd's](https://www.snwburd.com/bob/) personal site is very peak focused, but included detailed information on approaches that you could extrapolate from.
 
-## Ranger Stations
 
-Backcountry rangers file reports of trails they've been on and also get beta from hikers that have reported back after a trip. Calling a wilderness center and getting beta can be very useful.
-
-Inyo is working on a trail conditions report for internal use, and may share that with the public - since we can no longer go into a ranger station and ask about previous trips that'd be another useful source of information.
-
-Note: Rangers tend to err slightly on the side of caution when describing how dangerous conditions are... it's a hassle for them when people are lost / injured / die, so don't hold it against them! The more touristy / popular an area is, the more information will tend to be padded.
 
 ## Other resources
 

@@ -3,7 +3,7 @@
     <div class="pt-8 md:pt-16">
       <div class="flex flex-col items-center">
         
-        <h1 class="text-4xl text-center lg:text-5xl">Sierra Conditions Reports</h1>
+        <h1 class="text-4xl text-center lg:text-5xl">Sierra Nevada Condition Reports</h1>
         
         <p class="text-xl font-medium text-center">Welcome to a collection of links & resources for those heading into the backcountry of the Sierra Nevada!</p>
 

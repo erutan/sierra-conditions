@@ -18,7 +18,7 @@
             Conditions
           </h3>
           <p class="text-lg">
-            A collection of sites &amp; best practices for finding beta on current conditions. Includes information on conditions specific to the <a href="/conditions/breaking">current year</a> (permits, fires bans, etc) as well as general resources to help understand <a href="/conditions/snow">snow & water levels</a>, <a href="/conditions/fire">fire and smoke impacts</a>, <a href="/conditions/roads">road conditions</a>, <a href="/conditions/weather">weather forecasts</a>, and general <a href="/conditions/news">news resources</a> for everything in between.
+            A collection of sites &amp; best practices for finding beta on current conditions. Includes information on conditions specific to the <a href="/conditions/breaking">current year</a> (permits, fires bans, etc) as well as general resources to help understand <a href="/conditions/snow">snow & water levels</a>, <a href="/conditions/fire">fire and smoke impacts</a>, <a href="/conditions/roads">road conditions</a>, <a href="/conditions/weather">weather forecasts</a>, where to find <a href="/conditions/trips">trip reports</a>, and general <a href="/conditions/news">news resources</a> for everything in between.
           </p>
         </a>
         

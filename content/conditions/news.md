@@ -1,7 +1,7 @@
 ---
 description: ''
 sidebar: 'sierra'
-next: '/resources/local/'
+next: '/conditions/roads/'
 ---
 
 # Official Notices
@@ -37,3 +37,17 @@ Longer term conditions and changes are listed [on their Current Conditions page]
 ## Lake Kaweah
 
 [Army Corps of Engineers Homepage](https://www.spk.usace.army.mil/Locations/Sacramento-District-Parks/Lake-Kaweah/)
+
+# Regional News
+
+Often good for things that fall through the cracks of more specific channels.
+
+## East Side
+
+* [Mammoth Times](https://mammothtimes.com/category/news)
+* [Inyo Register](https://inyoregister.com/category/news)
+* [Sierra Wave Media](https://www.sierrawave.net/)
+
+* [Inyo County Public Works News](https://www.inyocounty.us/residents/info-center/inyo-county-news-feed?dept=27)
+
+## West Side

@@ -2,6 +2,7 @@
 description: ''
 sidebar: 'sierra'
 prev: '/conditions/weather/'
+next: '/conditions/news/'
 ---
 
 # Road Closures

@@ -13,30 +13,12 @@
 
       <div class="flex flex-wrap justify-center -mx-4">
         
-        <a href="/conditions/breaking/" class="flex flex-col items-center w-full px-4 mb-8 text-center md:w-1/3">
+        <a href="/conditions/breaking/" class="flex flex-col items-center w-full">
           <h3 class="font-bold tracking-wide uppercase text-ui-primary">
             Conditions
           </h3>
-          <p class="text-lg text-left">
-            A collection of sites &amp; best practices for finding beta on current conditions. Includes information on snow levels, fire and smoke info, road conditions, tips on the weather, and breaking news that is contextual to the current year.
-          </p>
-        </a>
-
-        <a href="/resources/official" class="flex flex-col items-center w-full px-4 mb-8 text-center md:w-1/3">
-          <h3 class="font-bold tracking-wide uppercase text-ui-primary">
-            Resources
-          </h3>
-          <p class="text-lg text-left">
-            Links to some broader use resources to aid your backcountry experience - it's good to keep an eye on any alerts or news from agencies that manage the land you're going to, and local papers will often have articles on lakes, roads, and anything out of the ordinary that would concern their fellow citizens.
-          </p>
-        </a>
-
-        <a href="/about/" class="flex flex-col items-center w-full px-4 mb-8 text-center md:w-1/3">
-          <h3 class="font-bold tracking-wide uppercase text-ui-primary">
-            About &amp; Contributing
-          </h3>
-          <p class="text-lg text-left">
-            Feel like something's missing? Help fill it in... :) Gives a number of ways to help contribute resources or feedback to the site.
+          <p class="text-lg">
+            A collection of sites &amp; best practices for finding beta on current conditions. Includes information on conditions specific to the <a href="/conditions/breaking">current year</a> (permits, fires bans, etc) as well as general resources to help understand <a href="/conditions/snow">snow & water levels</a>, <a href="/conditions/fire">fire and smoke impacts</a>, <a href="/conditions/roads">road conditions</a>, <a href="/conditions/weather">weather forecasts</a>, and general <a href="/conditions/news">news resources</a> for everything in between.
           </p>
         </a>
         

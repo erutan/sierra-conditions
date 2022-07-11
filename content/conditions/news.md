@@ -1,7 +1,7 @@
 ---
 description: ''
 sidebar: 'sierra'
-next: '/conditions/roads/'
+prev: '/conditions/roads/'
 ---
 
 # Official Notices

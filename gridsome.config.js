@@ -32,15 +32,8 @@ module.exports = {
               '/conditions/snow/',
               '/conditions/fire/',
               '/conditions/weather/',
-              '/conditions/roads/'
-
-            ]
-          },
-          {
-            title: 'resources',
-            items: [
-              '/resources/official/',
-              '/resources/local/'
+              '/conditions/roads/',
+              '/conditions/news/'
             ]
           },
           {

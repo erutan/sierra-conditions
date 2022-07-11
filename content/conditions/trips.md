@@ -11,13 +11,13 @@ next: '/conditions/snow/'
 
 Yes, Facebook does have a search function, but trying to find old trip reports for XC passes isn't quite the easiest. 
 
-The lack of archival ease of use is balanced out by the lack of friction from using a social media network vs writing up blog / forum posts, there tends to be a lot of brief up to date posts from people [Sierra Nevada Trip Reports & Current Conditions](https://www.facebook.com/groups/1578540459102320/) and it's a good place to get a feel for what conditions currently are as well as ask questions.
+The lack of archival ease of use is balanced out by the lack of friction from using a social media network vs writing up blog / forum posts, there tends to be a lot of brief up to date posts from people [Sierra Nevada Trip Reports & Current Conditions](https://www.facebook.com/groups/sierratripreports) and it's a good place to get a feel for what conditions currently are as well as ask questions.
 
 Please do use the search functionality first - if you ask about an area someone posted a trip report of yesterday, it just clutters up the feed.
 
 ## High Sierra Topix
 
-A [classic message board](http://www.highsierratopix.com/) with a lot of good beta on it. If you want a little bit more info than what Secor has for a cross country pass or are interested in an area this is a good place to start. There's yearly [conditions threads](https://www.highsierratopix.com/community/viewforum.php?f=34), though the community is more focused on traditional narrative trip reports.
+A [classic message board](http://www.highsierratopix.com/) with a lot of information buried in old threads. If you want a little bit more info than what Secor has for a cross country pass or are interested in a basin this is a good place to start. There's yearly [conditions threads](https://www.highsierratopix.com/community/viewforum.php?f=34), though the community is more focused on traditional narrative trip reports and there tends to be a lot of "armchair backpacking" where people have opinions on things they have little to no personal experience of.
 
 ## Alltrails
 

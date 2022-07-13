@@ -8,15 +8,16 @@ next: '/conditions/trips/'
 
 ## Fire Restrictions
 
-NOTE: Updated July 11th, follow the links to check if further restrictions have been made since this page was updated!
+NOTE: Updated July 12th, follow the links to check if further restrictions have been made since this page was updated!
 
-Inyo NF & Bishop BLM have [banned wilderness campfires](https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/fseprd1031603.pdf) for the year. Portable stoves are still fine for backcountry use with a [free CA fire permit](https://www.readyforwildfire.org/permits/campfire-permit/?fbclid=IwAR1W_m_PCR4xdaF6MHH2OAXWh_sFEVHXUl9NkH8jdmFIUgOaECb7aCuEw6E).
+Inyo NF & Bishop BLM have [banned wilderness campfires](https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/fseprd1031603.pdf) for the year. Portable stoves with a shutoff valve are still fine for backcountry use with a [free CA fire permit](https://www.readyforwildfire.org/permits/campfire-permit/?fbclid=IwAR1W_m_PCR4xdaF6MHH2OAXWh_sFEVHXUl9NkH8jdmFIUgOaECb7aCuEw6E).
 
-SEKI instituted [stage 2 (very high) fire restrictions](https://home.nps.gov/seki/learn/nature/fire-restrictions.htm) on May 27th, banning wilderness fires below 6000ft along with the standard high altitude restrictions.
+Sierra NF has [banned wilderness campfires](https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/fseprd1042689.pdf) for the year outside of wilderness areas & campgrounds in the PDF linked above (essentially banning them at lower elevations). Portable stoves with a shutoff valve are still fine for backcountry use in lower elevation national forests with a [free CA fire permit](https://www.readyforwildfire.org/permits/campfire-permit/?fbclid=IwAR1W_m_PCR4xdaF6MHH2OAXWh_sFEVHXUl9NkH8jdmFIUgOaECb7aCuEw6E).
+
+SEKI instituted [stage 2 (very high) fire restrictions](https://home.nps.gov/seki/learn/nature/fire-restrictions.htm) on May 27th, banning wilderness fires below 6000ft along with the standard high altitude restrictions (ban above 10,000ft).
 
 Yosemite currently doesn't have [any fire restrictions](https://www.nps.gov/yose/planyourvisit/firerestrictions.htm).
 
-Sierra NF currently doesn't have [any fire restrictions](https://www.fs.usda.gov/news/sierra/news-events).
 
 ## Backcountry Permits & Quotas
 

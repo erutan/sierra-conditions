@@ -17,7 +17,7 @@ Please do use the search functionality first - if you ask about an area someone 
 
 ## High Sierra Topix
 
-A [classic message board](http://www.highsierratopix.com/) with a lot of information buried in old threads. If you want a little bit more info than what Secor has for a cross country pass or are interested in a basin this is a good place to start. There's yearly [conditions threads](https://www.highsierratopix.com/community/viewforum.php?f=34), though the community is more focused on traditional narrative trip reports and there tends to be a lot of "armchair backpacking" where people have opinions on things they have little to no personal experience of.
+A [classic message board](http://www.highsierratopix.com/) with a lot of information buried in old threads. If you want a little bit more info than what Secor has for a cross country pass or are interested in a basin this is a good place to start. There's yearly [conditions threads](https://www.highsierratopix.com/community/viewforum.php?f=34), though the community is more focused on traditional narrative trip reports & armchair backpacking.
 
 ## Alltrails
 

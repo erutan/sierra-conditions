@@ -8,7 +8,7 @@ next: '/conditions/trips/'
 
 ## Fire Restrictions
 
-NOTE: Updated July 12th, follow the links to check if further restrictions have been made since this page was updated!
+NOTE: Updated July 24th, follow the links to check if further restrictions have been made since this page was updated!
 
 Inyo NF & Bishop BLM have [banned wilderness campfires](https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/fseprd1031603.pdf) for the year. Portable stoves with a shutoff valve are still fine for backcountry use with a [free CA fire permit](https://www.readyforwildfire.org/permits/campfire-permit/?fbclid=IwAR1W_m_PCR4xdaF6MHH2OAXWh_sFEVHXUl9NkH8jdmFIUgOaECb7aCuEw6E).
 

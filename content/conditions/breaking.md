@@ -16,7 +16,7 @@ Sierra NF has [banned wilderness campfires](https://www.fs.usda.gov/Internet/FSE
 
 SEKI instituted [stage 2 (very high) fire restrictions](https://home.nps.gov/seki/learn/nature/fire-restrictions.htm) on May 27th, banning wilderness fires below 6000ft along with the standard high altitude restrictions (ban above 10,000ft).
 
-Yosemite currently doesn't have [any fire restrictions](https://www.nps.gov/yose/planyourvisit/firerestrictions.htm).
+Yosemite currently only allows backcountry fires between [8,000 and 9,600 feet](https://www.nps.gov/yose/planyourvisit/firerestrictions.htm) in existing fire rings.
 
 
 ## Backcountry Permits & Quotas

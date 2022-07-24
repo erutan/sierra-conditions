@@ -9,11 +9,9 @@ next: '/conditions/snow/'
 
 ## Sierra Nevada Trip Reports & Current Conditions
 
-Yes, Facebook does have a search function, but trying to find old trip reports for XC passes isn't quite the easiest. 
+The lack of archival ease of use is balanced out by the lack of friction so there tends to be a lot of brief up to date posts at [Sierra Nevada Trip Reports & Current Conditions](https://www.facebook.com/groups/sierratripreports). Trip reports will have some beta or route descriptions, but are focused mostly on conditions.
 
-The lack of archival ease of use is balanced out by the lack of friction from using a social media network vs writing up blog / forum posts, there tends to be a lot of brief up to date posts from people [Sierra Nevada Trip Reports & Current Conditions](https://www.facebook.com/groups/sierratripreports) and it's a good place to get a feel for what conditions currently are as well as ask questions.
-
-Please do use the search functionality first - if you ask about an area someone posted a trip report of yesterday, it just clutters up the feed.
+Please do use the search functionality first - if you ask about an area someone posted a trip report of yesterday, it just clutters up the feed (and will be deleted). The group is not for general information on a trail or area (good campsites, best route to a destination, etc).
 
 ## High Sierra Topix
 

@@ -19,9 +19,9 @@ Gaia GPS has layers for [satellite heat detection and current wildfires](https:/
 
 ## Smoke & Air Quality Levels
 
-[AirNow Fire & Smoke Map](https://fire.airnow.gov/?lat=37.661622799999996&lng=-119.8005027&zoom=10#) you can now get the high quality (but slower updating) AirNow sensors combined with Purple Air's lower quality but faster updating ones in a single map!
+[AirNow Interactive Air Map Quality](https://gispub.epa.gov/airnow/?xmin=-13580337.267896347&xmax=-12863663.69069457&ymin=4115699.027081052&ymax=4770611.48542841&monitors=ozonepm) gives you nice rounded (projected) shapes for different AQI levels as well as the official AirNow high quality sensors.
 
-[Purple Air's Map](https://www.purpleair.com/map?opt=1/mAQI/a10/cC0#8.02/37.519/-118.825) still has more sensors than the combined version above.
+[AirNow Fire & Smoke Map](https://fire.airnow.gov/?lat=37.661622799999996&lng=-119.8005027&zoom=10#) you can now get the high quality (but slower updating) AirNow sensors combined with Purple Air's lower quality but faster updating ones in a single map! [Purple Air's Map](https://www.purpleair.com/map?opt=1/mAQI/a10/cC0#8.02/37.519/-118.825) still has more sensors than the combined version above.
 
 [NASA's Worldview](https://worldview.earthdata.nasa.gov/?v=-122.31118585489266,33.45679500585166,-115.98306085489266,39.60619096789932&l=Reference_Labels,Reference_Features(hidden),Coastlines,MODIS_Aqua_CorrectedReflectance_TrueColor(hidden),MODIS_Terra_CorrectedReflectance_TrueColor&lg=false&t=2015-08-24-T00%3A00%3A00Z) and [BlueSky Daily Runs](https://tools.airfire.org/websky/v2/run/standard/DRI4km-CMAQ/2020082100/#viewer) are great visual tools to show how smoke spread recently.
 

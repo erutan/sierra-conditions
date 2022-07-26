@@ -19,7 +19,7 @@ Gaia GPS has layers for [satellite heat detection and current wildfires](https:/
 
 ## Smoke & Air Quality Levels
 
-[AirNow Interactive Air Map Quality](https://gispub.epa.gov/airnow/?xmin=-13580337.267896347&xmax=-12863663.69069457&ymin=4115699.027081052&ymax=4770611.48542841&monitors=ozonepm) gives you nice rounded (projected) shapes for different AQI levels as well as the official AirNow high quality sensors.
+[AirNow Interactive Air Map Quality](https://gispub.epa.gov/airnow/?showgreencontours=false&xmin=-13621001.76694406&xmax=-12851128.018055802&ymin=4111418.553497082&ymax=4766331.01184444&monitors=ozonepm) gives you nice rounded (projected) shapes for different AQI levels as well as the official AirNow high quality sensors.
 
 [AirNow Fire & Smoke Map](https://fire.airnow.gov/?lat=37.661622799999996&lng=-119.8005027&zoom=10#) you can now get the high quality (but slower updating) AirNow sensors combined with Purple Air's lower quality but faster updating ones in a single map! [Purple Air's Map](https://www.purpleair.com/map?opt=1/mAQI/a10/cC0#8.02/37.519/-118.825) still has more sensors than the combined version above.
 

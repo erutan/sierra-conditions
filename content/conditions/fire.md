@@ -25,7 +25,7 @@ Gaia GPS has layers for [satellite heat detection and current wildfires](https:/
 
 [Windy](https://www.windy.com/-PM2-5-pm2p5?cams,pm2p5,37.810,-119.221,8) has wind & air quality predictions 3 days out. The further out they are, the less useful they are, and fires can create and alter their own patterns, but it's at least a good general idea of what to expect. You can get a longer view out on [just wind patterns](https://www.windy.com/?37.571,-118.714,9). If you open the detailed forecast bottom panel there's a floating button above it for webcams in vincinity which can be useful.
 
-[Weather.gov Experimental Smoke Forecast](hhttps://www.weather.gov/mtr/ExperimentalSmokeForecast) includes a 24 hour prediction of smoke coverage, though rather zoomed out.
+[Weather.gov Experimental Smoke Forecast](https://www.weather.gov/mtr/ExperimentalSmokeForecast) includes a 24 hour prediction of smoke coverage, though rather zoomed out.
 
 [NASA's Worldview](https://worldview.earthdata.nasa.gov/?v=-122.31118585489266,33.45679500585166,-115.98306085489266,39.60619096789932&l=Reference_Labels,Reference_Features(hidden),Coastlines,MODIS_Aqua_CorrectedReflectance_TrueColor(hidden),MODIS_Terra_CorrectedReflectance_TrueColor&lg=false&t=2015-08-24-T00%3A00%3A00Z) and [BlueSky Daily Runs](https://tools.airfire.org/websky/v2/run/standard/DRI4km-CMAQ/2020082100/#viewer) are great visual tools to show how smoke spread recently.
 

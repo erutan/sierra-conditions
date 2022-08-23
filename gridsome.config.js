@@ -28,7 +28,7 @@ module.exports = {
             title: 'conditions',
             items: [
               '/conditions/breaking/',
-              '/conditions/trips/',
+              '/conditions/reports/',
               '/conditions/snow/',
               '/conditions/fire/',
               '/conditions/weather/',

@@ -1,7 +1,7 @@
 ---
 description: ''
 sidebar: 'sierra'
-next: '/conditions/trips/'
+next: '/conditions/reports/'
 ---
 
 # 2022 Specific Info

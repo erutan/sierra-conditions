@@ -1,7 +1,7 @@
 ---
 description: ''
 sidebar: 'sierra'
-prev: '/conditions/trip/'
+prev: '/conditions/reports/'
 next: '/conditions/fire/'
 ---
 

@@ -14,9 +14,11 @@ None yet. Note in most jurisdictions you need [free CA fire permit](https://www.
 
 [Yosemite](https://www.nps.gov/yose/planyourvisit/firerestrictions.htm) fire restrictions page.
 
-## Backcountry "Walk Up" Permits
+## Backcountry Wilderness Permits
 
 tl;dr - the previous 40% quota for walk-up backcountry permits for the High Sierra outside of SEKI are now released on recreation.gov either 3 (Humboldt Toiyobe), 7 (Yosemite), or 14 (Inyo & Sierra NF) days in advance at 7am Pacific. Inyo & Humboldt Toiyobe are the only jurisdictions that allow you to print out your own permit, you still have to pick it up at a ranger station by 10am the day of (or call for a late pick-up) for the rest.
+
+The traditional 40-50% of permits released six months in advance are relatively unchanged aside from Yosemite moving to a lottery system on recreation.gov and the traditional mailing and phone options removed. More details are on each jurisdictions page wilderness permits page linked below.
 
 [Yosemite](https://www.nps.gov/yose/planyourvisit/wpres.htm)'s walk up permits are now renamed to "Week-Ahead Reservations". They can be reserved from 7 to 3 days in advance and are released at 7 am PDT. "Any unreserved permits will be available in person at wilderness centers only on the start date of the trip. Few, if any, unused permits will be available on any given day. Any unreserved permits will be available in person at wilderness centers only on the start date of the trip. Few, if any, unused permits will be available on any given day."
 
@@ -45,4 +47,4 @@ Canceled space is returned to the reservation calendar at a random time within 2
 
 "Visit Recreation.gov to make a reservation under “Humboldt-Toiyabe National Forest – Wilderness Permits." Of each daily quota for a trailhead, 50 percent can be reserved ahead of time six months in advance of the desired entry date. The remaining 50 percent is available within three days of the date of entry." 
 
-Emigrant still doesn't have a quota for backcountry permits.
+Emigrant still doesn't have a quota for backcountry permits, despite getting pretty thrashed.

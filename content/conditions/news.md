@@ -4,7 +4,7 @@ sidebar: 'sierra'
 prev: '/conditions/roads/'
 ---
 
-# Official Notices
+# News & Notices
 
 ## Yosemite
 
@@ -39,3 +39,5 @@ Often good for things that fall through the cracks of more specific channels.
 * [Inyo County Public Works News](https://www.inyocounty.us/residents/info-center/inyo-county-news-feed?dept=27)
 
 ## West Side
+
+TBD

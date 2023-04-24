@@ -14,6 +14,8 @@ None yet. Note in most jurisdictions you need [free CA fire permit](https://www.
 
 [Yosemite](https://www.nps.gov/yose/planyourvisit/firerestrictions.htm) fire restrictions page.
 
+Flooding and related damage is more of a concern this year - there's links to various county, law enforcement, and land managers sources on the [Notices & News](/news) page and the [Roads](/roads) pages. It could also be useful to have resources to keep on top of [snow](/snow) levels.
+
 ## Backcountry Wilderness Permits
 
 tl;dr - the previous 40% quota for walk-up backcountry permits for the High Sierra outside of SEKI are now released on recreation.gov either 3 (Humboldt Toiyobe), 7 (Yosemite), or 14 (Inyo & Sierra NF) days in advance at 7am Pacific. Inyo & Humboldt Toiyobe are the only jurisdictions that allow you to print out your own permit, you still have to pick it up at a ranger station by 10am the day of (or call for a late pick-up) for the rest.

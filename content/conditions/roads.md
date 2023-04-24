@@ -52,3 +52,9 @@ It's often best to check with [local papers and sources](/resources/local/) for 
 
 Looking for county sheriff's departments social media pages can be useful as well - any unplanned road closures will generally be described on them.
 
+Local police & sherriff's departments often have fast updates on minor roads:
+
+* Mammoth Lakes PD: [Facebook](https://www.facebook.com/mammothlakespolicedepartment)
+* Inyo Sheriff: [Facebook](https://www.facebook.com/InyoCountySheriffsOffice)
+* Mono Sheriff: [Facebook](https://www.facebook.com/profile.php?id=100010732572520)
+

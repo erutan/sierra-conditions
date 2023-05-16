@@ -19,7 +19,7 @@ For more up to date information call 209/372-0200 (press 1 then 1) for a pre-rec
 
 ## Mammoth & Devil's Postpile
 
-The [Devil's Postpile Alerts & Conditions])(https://www.nps.gov/depo/planyourvisit/conditions.htm) page shows when the road down into Devil's Postpile (Agnew & Red's meadow) has opened historically as well as it's current status.
+The [Devil's Postpile Alerts & Conditions](https://www.nps.gov/depo/planyourvisit/conditions.htm) page shows when the road down into Devil's Postpile (Agnew & Red's meadow) has opened historically as well as it's current status.
 
 For the lakes road into town (access to Duck Pass & Mammoth Pass trailheads) check the [visitmammoth](https://www.visitmammoth.com/blogs/activity-road-updates/) tourism site. Note that there's year round parking around Tamarack Lodge, but walking the road up from there can add 2-3 miles to your trailhead each way.
 

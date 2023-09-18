@@ -22,7 +22,7 @@ tl;dr - the previous 40% quota for walk-up backcountry permits for the High Sier
 
 The traditional 40-50% of permits released six months in advance are relatively unchanged aside from Yosemite moving to a lottery system on recreation.gov and the traditional mailing and phone options removed. More details are on each jurisdictions page wilderness permits page linked below.
 
-Note: If "walk-up" permits are still available day of or before for Inyo (and probably Toiyobe & Sierra NF) you can technically get them at a ranger station, but that's just a ranger using your recreation.gov account info. I've seen people having issues with that so it is probably simpler to just get it yourself even if you go in to chat with them.
+Note: Permits that aren't marked with a late pickup and haven't been printed out on rec.gov will be released at 10am day for Yosemite & Inyo (and probably Toiyobe & Sierra NF).
 
 ### [Yosemite Wilderness Permits](https://www.nps.gov/yose/planyourvisit/wpres.htm)
 

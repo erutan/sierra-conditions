@@ -8,7 +8,9 @@ next: '/conditions/reports/'
 
 ## Fire Restrictions
 
-None yet. Note in most jurisdictions you need [free CA fire permit](https://www.readyforwildfire.org/permits/campfire-permit/) to use a backpacking stove.
+Inyo has been under fire restrictions (no campfires) since early August.
+
+ Note in most jurisdictions you need [free CA fire permit](https://www.readyforwildfire.org/permits/campfire-permit/) to use a backpacking stove.
 
 [SEKI](https://home.nps.gov/seki/learn/nature/fire-restrictions.htm) fire restrictions page.
 

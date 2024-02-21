@@ -14,9 +14,19 @@
       <div class="flex flex-wrap justify-center -mx-4">
         
           <p class="text-lg">
-            A collection of sites &amp; best practices for finding beta on current conditions. Includes information on conditions specific to the <a href="/conditions/breaking" class="underline">current year</a> (permits, fires bans, etc) as well as general resources to help understand <a href="/conditions/snow" class="underline">snow & water levels</a>, <a href="/conditions/fire" class="underline">fire and smoke impacts</a>, <a href="/conditions/roads" class="underline">road conditions</a>, <a href="/conditions/weather" class="underline">weather forecasts</a>, where to find <a href="/conditions/reports" class="underline">trip & conditions reports</a>, and general <a href="/conditions/news" class="underline">news resources</a> for everything in between.
-          </p>
-        
+            A collection of sites &amp; best practices for finding beta on current conditions. Includes information on conditions specific to the:
+          </p> 
+
+          <ul>
+            <li><a href="/conditions/breaking" class="underline">current year</a> (permits, fires bans, etc)</li>
+            <li>finding out <a href="/conditions/snow" class="underline">current snow & water levels</a></li>
+            <li>evaluating <a href="/conditions/fire" class="underline"> fire and smoke impacts</a></li>
+            <li>checking <a href="/conditions/roads" class="underline">road conditions</a></li>
+            <li>helpful <a href="/conditions/weather" class="underline">weather forecasting tips</a></li>
+            <li>where to find <a href="/conditions/reports" class="underline">trip & conditions reports</a></li>
+            <li>general Sierra Nevada related <a href="/conditions/news" class="underline">news resources</a></li>
+          </ul>
+
       </div>
 
     </div>

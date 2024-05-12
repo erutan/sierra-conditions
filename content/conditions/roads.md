@@ -31,6 +31,12 @@ For the lakes road into town (access to Duck Pass & Mammoth Pass trailheads) che
 
 Longer term conditions and changes are listed [on their Current Conditions page](https://www.nps.gov/seki/planyourvisit/conditions.htm). They also have a specific [road construction page](https://www.nps.gov/seki/planyourvisit/road-construction.htm)
 
+## Eastern Sierra County Resources
+
+[Inyo County Public Works](https://www.inyocounty.us/services/public-works/news/inyo-county-road-openclosed-status) [see PDF at the bottom of page] & [Mono County Public Works](https://www.monocounty.ca.gov/roads/page/county-road-closures) update information **daily** including expected opening dates and open/closed status for trailhead access roads along the Eastern Sierra.
+
+This is great information for any trailhead access that isn't a highway!
+
 ## Eastern Sierra Ranger Districts
 
 North to south:
@@ -39,8 +45,6 @@ North to south:
 - [Mammoth Ranger District](https://www.fs.usda.gov/recarea/inyo/recarea/?recid=20238)
 - [White Mountain](https://www.fs.usda.gov/recarea/inyo/recreation/hiking/recarea/?recid=20230&actid=51)
 - [Mt. Whitney Ranger District](https://www.fs.usda.gov/recarea/inyo/recarea/?recid=20258)
-
-County road departments: [Inyo County Public Works](https://www.inyocounty.us/services/public-works/news/inyo-county-road-openclosed-status) [see PDF at the bottom of page] & [Mono County Public Works](https://www.monocounty.ca.gov/roads/page/county-road-closures) update information daily including expected opening dates and open/closed status for trailhead access roads along the Eastern Sierra.
 
 ## Western Sierra Ranger Districts
 

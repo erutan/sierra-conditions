@@ -9,7 +9,7 @@ next: '/conditions/fire/'
 
 ## Broad Overview
 
-The [Snow Water Equivalents](https://cdec.water.ca.gov/snowapp/sweq.action) page gives you a good high level overview of where snow levels are at historically. Useful in the winter/spring to try and figure out when summer in the alpine will start. The "snow" menu at the top has a few more options as well as particular sensor data. You can also see [snow levels from the current year plotted against a few others of note](https://cdec.water.ca.gov/reportapp/javareports?name=PLOT_SWC) to get more context.
+The [Snow Pack Conditions](https://cdec.water.ca.gov/snowapp/sweq.action) page gives you a good high level overview of where snow levels are at historically. Useful in the winter/spring to try and figure out when summer in the alpine will start. The "snow" menu at the top has a few more options as well as particular sensor data. You can also see [snow levels from the current year plotted against a few others of note](https://cdec.water.ca.gov/reportapp/javareports?name=PLOT_SWC) to get more context.
 
 The [forest service has a snow depth tool](https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/fseprd1045012.html) but it is low enough resolution that it can easily underestimate snow levels if it samples rock outcroppings, tree cover, etc. It's useful, but should be taken with a few grains of salt, along with the mapping applications that import this layer.
 

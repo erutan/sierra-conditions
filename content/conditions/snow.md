@@ -9,11 +9,11 @@ next: '/conditions/fire/'
 
 ## Broad Overview
 
-The [Snow Water Equivalents](https://cdec.water.ca.gov/snowapp/sweq.action) page gives you a good high level overview of where snow levels are at historically. Useful in the winter/spring to try and figure out when summer in the alpine will start. The "snow" menu at the top has a few more options as well as particular sensor data. You can also see [snow levels from the current year plotted against a few others](https://cdec.water.ca.gov/reportapp/javareports?name=PLOT_SWC) of note.
+The [Snow Water Equivalents](https://cdec.water.ca.gov/snowapp/sweq.action) page gives you a good high level overview of where snow levels are at historically. Useful in the winter/spring to try and figure out when summer in the alpine will start. The "snow" menu at the top has a few more options as well as particular sensor data. You can also see [snow levels from the current year plotted against a few others of note](https://cdec.water.ca.gov/reportapp/javareports?name=PLOT_SWC) to get more context.
 
 The [forest service has a snow depth tool](https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/fseprd1045012.html) but it is low enough resolution that it can easily underestimate snow levels if it samples rock outcroppings, tree cover, etc. It's useful, but should be taken with a few grains of salt, along with the mapping applications that import this layer.
 
-The NOAA's [regional snow analyses for the Sierra Nevada](https://www.nohrsc.noaa.gov/nsa/index.html?units=e&region=Sierras) has a lot of high level snow and water information in graphical form, though it's better used to understand trends or an overview vs a specific location.
+The NOAA's [regional snow analyses for the Sierra Nevada](https://www.nohrsc.noaa.gov/nsa/index.html?units=e&region=Sierras) has a lot of high level snow and water information in graphical form, though it's better used to understand trends or an overview vs details about a specific location.
 
 ## Recent Sentinel 2 Satellite Imagery
 

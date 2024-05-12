@@ -11,6 +11,10 @@ next: '/conditions/news/'
 
 This information is very accurate and updated often.  If you know the highway you're looking for (120, 108, 88, etc) enter it on the [road information page](https://roads.dot.ca.gov/roadscell.php). From webcams to closures to traffic, there's a lot of information available at the [Caltrans Quickmap](http://quickmap.dot.ca.gov/) - under 'options' webcams, and message signs are often very useful, as well as all of the road conditions.
 
+Caltrans has a dedicated page for [mountain passes](https://dot.ca.gov/caltrans-near-me/district-10/district-10-popular-links/mountain-passes) they maintain - Ebbetts Pass (State Route 4), Monitor Pass (State Route 89), and Sonora Pass (State Route 120).
+
+The social media accounts for District 9 [Facebook](https://www.facebook.com/Caltrans9) or [TwitterX](https://twitter.com/Caltrans9) will post major announcements.
+
 ## Yosemite
 
 Longer term conditions and changes are listed [on their Current Conditions page](https://www.nps.gov/yose/planyourvisit/conditions.htm). There is a separate page for [Tioga and Glacier Point Roads Plowing Updates](https://www.nps.gov/yose/planyourvisit/tioga.htm).

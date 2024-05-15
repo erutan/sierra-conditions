@@ -17,7 +17,7 @@ The social media accounts for District 9 [Facebook](https://www.facebook.com/Cal
 
 ## Yosemite
 
-Longer term conditions and changes are listed [on their Current Conditions page](https://www.nps.gov/yose/planyourvisit/conditions.htm). There is a separate page for [Tioga and Glacier Point Roads Plowing Updates](https://www.nps.gov/yose/planyourvisit/tioga.htm).
+Longer term conditions and changes are listed [on their Current Conditions page](https://www.nps.gov/yose/planyourvisit/conditions.htm). There is a separate page for [Tioga and Glacier Point Roads Plowing Updates](https://www.nps.gov/yose/planyourvisit/tioga.htm) that aims for weekly updates.  If you're wondering when Tioga will open, NPS states "**predicting when these roads will open is not possible, even in late spring**, because weather in April and May can affect plowing progress significantly". That said looking at [historical opening dates](https://www.nps.gov/yose/planyourvisit/seasonal.htm) for years with a similar April 1st snowpack will give you a decent guess.
 
 For more up to date information call 209/372-0200 (press 1 then 1) for a pre-recorded message of the most up-to-date conditions.
 

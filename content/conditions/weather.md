@@ -13,18 +13,28 @@ next: '/conditions/roads/'
 
 It's highly recommended to have a basic understanding of how weather works - on longer trips you can't rely on forecasts. Similar to reading the mountain, not just maps, it helps to be able to read the sky.
 
+Directionality of systems is very important. Monsoons are now coming up to the Sierra during El Nino years (boo). Checking forecasts in specific areas in previous years when one was approaching could show around 2" a day in SE SEKI, but only 0.1" up in central Yosemite or Emigrant.  Likewise atmospheric rivers / pineapple express will hit the westside first and should be a little lighter by the time they hit the crest.
+
+Microclimates are also very important to consider. I've been camped in a duffy patch under a little raised patch of trees in a large meadow and woken up to a frozen frost covered meadow but a drier and warmer immediate area just from tree cover and being 5-10 feet above where cold air settles, likewise camping a bit above a lake is noticeably warmer.  On day four of a trip I encountered an hour of heavy hail that covered the route from W. Pinnacles Basin to Three Island Lake. Inches accumulated in spots, making the trip up and over Peak 11,840+ treacherous, Three Island Lake itself and all surrounding peaks were untouched, It'd be reasonable to assume the much higher and nearby peaks of Seven Gables or Turret Peak would have snagged the precip, but nope. No forecast will tell you that.
+
 ## Forecasts
 
-From the group: "I use [weather.gov](weather.gov) along with Mountain forecast for summits. Weather.gov let’s you click specific locations anywhere on the map so the key is to find the area and then make sure your point of reference is at a close enough elevation."
+Different forecast models produce different results - they will never be 100% accurate, but for frontcountry use [Forecast Advisor](https://www.forecastadvisor.com/California/Bishop/93514/) is useful as they will show historical accuracy of various weather services matched against local weather stations.  For the Eastern Sierra this is less useful (Mammoth Lakes shows Bishop information) and weather in the mountains is even harder to predict. It's worth noting that while Accuweather usually does well in the frontcountry, it doesn't take into account elevation or other changes to terrain necessary and is fairly worthless for deep backcountry.
 
-"The map can be a bit squirrely to zoom on to exactly where you want (a familiarity with maps and topographic features helps a lot), but it is the best."
- 
-"+1 to this. I usually google "weather gov [area e.g. hoover wilderness]. From there I go to the map and click on a point that is close to the elevation that I need. The text under the map will tell you the elevation of the point forecast."
+I generally like to look at a few different models to get an idea of a range of outcomes. Knowing whether the uncertainty centers around the where the storm is expected to go or how strong it will be can be useful. The precise estimates for rainfall etc are essentially the most likely outcome of a model run multiple times based on known conditions information that are fed into historical outcomes from similar conditions.  The following image digging in deeper on a forecast from Accuweather shows that quite nicely:
 
-"+1 for weather.gov. The others just repackage the data from that source. The part I find the most valuable from the .gov site is the Forecast Discussion (different from the Detailed Forecast) that goes on for full paragraphs and is not usually replicated in the other apps. There is a mobile version but it's not an app per se (so it's not in the app store). You can go to the site and then get the [mobile version](https://mobile.weather.gov/) on your phone."
+<img src="img/probability.png" style="width: 100;">
+
+The most popular model for the Sierra is the official NOAA model up on [weather.gov](weather.gov). You click on a specific location on their map to get a forecast for that specific spot - it's useful to test a few passes and altitudes for longer trips.  Look for named features or reference a Topo map to make sure you're clicking on the right place.  Doing a search for "weather gov AREANAME", replacing area name with a park or wilderness area etc can get you started closer on the map. There is no web app, but there is a [mobile version](https://mobile.weather.gov/) of the website.  I find weather.gov can sometimes be a bit pessimistic on precipitation (indicating there will be more than actually happens), but planning for that is safer than the opposite!
+
+If you're using an iPhone, someone helpfully [shared a widget](https://www.reddit.com/r/Ultralight/comments/o9vfsd/ios_geolocated_weathergov_forecast_shortcut/) you can tap to load your GPS coordinates on weather.gov. Useful for when you're on a peak or pass and get signal after being offline for a while. :)
+
+Gaia and Caltopo also provide weather forecast map layers as a topo layer. This [blog post](https://www.alpinesavvy.com/blog/weather-overlay-maps-in-caltopo-and-gaia-gps) goes over how to use both.
+
+[Mountain forecast](https://www.mountain-forecast.com/) is the second most popular choice - some people say it runs a bit cold up at higher altitudes.
+
+I personally use [Carrot](http://www.meetcarrot.com/weather/) on my phone as I can check a few different models easily, and have a grandfathered cheap plan for [Weatherstrip](https://www.weatherstrip.app) which is a neat visual way of showing NOAA forecasts.
 
 [Windy](https://www.windy.com/-Thunderstorms-thunder?thunder,2021-08-27-21,37.810,-119.221,8) has a nice map view of thunderstorm predictions fairly far out. Obviously accuracy at the tail end will be somewhat low, but it can be useful to visualize where a storm is coming from and maybe flip a loop to be low when it hits the worst, or be on the west if it's coming from the east or vice versa.
-
-"[Mountain forecast](https://www.mountain-forecast.com/) seems to always forecast colder which is fine by me as you should be layering anyway at altitude. I believe the rangers in eastern Sierra have told me they look at the NOAA. I check them all usually"
 
 [Open Summit](https://opensummit.com/) has a great UI in their dedicated mobile apps - detailed two day forecasts for free, five day forecasts for $20 a month. Seems great for peakbagging, of less use for longer backpacking trips, but if you're already subscribed to Open Snow why not?

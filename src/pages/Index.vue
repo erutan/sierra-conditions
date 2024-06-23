@@ -13,7 +13,7 @@
 
       <div class="flex flex-wrap justify-center -mx-4">
         
-          <p class="text-lg" style="margin-bottom: 1rem; width: 100%;">
+          <p class="text-lg">
             A collection of sites &amp; best practices for finding beta on current conditions. Includes information on conditions specific to the:
           </p> 
 

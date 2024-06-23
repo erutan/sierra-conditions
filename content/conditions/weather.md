@@ -41,4 +41,6 @@ Different forecast models produce different results - they will never be 100% ac
 
 I generally like to look at a few different models to get an idea of a range of outcomes. Knowing whether the uncertainty centers around the where the storm is expected to go or how strong it will be can be useful. The precise estimates for rainfall etc are essentially the most likely outcome of a model run multiple times based on known conditions information that are fed into historical outcomes from similar conditions.  The following image digging in deeper on a forecast from Accuweather shows that quite nicely:
 
-![Accuweather Probability in Forecast](./probability.png)
+<div style="width: 100%;">
+  <g-image src="~/probability.png" width="800"/>
+</div>

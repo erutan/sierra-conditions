@@ -10,8 +10,6 @@
       </div>
 
       <div class="pt-8 mx-auto mt-8 border-t md:mt-16 md:pt-16 border-top border-ui-border max-w-screen-sm"></div>
-
-      <div class="flex flex-wrap justify-center -mx-4">
         
           <p class="text-lg">
             A collection of sites &amp; best practices for finding beta on current conditions. Includes information on conditions specific to the:
@@ -26,8 +24,6 @@
             <li><a href="/conditions/reports" class="underline">trip & conditions reports</a></li>
             <li><a href="/conditions/news" class="underline">news resources in the Sierra</a></li>
           </ul>
-
-      </div>
 
     </div>
   </Layout>

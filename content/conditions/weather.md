@@ -25,11 +25,13 @@ If you're using an iPhone, someone helpfully [shared a widget](https://www.reddi
 
 Gaia and Caltopo also provide weather forecast map layers as a topo layer. This [blog post](https://www.alpinesavvy.com/blog/weather-overlay-maps-in-caltopo-and-gaia-gps) goes over how to use both.
 
+If you want to get really nerdy [SpotWX](spotwx.com) lets you choose from different NOAA models.
+
 [Mountain forecast](https://www.mountain-forecast.com/) is the second most popular choice - some people say it runs a bit cold up at higher altitudes.
 
 I personally use [Carrot](http://www.meetcarrot.com/weather/) on my phone as I can check a few different models easily, and have a grandfathered cheap plan for [Weatherstrip](https://www.weatherstrip.app) which is a neat visual way of showing NOAA forecasts.
 
-[Windy](https://www.windy.com/-Thunderstorms-thunder?thunder,2021-08-27-21,37.810,-119.221,8) has a nice map view of thunderstorm predictions fairly far out. Obviously accuracy at the tail end will be somewhat low, but it can be useful to visualize where a storm is coming from and maybe flip a loop to be low when it hits the worst, or be on the west if it's coming from the east or vice versa.
+[Windy](https://www.windy.com/-Thunderstorms-thunder?thunder,2021-08-27-21,37.810,-119.221,8) has a nice map view of thunderstorm predictions fairly far out. Obviously accuracy at the tail end will be somewhat low, but it can be useful to visualize where a storm is coming from and maybe flip a loop to be low when it hits the worst etc.
 
 [Open Summit](https://opensummit.com/) has a great UI in their dedicated mobile apps - detailed two day forecasts for free, five day forecasts for $20 a month. Seems great for peakbagging, of less use for longer backpacking trips, but if you're already subscribed to Open Snow why not?
 

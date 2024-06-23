@@ -29,6 +29,8 @@ Gaia GPS has layers for [satellite heat detection and current wildfires](https:/
 
 [NASA's Worldview](https://worldview.earthdata.nasa.gov/?v=-122.31118585489266,33.45679500585166,-115.98306085489266,39.60619096789932&l=Reference_Labels,Reference_Features(hidden),Coastlines,MODIS_Aqua_CorrectedReflectance_TrueColor(hidden),MODIS_Terra_CorrectedReflectance_TrueColor&lg=false&t=2015-08-24-T00%3A00%3A00Z) and [BlueSky Daily Runs](https://tools.airfire.org/websky/v2/run/standard/DRI4km-CMAQ/2020082100/#viewer) are great visual tools to show how smoke spread recently.
 
+[Yosemite](https://www.nps.gov/yose/learn/photosmultimedia/webcams.htm) and [SEKI](https://www.nps.gov/seki/learn/photosmultimedia/webcams.htm) have a collection of webcams that show areas of their park, some of which have hourly screenshots you can skim.
+
 [Great Basin Unified Air Pollution Control District](https://www.gbuapcd.org/) covers Inyo & Mono.
 
 [San Joaquin Valley Air Piollution Control District](https://www.valleyair.org/Home.htm) covers some of the southern Sierra and surrounding areas.

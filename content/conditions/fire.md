@@ -13,6 +13,8 @@ next: '/conditions/weather/'
 
 Depending on jursidction fires may also show up on Inciweb you can use either their [map view](https://inciweb.nwcg.gov/) or their [Table of Incidents](https://inciweb.nwcg.gov/accessible-view/).
 
+[Watch Duty](https://app.watchduty.org) is a non-profit site that provides a map that aggregates fire information.
+
 [Wildland Fires & Smoke](https://wildlandfiresmoke.net/) has a lot of useful information about both fires and air quality.
 
 Gaia GPS has layers for [satellite heat detection and current wildfires](https://blog.gaiagps.com/find-and-avoid-wildfires-with-new-heat-detection-layer/) for free users on both their web and mobile apps. [Caltopo](https://caltopo.com) has corresponding map overlays for free users as well: [fire activity and GOES 17 live fire detection](https://caltopo.com/map.html#ll=37.63354,-119.23153&z=11&b=mbt&o=mbt%2Cr&n=1,0.21&a=modis_vp%2Cgoesfire).

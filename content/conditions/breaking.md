@@ -4,11 +4,11 @@ sidebar: 'sierra'
 next: '/conditions/reports/'
 ---
 
-# 2023 Specific Info
+# 2024 Specific Info
 
 ## Fire Restrictions
 
-Inyo has been under fire restrictions (no campfires) since early August.
+None yet as of late June, it was a normal snow year but is melting out fast.
 
  Note in most jurisdictions you need [free CA fire permit](https://www.readyforwildfire.org/permits/campfire-permit/) to use a backpacking stove.
 
@@ -17,6 +17,10 @@ Inyo has been under fire restrictions (no campfires) since early August.
 [Yosemite](https://www.nps.gov/yose/planyourvisit/firerestrictions.htm) fire restrictions page.
 
 Flooding and related damage is more of a concern this year - there's links to various county, law enforcement, and land managers sources on the [Notices & News](/news) page and the [Roads](/roads) pages. It could also be useful to have resources to keep on top of [snow](/snow) levels.
+
+## Road Restrictions
+
+The road into Devil's Postpile (Red's & Agnes Meadows etc) is [closed Monday to Thursday until September 15th](https://www.fs.usda.gov/detail/inyo/learning/safety-ethics/?cid=FSEPRD1127643) for construction.
 
 ## Backcountry Wilderness Permits
 

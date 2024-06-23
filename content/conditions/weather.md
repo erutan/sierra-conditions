@@ -23,7 +23,8 @@ Different forecast models produce different results - they will never be 100% ac
 
 I generally like to look at a few different models to get an idea of a range of outcomes. Knowing whether the uncertainty centers around the where the storm is expected to go or how strong it will be can be useful. The precise estimates for rainfall etc are essentially the most likely outcome of a model run multiple times based on known conditions information that are fed into historical outcomes from similar conditions.  The following image digging in deeper on a forecast from Accuweather shows that quite nicely:
 
-<img src="img/probability.png" style="width: 100;">
+
+![Accuweather Probability in Forecast](./probability.png)
 
 The most popular model for the Sierra is the official NOAA model up on [weather.gov](weather.gov). You click on a specific location on their map to get a forecast for that specific spot - it's useful to test a few passes and altitudes for longer trips.  Look for named features or reference a Topo map to make sure you're clicking on the right place.  Doing a search for "weather gov AREANAME", replacing area name with a park or wilderness area etc can get you started closer on the map. There is no web app, but there is a [mobile version](https://mobile.weather.gov/) of the website.  I find weather.gov can sometimes be a bit pessimistic on precipitation (indicating there will be more than actually happens), but planning for that is safer than the opposite!
 

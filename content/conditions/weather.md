@@ -39,8 +39,12 @@ I personally use [Carrot](http://www.meetcarrot.com/weather/) on my phone as I c
 
 Different forecast models produce different results - they will never be 100% accurate, but for frontcountry use [Forecast Advisor](https://www.forecastadvisor.com/California/Bishop/93514/) is useful as they will show historical accuracy of various weather services matched against local weather stations.  For the Eastern Sierra this is less useful (Mammoth Lakes shows Bishop information) and weather in the mountains is even harder to predict. It's worth noting that while Accuweather usually does well in the frontcountry, it doesn't take into account elevation or other changes to terrain necessary and is fairly worthless for deep backcountry.
 
-I generally like to look at a few different models to get an idea of a range of outcomes. Knowing whether the uncertainty centers around the where the storm is expected to go or how strong it will be can be useful. The precise estimates for rainfall etc are essentially the most likely outcome of a model run multiple times based on known conditions information that are fed into historical outcomes from similar conditions.  The following image digging in deeper on a forecast from Accuweather shows that quite nicely:
+I generally like to look at a few different models to get an idea of a range of outcomes. Knowing whether the uncertainty centers around the where the storm is expected to go or how strong it will be can be useful. The precise estimates for rainfall etc are essentially the most likely outcome of a model run multiple times based on known conditions information that are fed into historical outcomes from similar conditions.  
+
+<!--
+The following image digging in deeper on a forecast from Accuweather shows that quite nicely:
 
 <div style="width: 100%;">
   <g-image src="~/assets/probability.png" width="800"/>
 </div>
+-->

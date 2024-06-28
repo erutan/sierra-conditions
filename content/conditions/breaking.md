@@ -8,7 +8,7 @@ next: '/conditions/reports/'
 
 ## Fire Restrictions
 
-Inyo: As of July 1st Inyo is in stage 1 restrictions. No backcountry fires, and stoves must have shutoff valves (so no to most alcohol stoves, esbit, twig stoves, etc).)
+**Inyo**: As of July 1st Inyo is in stage 1 restrictions. No backcountry fires, and stoves must have shutoff valves (so no to most alcohol stoves, esbit, twig stoves, etc).)
 
  Note in most jurisdictions you need [free CA fire permit](https://www.readyforwildfire.org/permits/campfire-permit/) to use a backpacking stove.
 

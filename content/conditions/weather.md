@@ -19,15 +19,25 @@ Microclimates are also very important to consider. I've been camped in a duffy p
 
 ## Forecasts
 
+### Weather.gov
+
 [Weather.gov](weather.gov) is the most popular resource used for the weather in Sierra (it runs on the NOAA model). You click on a specific location on their map to get a forecast for that specific spot - it's useful to test a few passes and altitudes for longer trips.  Look for named features or reference a Topo map to make sure you're clicking on the right place.  Doing a search for "weather gov AREANAME", replacing area name with a park or wilderness area etc can get you started closer on the map. There is no web app, but there is a [mobile version](https://mobile.weather.gov/) of the website.  I find weather.gov can sometimes be a bit pessimistic on precipitation (indicating there will be more than actually happens), but planning for that is safer than the opposite!
+
+There is a section below "Detailed Forecast" called "Additional Forecasts and Information". Within that section click on "Forecast Discussion" to see written notes about the weather coming up and possible impacts. Having a narrative understanding of what is going on is often more useful than a if this or that service expects an area to have slightly more or less rain or a few degrees difference in temperature.
 
 If you're using an iPhone, someone helpfully [shared a widget](https://www.reddit.com/r/Ultralight/comments/o9vfsd/ios_geolocated_weathergov_forecast_shortcut/) you can tap to load your GPS coordinates on weather.gov. Useful for when you're on a peak or pass and get signal after being offline for a while. :)
 
-Gaia and Caltopo also provide weather forecast map layers as a topo layer. This [blog post](https://www.alpinesavvy.com/blog/weather-overlay-maps-in-caltopo-and-gaia-gps) goes over how to use both.
+If you want to get really nerdy [SpotWX](spotwx.com) lets you choose from different NOAA models (what weather.gov runs on).
 
-If you want to get really nerdy [SpotWX](spotwx.com) lets you choose from different NOAA models.
+### Mountain Forecast
 
 [Mountain forecast](https://www.mountain-forecast.com/) is the second most popular choice - some people say it runs a bit cold up at higher altitudes.
+
+### Topo mapping clients
+
+Gaia and Caltopo also provide weather forecast map layers as a topo layer. This [blog post](https://www.alpinesavvy.com/blog/weather-overlay-maps-in-caltopo-and-gaia-gps) goes over how to use both.
+
+### Other
 
 I personally use [Carrot](http://www.meetcarrot.com/weather/) on my phone as I can check a few different models easily, and have a grandfathered cheap plan for [Weatherstrip](https://www.weatherstrip.app) which is a neat visual way of showing NOAA forecasts.
 

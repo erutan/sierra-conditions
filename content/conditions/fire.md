@@ -7,19 +7,33 @@ next: '/conditions/weather/'
 
 # Wildfires & Smoke
 
+## Webcams
+
 ## Wildfires
 
-[Cal Fire Incidents](https://www.fire.ca.gov/incidents/) has information on all known wildfires in California, and is a good place to check if you notice smoke. Information on fires can be updated a few times a day. You can also check their [map layout](https://www.fire.ca.gov/imapdata/index.html) for a more visual approach.
+[Watch Duty](https://app.watchduty.org) is a non-profit site that provides a map that aggregates fire information from multiple jurisdictions.
 
-Depending on jursidction fires may also show up on Inciweb you can use either their [map view](https://inciweb.nwcg.gov/) or their [Table of Incidents](https://inciweb.nwcg.gov/accessible-view/).
-
-[Watch Duty](https://app.watchduty.org) is a non-profit site that provides a map that aggregates fire information.
+If it seems they are lagging behind, [Cal Fire Incidents](https://www.fire.ca.gov/incidents/) ([map layout](https://www.fire.ca.gov/imapdata/index.html) vs list as well) has information on fires managed by the State. If the fire is being managed federally it will show up on Inciweb, check their [map view](https://inciweb.nwcg.gov/) or their [Table of Incidents](https://inciweb.nwcg.gov/accessible-view/).
 
 [Wildland Fires & Smoke](https://wildlandfiresmoke.net/) has a lot of useful information about both fires and air quality.
 
-Gaia GPS has layers for [satellite heat detection and current wildfires](https://blog.gaiagps.com/find-and-avoid-wildfires-with-new-heat-detection-layer/) for free users on both their web and mobile apps. [Caltopo](https://caltopo.com) has corresponding map overlays for free users as well: [fire activity and GOES 17 live fire detection](https://caltopo.com/map.html#ll=37.63354,-119.23153&z=11&b=mbt&o=mbt%2Cr&n=1,0.21&a=modis_vp%2Cgoesfire).
+Gaia GPS has layers for [satellite heat detection and current wildfires](https://blog.gaiagps.com/find-and-avoid-wildfires-with-new-heat-detection-layer/) for free users on both their web and mobile apps. 
 
-## Smoke & Air Quality Levels
+[Caltopo](https://caltopo.com) has corresponding map overlays for free users as well: [fire activity and GOES 17 live fire detection](https://caltopo.com/map.html#ll=37.63354,-119.23153&z=11&b=mbt&o=mbt%2Cr&n=1,0.21&a=modis_vp%2Cgoesfire).
+
+## Webcams
+
+AlertWildfire has a lot of [Tahoe area](https://www.alertwildfire.org/region/tahoe/?camera=Axis-Hillside) webcams.
+
+[Yosemite](https://www.nps.gov/yose/learn/photosmultimedia/webcams.htm) and [SEKI](https://www.nps.gov/seki/learn/photosmultimedia/webcams.htm) have a collection of webcams that show areas of their park, some of which have hourly screenshots you can skim.  The SEKI page has a lot of dead links to outside sources as of summer 2024.
+
+[Mammoth Mountain](https://www.mammothmountain.com/on-the-mountain/mammoth-webcam/the-summit) has a lot of realtime/live webcams because they're fancy.
+
+The Great Basin Unified Air Pollution Control District has a lot of webcams for [Owens Valley](https://www.gbuapcd.org/cgi-bin/cameraViewer).  Bishopweather has a webcam pointed towards [Mt. Humphreys, Basin Mountain, and Mt. Tom from Bishop, CA](http://bishopweather.com).
+
+[Whitney](http://www.mountwhitneyforum.com/webcam/camera1.jpg)Portal has a zoomed in webcam aimed at a peak. Guess which?
+
+## Smoke & Air Quality Level Monitoring
 
 [AirNow Interactive Air Map Quality](https://gispub.epa.gov/airnow/?showgreencontours=false&xmin=-13621001.76694406&xmax=-12851128.018055802&ymin=4111418.553497082&ymax=4766331.01184444&monitors=ozonepm) gives you nice rounded (projected) shapes for different AQI levels as well as the official AirNow high quality sensors.
 
@@ -30,8 +44,6 @@ Gaia GPS has layers for [satellite heat detection and current wildfires](https:/
 [Weather.gov Experimental Smoke Forecast](https://www.weather.gov/mtr/ExperimentalSmokeForecast) includes a 24 hour prediction of smoke coverage, though rather zoomed out.
 
 [NASA's Worldview](https://worldview.earthdata.nasa.gov/?v=-122.31118585489266,33.45679500585166,-115.98306085489266,39.60619096789932&l=Reference_Labels,Reference_Features(hidden),Coastlines,MODIS_Aqua_CorrectedReflectance_TrueColor(hidden),MODIS_Terra_CorrectedReflectance_TrueColor&lg=false&t=2015-08-24-T00%3A00%3A00Z) and [BlueSky Daily Runs](https://tools.airfire.org/websky/v2/run/standard/DRI4km-CMAQ/2020082100/#viewer) are great visual tools to show how smoke spread recently.
-
-[Yosemite](https://www.nps.gov/yose/learn/photosmultimedia/webcams.htm) and [SEKI](https://www.nps.gov/seki/learn/photosmultimedia/webcams.htm) have a collection of webcams that show areas of their park, some of which have hourly screenshots you can skim.
 
 [Great Basin Unified Air Pollution Control District](https://www.gbuapcd.org/) covers Inyo & Mono.
 

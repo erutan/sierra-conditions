@@ -7,8 +7,6 @@ next: '/conditions/weather/'
 
 # Wildfires & Smoke
 
-## Webcams
-
 ## Wildfires
 
 [Watch Duty](https://app.watchduty.org) is a non-profit site that provides a map that aggregates fire information from multiple jurisdictions.

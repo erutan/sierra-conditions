@@ -21,7 +21,7 @@ Gaia GPS has layers for [satellite heat detection and current wildfires](https:/
 
 ## Webcams
 
-[AlertCalifornia](https://ops.alertcalifornia.org/cameras) by UC San Diego has hundreds of webcams around the state, and their angle of view will even be highlighted on a map when selected!
+[AlertCalifornia](https://ops.alertcalifornia.org/cameras) by UC San Diego has hundreds of webcams around the state, and their angle of view will even be highlighted on a map when selected! You can zoom in and scroll around the map and the previews along the side will automatically be filtered, giving a great at a glance view of visibility in a region.
 
 [Yosemite](https://www.nps.gov/yose/learn/photosmultimedia/webcams.htm) and [SEKI](https://www.nps.gov/seki/learn/photosmultimedia/webcams.htm) have a collection of webcams that show areas of their park, some of which have hourly screenshots you can skim.  The SEKI page has a lot of dead links to outside sources as of summer 2024.
 

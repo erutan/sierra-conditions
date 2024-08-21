@@ -11,7 +11,7 @@ next: '/conditions/weather/'
 
 [Watch Duty](https://app.watchduty.org) is a non-profit site that provides a map that aggregates fire information from multiple jurisdictions.
 
-If it seems they are lagging behind, [Cal Fire Incidents](https://www.fire.ca.gov/incidents/) ([map layout](https://www.fire.ca.gov/imapdata/index.html) vs list as well) has information on fires managed by the State. If the fire is being managed federally it will show up on Inciweb, check their [map view](https://inciweb.nwcg.gov/) or their [Table of Incidents](https://inciweb.nwcg.gov/accessible-view/).
+If it seems they are lagging behind, [Cal Fire Incidents](https://www.fire.ca.gov/incidents/) ([map layout](https://www.fire.ca.gov/imapdata/index.html) vs list) has information on fires managed by California. If the fire is being managed federally it will show up on Inciweb, check their [map view](https://inciweb.nwcg.gov/) or their [Table of Incidents](https://inciweb.nwcg.gov/accessible-view/).
 
 [Wildland Fires & Smoke](https://wildlandfiresmoke.net/) has a lot of useful information about both fires and air quality.
 
@@ -21,7 +21,7 @@ Gaia GPS has layers for [satellite heat detection and current wildfires](https:/
 
 ## Webcams
 
-AlertWildfire has a lot of [Tahoe area](https://www.alertwildfire.org/region/tahoe/?camera=Axis-Hillside) webcams.
+[AlertCalifornia](https://ops.alertcalifornia.org/cameras) by UC San Diego has hundreds of webcams around the state, and their angle of view will even be highlighted on a map when selected!
 
 [Yosemite](https://www.nps.gov/yose/learn/photosmultimedia/webcams.htm) and [SEKI](https://www.nps.gov/seki/learn/photosmultimedia/webcams.htm) have a collection of webcams that show areas of their park, some of which have hourly screenshots you can skim.  The SEKI page has a lot of dead links to outside sources as of summer 2024.
 

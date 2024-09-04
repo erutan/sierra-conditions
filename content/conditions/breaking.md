@@ -8,7 +8,7 @@ next: '/conditions/reports/'
 
 ## Fire Restrictions
 
-**Inyo**: As of July 1st Inyo is in stage 1 restrictions. No backcountry fires, and stoves must have shutoff valves (so no to most alcohol stoves, esbit, twig stoves, etc).)
+**Inyo NF**: As of July 1st Inyo is in stage 1 restrictions. No backcountry fires, and stoves must have shutoff valves (so no to most alcohol stoves, esbit, twig stoves, etc).)
 
 **SEKI**: Stage 1 fire restrictions prohibit wood and charcoal fires, including wood burning stoves, at elevations of 3,000 feet and below. Campground and picnic areas that are affected include Potwisha Campground, and the Hospital Rock and Foothills Picnic Areas. More info on their restrictions page.
 

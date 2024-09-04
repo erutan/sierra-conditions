@@ -10,11 +10,19 @@ next: '/conditions/reports/'
 
 **Inyo**: As of July 1st Inyo is in stage 1 restrictions. No backcountry fires, and stoves must have shutoff valves (so no to most alcohol stoves, esbit, twig stoves, etc).)
 
+**SEKI**: Stage 1 fire restrictions prohibit wood and charcoal fires, including wood burning stoves, at elevations of 3,000 feet and below. Campground and picnic areas that are affected include Potwisha Campground, and the Hospital Rock and Foothills Picnic Areas. More info on their restrictions page.
+
+**Sierra NF**: as of August 30th, campfires etc are banned ([full PDF](https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/fseprd1202411.pdf)).
+
  Note in most jurisdictions you need [free CA fire permit](https://www.readyforwildfire.org/permits/campfire-permit/) to use a backpacking stove.
 
 [SEKI](https://home.nps.gov/seki/learn/nature/fire-restrictions.htm) fire restrictions page.
 
 [Yosemite](https://www.nps.gov/yose/planyourvisit/firerestrictions.htm) fire restrictions page.
+
+[Sierra NF Alerts & Conditions Page](https://www.fs.usda.gov/alerts/sierra/alerts-notices) skim this looking for fire notices.
+
+[Inyo NF Alerts & Conditions Page](https://www.fs.usda.gov/alerts/inyo/alerts-notices) skim this looking for fire notices.
 
 Flooding and related damage is more of a concern this year - there's links to various county, law enforcement, and land managers sources on the [Notices & News](/news) page and the [Roads](/roads) pages. It could also be useful to have resources to keep on top of [snow](/snow) levels.
 

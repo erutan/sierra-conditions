@@ -4,17 +4,13 @@ sidebar: 'sierra'
 next: '/conditions/reports/'
 ---
 
-# 2024 Specific Info
+# 2025 Specific Info
 
 ## Fire Restrictions
 
-**Inyo NF**: As of July 1st Inyo is in stage 1 restrictions. No backcountry fires, and stoves must have shutoff valves (so no to most alcohol stoves, esbit, twig stoves, etc).)
+None, it's winter. :)
 
-**SEKI**: Stage 1 fire restrictions prohibit wood and charcoal fires, including wood burning stoves, at elevations of 3,000 feet and below. Campground and picnic areas that are affected include Potwisha Campground, and the Hospital Rock and Foothills Picnic Areas. More info on their restrictions page.
-
-**Sierra NF**: as of August 30th, campfires etc are banned ([full PDF](https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/fseprd1202411.pdf)).
-
- Note in most jurisdictions you need [free CA fire permit](https://www.readyforwildfire.org/permits/campfire-permit/) to use a backpacking stove.
+Note in most jurisdictions you need [free CA fire permit](https://www.readyforwildfire.org/permits/campfire-permit/) to use a backpacking stove.
 
 [SEKI](https://home.nps.gov/seki/learn/nature/fire-restrictions.htm) fire restrictions page.
 
@@ -28,7 +24,7 @@ Flooding and related damage is more of a concern this year - there's links to va
 
 ## Road Restrictions
 
-The road into Devil's Postpile (Red's & Agnes Meadows etc) is [closed Monday to Thursday until September 15th](https://www.fs.usda.gov/detail/inyo/learning/safety-ethics/?cid=FSEPRD1127643) for construction.
+The road into Devil's Postpile (Red's & Agnes Meadows etc) is expected to be open [Thursday through Sunday until September 15th, then just weekends](https://www.fs.usda.gov/detail/inyo/alerts-notices/?cid=fseprd1127643) for construction.
 
 ## Backcountry Wilderness Permits
 

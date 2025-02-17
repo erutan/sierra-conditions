@@ -7,13 +7,11 @@ next: '/conditions/fire/'
 
 # Snow Levels
 
-## Broad Overview
+## Broad Overviews
 
 The [CDEC Snow Pack Conditions Page](https://cdec.water.ca.gov/snowapp/sweq.action) gives you a simple high level overview of where snow levels are compared to averages. Useful in the winter/spring to try and figure out when summer in the alpine will start. You can also see [snow levels from the current year plotted against a few others of note](https://cdec.water.ca.gov/reportapp/javareports?name=PLOT_SWC) for even more context.
 
-The [forest service has a snow depth tool](https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/fseprd1045012.html) but it is low enough resolution that it can easily underestimate snow levels if it samples rock outcroppings, tree cover, etc. It's useful, but should be taken with a few grains of salt, along with the mapping applications that import this layer.
-
-The NOAA's [regional snow analyses for the Sierra Nevada](https://www.nohrsc.noaa.gov/nsa/index.html?units=e&region=Sierras) has a lot of high level snow and water information in graphical form, though it's better used to understand trends or an overview vs details about a specific location.
+The [forest service has a snow depth tool](https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/fseprd1045012.html) but it is low enough resolution that it can easily underestimate snow levels if it samples rock outcroppings, tree cover, etc. It's should be taken with a few grains of salt, along with the mapping applications that import this layer. Similarly the NOAA's [regional snow analyses for the Sierra Nevada](https://www.nohrsc.noaa.gov/nsa/index.html?units=e&region=Sierras) has a lot of high level snow and water information in graphical form, though it's better used to understand trends or an overview vs details about a specific location.
 
 ## Recent Sentinel 2 Satellite Imagery
 
@@ -28,11 +26,11 @@ There's a number of ways to view medium-high resolution satellite imagery that i
 
 [ESAC](https://esavalanche.org/) [observations](https://esavalanche.org/ObservationsPage) page with trip reports)covers the region from Lee vining down to Bishop, and [SAC](https://www.sierraavalanchecenter.org/) ([observations](https://www.sierraavalanchecenter.org/observations) page with trip reports) covers the area between Ebbetts and Yuba. The forecasts pages on both are also worth checking, as well as general information regarding avalanche safety. [Avalanche.org](https://avalanche.org/) shows all forecsat areas in the US.
 
-##  Monitoring station data (quirky)
+##  Monitoring station data
 
 Individual monitoring stations give much more specific (and accurate) data than satellite but high altitude ones can not be reporting (and there aren't a ton to begin with), and low altitude ones are usually irrelevant. YMMV.
 
-The most useful real time sensor map I've found is the [NOAA Weather & Hazards Data Viewer](https://www.wrh.noaa.gov/map/?&zoom=5&scroll_zoom=false&center=40,-97&boundaries=false,false,false,false,false,false,false,false,false&tab=observation&hazard=true&hazard_type=all&hazard_opacity=70&obs=true&obs_type=weather&elements=temp,wind,gust&temp_filter=-80,130&gust_filter=0,150&rh_filter=0,100&elev_filter=-300,14000&precip_filter=0.01,18&obs_popup=true&obs_density=60&obs_provider=ALL). Different stations are capable of transmitting different data, but you'll usually see recently recorded highs/lows and a graphic for wind direction and strength. Clicking on a specific station gets you data from the past three days.
+The most useful real time sensor map I've found is the [NOAA Weather & Hazards Data Viewer](https://www.wrh.noaa.gov/map/?&zoom=5&scroll_zoom=false&center=40,-97&boundaries=false,false,false,false,false,false,false,false,false&tab=observation&hazard=true&hazard_type=all&hazard_opacity=70&obs=true&obs_type=weather&elements=temp,wind,gust&temp_filter=-80,130&gust_filter=0,150&rh_filter=0,100&elev_filter=-300,14000&precip_filter=0.01,18&obs_popup=true&obs_density=60&obs_provider=ALL). Different stations are capable of transmitting different data, but you'll usually see recently recorded highs/lows and a graphic for wind direction and strength. Clicking on a specific station gets you data from the past three days.  This is "provisional" data which hasn't been analyzed or adjusted/normalized and may have anamolies.
 
 The [National Water and Climate Center's interactive map](https://nwcc-apps.sc.egov.usda.gov/imap/#version=169&elements=&networks=!&states=!&basins=!&hucs=&minElevation=&maxElevation=&elementSelectType=any&activeOnly=true&activeForecastPointsOnly=false&hucLabels=false&hucIdLabels=false&hucParameterLabels=true&stationLabels=&overlays=&hucOverlays=&basinOpacity=75&basinNoDataOpacity=25&basemapOpacity=100&maskOpacity=0&mode=data&openSections=dataElement,parameter,date,basin,options,elements,location,networks&controlsOpen=true&popup=&popupMulti=&popupBasin=&base=esriNgwm&displayType=basinstation&basinType=6&dataElement=WTEQ&depth=-8&parameter=PCTMED&frequency=DAILY&duration=I&customDuration=&dayPart=E&monthPart=E&forecastPubDay=1&forecastExceedance=50&useMixedPast=true&seqColor=1&divColor=7&scaleType=D&scaleMin=&scaleMax=&referencePeriodType=POR&referenceBegin=1991&referenceEnd=2020&minimumYears=20&hucAssociations=true&relativeDate=-1&lat=42.875&lon=-112.010&zoom=5.5) shows data from monitoring stations across the Sierra Nevada, which is a nice mix of color coded basin averages and specific sensors. You can also get a [listing of the stations](https://wcc.sc.egov.usda.gov/reportGenerator/view/customMultipleStationReport/daily/state=%22CA%22%20AND%20network=%22SNTLT%22,%22SNTL%22%20AND%20element=%22SNWD%22%20AND%20outServiceDate=%222100-01-01%22%7cname/0,0/name,stationId,WTEQ::value,WTEQ::delta,SNWD::value,SNWD::delta?fitToScreen=false) in California. 
 

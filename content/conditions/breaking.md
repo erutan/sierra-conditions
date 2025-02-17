@@ -24,7 +24,7 @@ Flooding and related damage is more of a concern this year - there's links to va
 
 ## Road Restrictions
 
-The road into Devil's Postpile (Red's & Agnes Meadows etc) is expected to be open [Thursday through Sunday until September 15th, then just weekends](https://www.fs.usda.gov/detail/inyo/alerts-notices/?cid=fseprd1127643) for construction.
+The road into Devil's Postpile (Red's & Agnes Meadows etc) is expected to be open [Thursday through Sunday until September 15th, then just weekends](https://www.fs.usda.gov/detail/inyo/alerts-notices/?cid=fseprd1127643) due to construction.
 
 ## Backcountry Wilderness Permits
 

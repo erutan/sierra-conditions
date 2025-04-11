@@ -25,7 +25,7 @@ Gaia GPS has layers for [satellite heat detection and current wildfires](https:/
 
 [Yosemite](https://www.nps.gov/yose/learn/photosmultimedia/webcams.htm) and [SEKI](https://www.nps.gov/seki/learn/photosmultimedia/webcams.htm) have a collection of webcams that show areas of their park, some of which have hourly screenshots you can skim.  The SEKI page has a lot of dead links to outside sources as of summer 2024.
 
-[Mammoth Mountain](https://www.mammothmountain.com/on-the-mountain/mammoth-webcam/the-summit) has a lot of realtime/live webcams because they're fancy.
+[Mammoth Mountain](https://www.mammothmountain.com/on-the-mountain/mammoth-webcam/the-summit) has a lot of realtime/live webcams because they're fancy.  There's a list of eastside webcams on the [Mono County](https://www.monocounty.org/plan-your-trip/weather-and-road-conditions/webcams-in-mono-county/) webpage too.
 
 The Great Basin Unified Air Pollution Control District has a lot of webcams for [Owens Valley](https://www.gbuapcd.org/cgi-bin/cameraViewer).  Bishopweather has a webcam pointed towards [Mt. Humphreys, Basin Mountain, and Mt. Tom from Bishop, CA](http://bishopweather.com).
 

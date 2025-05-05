@@ -33,7 +33,9 @@ Longer term conditions and changes are listed [on their Current Conditions page]
 
 ## Eastern Sierra County Resources
 
-[Inyo County Public Works](https://www.inyocounty.us/services/public-works/news/inyo-county-road-openclosed-status) [see PDF at the bottom of page] & [Mono County Public Works](https://www.monocounty.ca.gov/roads/page/county-road-closures) update information **daily** including expected opening dates and open/closed status for trailhead access roads along the Eastern Sierra.
+[Inyo County Public Works](https://www.inyocounty.us/services/public-works/news/inyo-county-road-openclosed-status) [see PDF at the bottom of page] & [Mono County Public Works](https://www.monocounty.ca.gov/roads/page/county-road-closures) update information **daily** including expected opening dates and open/closed status for trailhead access roads along the Eastern Sierra.  
+
+Inyo NF has a new [current conditions](https://www.fs.usda.gov/r05/inyo/conditions) page that collects information from ranger districts and links to county resources. :)
 
 This is great information for any trailhead access that isn't a highway!
 

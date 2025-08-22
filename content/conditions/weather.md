@@ -25,7 +25,7 @@ There is a section below "Detailed Forecast" called "Additional Forecasts and In
 
 If you're using an iPhone, someone helpfully [shared a widget](https://www.reddit.com/r/Ultralight/comments/o9vfsd/ios_geolocated_weathergov_forecast_shortcut/) you can tap to load your GPS coordinates on weather.gov. Useful for when you're on a peak or pass and get signal after being offline for a while. :)
 
-If you want to get really nerdy [SpotWX](spotwx.com) lets you choose from different NOAA models (what weather.gov runs on).
+If you want to get really nerdy [SpotWX](https://spotwx.com) lets you choose from different NOAA models (what weather.gov runs on).
 
 ### Mountain Forecast
 

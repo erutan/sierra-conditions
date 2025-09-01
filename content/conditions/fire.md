@@ -35,7 +35,7 @@ The Great Basin Unified Air Pollution Control District has a lot of webcams for 
 
 [AirNow Interactive Air Map Quality](https://gispub.epa.gov/airnow/?showgreencontours=false&xmin=-13621001.76694406&xmax=-12851128.018055802&ymin=4111418.553497082&ymax=4766331.01184444&monitors=ozonepm) gives you nice rounded (projected) shapes for different AQI levels as well as the official AirNow high quality sensors.
 
-[AirNow Fire & Smoke Map](https://fire.airnow.gov/v4beta/#8/37.018/-118.871) you can now get the high quality (but slower updating) AirNow sensors combined with Purple Air's lower quality but faster updating ones in a single map! [Purple Air's Map](https://www.purpleair.com/map?opt=1/mAQI/a10/cC0#8.02/37.519/-118.825) still has more sensors than the combined version above.
+[AirNow Fire & Smoke Map](https://fire.airnow.gov/#9/37.2019/-118.7455)) you can now get the high quality (but slower updating) AirNow sensors combined with Purple Air's lower quality but faster updating ones in a single map! [Purple Air's Map](https://www.purpleair.com/map?opt=1/mAQI/a10/cC0#8.02/37.519/-118.825) still has more sensors than the combined version above.
 
 [Windy](https://www.windy.com/-PM2-5-pm2p5?cams,pm2p5,37.810,-119.221,8) has wind & air quality predictions 3 days out. The further out they are, the less useful they are, and fires can create and alter their own patterns, but it's at least a good general idea of what to expect. You can get a longer view out on [just wind patterns](https://www.windy.com/?37.571,-118.714,9). If you open the detailed forecast bottom panel there's a floating button above it for webcams in vincinity which can be useful.
 

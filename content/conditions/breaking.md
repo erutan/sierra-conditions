@@ -8,8 +8,6 @@ next: '/conditions/reports/'
 
 ## Fire Restrictions
 
-None, it's winter. :)
-
 Note in most jurisdictions you need [free CA fire permit](https://www.readyforwildfire.org/permits/campfire-permit/) to use a backpacking stove.
 
 [SEKI](https://home.nps.gov/seki/learn/nature/fire-restrictions.htm) fire restrictions page.

@@ -7,11 +7,11 @@ next: '/conditions/weather/'
 
 # Wildfires & Smoke
 
-## Wildfires
+## Wildfire Information
 
 [Watch Duty](https://app.watchduty.org) is a non-profit site that provides a map that aggregates fire information from multiple jurisdictions.
 
-If it seems they are lagging behind, [Cal Fire Incidents](https://www.fire.ca.gov/incidents/) ([map layout](https://www.fire.ca.gov/imapdata/index.html) vs list) has information on fires managed by California. If the fire is being managed federally it will show up on Inciweb, check their [map view](https://inciweb.nwcg.gov/) or their [Table of Incidents](https://inciweb.nwcg.gov/accessible-view/).
+Sometimes smaller fires don't show up on watchduty. [Cal Fire Incidents](https://www.fire.ca.gov/incidents/) ([map layout](https://www.fire.ca.gov/imapdata/index.html)) has information on fires managed by California. If the fire is being managed federally it will show up on Inciweb, check their [map view](https://inciweb.nwcg.gov/) or their [Table of Incidents](https://inciweb.nwcg.gov/accessible-view/).
 
 [Wildland Fires & Smoke](https://wildlandfiresmoke.net/) has a lot of useful information about both fires and air quality.
 
@@ -31,17 +31,25 @@ The Great Basin Unified Air Pollution Control District has a lot of webcams for 
 
 [Whitney](http://www.mountwhitneyforum.com/webcam/camera1.jpg)Portal has a zoomed in webcam aimed at a peak. Guess which?
 
-## Smoke & Air Quality Level Monitoring
+## Current AQI & Smoke Monitoring
 
-[AirNow Interactive Air Map Quality](https://gispub.epa.gov/airnow/?showgreencontours=false&xmin=-13621001.76694406&xmax=-12851128.018055802&ymin=4111418.553497082&ymax=4766331.01184444&monitors=ozonepm) gives you nice rounded (projected) shapes for different AQI levels as well as the official AirNow high quality sensors.
+[AirNow Fire & Smoke Map](https://fire.airnow.gov/#8.47/37.1933/-119.1372)) you can now get the high quality (but slower updating) AirNow sensors combined with Purple Air's lower quality but faster updating ones in a single map! [Purple Air's Map](https://www.purpleair.com/map?opt=1/mAQI/a10/cC0#8.02/37.519/-118.825) still has more sensors than the combined version above. While limited to non-wilderness, you can click on a sensor and get a weeks worth of hourly readings to see data from the past 
 
-[AirNow Fire & Smoke Map](https://fire.airnow.gov/#9/37.2019/-118.7455)) you can now get the high quality (but slower updating) AirNow sensors combined with Purple Air's lower quality but faster updating ones in a single map! [Purple Air's Map](https://www.purpleair.com/map?opt=1/mAQI/a10/cC0#8.02/37.519/-118.825) still has more sensors than the combined version above.
+[Google Maps Air Quality Layer](https://www.google.com/maps/@37.5069579,-118.702057,9.24z/data=!5m1!1e9?entry=ttu&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D) can lag behind on data inputs and includes a lot of extrapolation (skim their [support page for details](https://support.google.com/maps/answer/11270845?hl=en) if you care) but it's a useful high level attempt to merge a lot of data sources and come up with a detailed yet easy to glance at display.
+
+[NASA's Worldview](https://worldview.earthdata.nasa.gov/?v=-122.31118585489266,33.45679500585166,-115.98306085489266,39.60619096789932&l=Reference_Labels,Reference_Features(hidden),Coastlines,MODIS_Aqua_CorrectedReflectance_TrueColor(hidden),MODIS_Terra_CorrectedReflectance_TrueColor&lg=false&t=2015-08-24-T00%3A00%3A00Z) is a great visual tool to see how smoke spread recently.
+
+## Smoke & AQI Forecasts
+
+[BlueSky Daily Runs](https://tools.airfire.org/websky/v2/run/standard/CANSAC-1.33km/2025090200?) shows a detailed 3 day forecast of smoke.  You can clearly see where it is expected to settle into basins and valleys etc. :)
 
 [Windy](https://www.windy.com/-PM2-5-pm2p5?cams,pm2p5,37.810,-119.221,8) has wind & air quality predictions 3 days out. The further out they are, the less useful they are, and fires can create and alter their own patterns, but it's at least a good general idea of what to expect. You can get a longer view out on [just wind patterns](https://www.windy.com/?37.571,-118.714,9). If you open the detailed forecast bottom panel there's a floating button above it for webcams in vincinity which can be useful.
 
-[Weather.gov Experimental Smoke Forecast](https://www.weather.gov/mtr/ExperimentalSmokeForecast) includes a 24 hour prediction of smoke coverage, though rather zoomed out.
+[AirNow Interactive Air Map Quality](https://gispub.epa.gov/airnow/?showgreencontours=false&xmin=-13621001.76694406&xmax=-12851128.018055802&ymin=4111418.553497082&ymax=4766331.01184444&monitors=ozonepm) gives you nice rounded (projected) shapes for different AQI levels as well as the official AirNow high quality sensors, and you can see models for the current and next day.
 
-[NASA's Worldview](https://worldview.earthdata.nasa.gov/?v=-122.31118585489266,33.45679500585166,-115.98306085489266,39.60619096789932&l=Reference_Labels,Reference_Features(hidden),Coastlines,MODIS_Aqua_CorrectedReflectance_TrueColor(hidden),MODIS_Terra_CorrectedReflectance_TrueColor&lg=false&t=2015-08-24-T00%3A00%3A00Z) and [BlueSky Daily Runs](https://tools.airfire.org/websky/v2/run/standard/DRI4km-CMAQ/2020082100/#viewer) are great visual tools to show how smoke spread recently.
+[NOAA's HRRR Models](https://rapidrefresh.noaa.gov/hrrr/HRRRsmoke/) provide the backbone for most smoke forecasting models. Every 6 hours they do an extended model run that goes out for 3 days, so the 12Z run has the full matrix filled out. Surface Smoke & Vertically Integrated are probably the most useful.  There's a similar but prettier [Weather.gov Experimental Smoke Forecast](https://www.weather.gov/mtr/ExperimentalSmokeForecast) includes a 24 hour prediction of smoke coverage.
+
+## Local Agencies
 
 [Great Basin Unified Air Pollution Control District](https://www.gbuapcd.org/) covers Inyo & Mono.
 

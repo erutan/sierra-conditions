@@ -47,7 +47,13 @@ The Great Basin Unified Air Pollution Control District has a lot of webcams for 
 
 [AirNow Interactive Air Map Quality](https://gispub.epa.gov/airnow/?showgreencontours=false&xmin=-13621001.76694406&xmax=-12851128.018055802&ymin=4111418.553497082&ymax=4766331.01184444&monitors=ozonepm) gives you nice rounded (projected) shapes for different AQI levels as well as the official AirNow high quality sensors, and you can see models for the current and next day.
 
-[NOAA's HRRR Models](https://rapidrefresh.noaa.gov/hrrr/HRRRsmoke/) provide the backbone for most smoke forecasting models. Every 6 hours they do an extended model run that goes out for 3 days, so the 12Z run has the full matrix filled out. Surface Smoke & Vertically Integrated are probably the most useful.  There's a similar but prettier [Weather.gov Experimental Smoke Forecast](https://www.weather.gov/mtr/ExperimentalSmokeForecast) includes a 24 hour prediction of smoke coverage.
+[Pivotal Weather](https://www.pivotalweather.com/model.php?m=hrrr&p=smoke_sfc&fh=loop&r=us_sw) is a better UI for [NOAA's HRRR Models](https://rapidrefresh.noaa.gov/hrrr/HRRRsmoke/) which provide the backbone for most smoke forecasting models. Every six hours HRRR does a 48 hour forecast, so choose the most recent 00z, 06z,12z, 0r 18z run from select list in the top left. There's a similar but prettier [Weather.gov Experimental Smoke Forecast](https://www.weather.gov/mtr/ExperimentalSmokeForecast) that includes a 24 hour prediction of smoke coverage.
+
+## Lightning Strike Detection
+
+You can look up HRRR's lightning strike detection on [Pivotal Weather](https://www.pivotalweather.com/model.php?m=hrrr&p=lgtden&fh=loop&r=us_sw).
+
+[Lightning Maps](https://www.lightningmaps.org/#m=oss;t=3;s=0;o=0;b=0.00;ts=0;ts24=1;z=9;y=37.277;x=-118.5096;d=2;dl=2;dc=0;src=6;) is community run and can be a little janky, but is fun to have open in the frontcountry when you hear thunder and wonder where it hit.
 
 ## Local Agencies
 

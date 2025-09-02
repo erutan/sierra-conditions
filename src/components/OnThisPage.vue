@@ -87,25 +87,27 @@ export default {
       if (id) {
         this.activeAnchor = '#' + id;
 
-        if (history.replaceState) {
+        if (process.isClient && history.replaceState) {
           history.replaceState(null, null, '#' + id);
         }
       }
     },
 
     initObserver() {
-      this.observer = new IntersectionObserver(this.observerCallback, {
-        // This rootMargin should allow intersections at the top of the page.
-        rootMargin: '0px 0px 99999px',
-        threshold: 1
-      });
+      if (process.isClient && typeof IntersectionObserver !== 'undefined') {
+        this.observer = new IntersectionObserver(this.observerCallback, {
+          // This rootMargin should allow intersections at the top of the page.
+          rootMargin: '0px 0px 99999px',
+          threshold: 1
+        });
 
-      const elements = document.querySelectorAll(
-        '.content h2, .content h3, .content h4, .content h5, .content h6'
-      );
+        const elements = document.querySelectorAll(
+          '.content h2, .content h3, .content h4, .content h5, .content h6'
+        );
 
-      for (let i = 0; i < elements.length; i++) {
-        this.observer.observe(elements[i]);
+        for (let i = 0; i < elements.length; i++) {
+          this.observer.observe(elements[i]);
+        }
       }
     },
   },

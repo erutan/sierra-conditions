@@ -33,7 +33,7 @@ The Great Basin Unified Air Pollution Control District has a lot of webcams for 
 
 ## Current AQI & Smoke Monitoring
 
-[AirNow Fire & Smoke Map](https://fire.airnow.gov/#8.47/37.1933/-119.1372)) you can now get the high quality (but slower updating) AirNow sensors combined with Purple Air's lower quality but faster updating ones in a single map! [Purple Air's Map](https://www.purpleair.com/map?opt=1/mAQI/a10/cC0#8.02/37.519/-118.825) still has more sensors than the combined version above. While limited to non-wilderness, you can click on a sensor and get a weeks worth of hourly readings to see data from the past 
+[AirNow Fire & Smoke Map](https://fire.airnow.gov/#8.47/37.1933/-119.1372)) you can now get the high quality (but slower updating) AirNow sensors combined with Purple Air's lower quality but faster updating ones in a single map! [Purple Air's Map](https://www.purpleair.com/map?opt=1/mAQI/a10/cC0#8.02/37.519/-118.825) still has more sensors than the combined version above. While limited to non-wilderness, you can click on a sensor and get a week's worth of hourly readings to see data from the past. 
 
 [Google Maps Air Quality Layer](https://www.google.com/maps/@37.5069579,-118.702057,9.24z/data=!5m1!1e9?entry=ttu&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D) can lag behind on data inputs and includes a lot of extrapolation (skim their [support page for details](https://support.google.com/maps/answer/11270845?hl=en) if you care) but it's a useful high level attempt to merge a lot of data sources and come up with a detailed yet easy to glance at display.
 
@@ -47,7 +47,7 @@ The Great Basin Unified Air Pollution Control District has a lot of webcams for 
 
 [AirNow Interactive Air Map Quality](https://gispub.epa.gov/airnow/?showgreencontours=false&xmin=-13621001.76694406&xmax=-12851128.018055802&ymin=4111418.553497082&ymax=4766331.01184444&monitors=ozonepm) gives you nice rounded (projected) shapes for different AQI levels as well as the official AirNow high quality sensors, and you can see models for the current and next day.
 
-[Pivotal Weather](https://www.pivotalweather.com/model.php?m=hrrr&p=smoke_sfc&fh=loop&r=us_sw) is a better UI for [NOAA's HRRR Models](https://rapidrefresh.noaa.gov/hrrr/HRRRsmoke/) which provide the backbone for most smoke forecasting models. Every six hours HRRR does a 48 hour forecast, so choose the most recent 00z, 06z,12z, 0r 18z run from select list in the top left. There's a similar but prettier [Weather.gov Experimental Smoke Forecast](https://www.weather.gov/mtr/ExperimentalSmokeForecast) that includes a 24 hour prediction of smoke coverage.
+[Pivotal Weather](https://www.pivotalweather.com/model.php?m=hrrr&p=smoke_sfc&fh=loop&r=us_sw) is a better UI for [NOAA's HRRR Models](https://rapidrefresh.noaa.gov/hrrr/HRRRsmoke/) which provide the backbone for most smoke forecasting models. Every six hours HRRR does a 48 hour forecast so choose the most recent 00z, 06z, 12z, or 18z run from select list in the top left. There's a similar but prettier [Weather.gov Experimental Smoke Forecast](https://www.weather.gov/mtr/ExperimentalSmokeForecast) that includes a 24 hour prediction of smoke coverage.
 
 ## Lightning Strike Detection
 

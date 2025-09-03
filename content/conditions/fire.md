@@ -29,7 +29,7 @@ Gaia GPS has layers for [satellite heat detection and current wildfires](https:/
 
 The Great Basin Unified Air Pollution Control District has a lot of webcams for [Owens Valley](https://www.gbuapcd.org/cgi-bin/cameraViewer).  Bishopweather has a webcam pointed towards [Mt. Humphreys, Basin Mountain, and Mt. Tom from Bishop, CA](http://bishopweather.com).
 
-[Whitney](http://www.mountwhitneyforum.com/webcam/camera1.jpg)Portal has a zoomed in webcam aimed at a peak. Guess which?
+[Whitney Portal](http://www.mountwhitneyforum.com/webcam/camera1.jpg) has a zoomed in webcam aimed at a peak. Guess which?
 
 ## Current AQI & Smoke Monitoring
 

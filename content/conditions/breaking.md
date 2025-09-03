@@ -34,7 +34,7 @@ Note: Permits that aren't marked with a late pickup and haven't been printed out
 
 ### [Yosemite Wilderness Permits](https://www.nps.gov/yose/planyourvisit/wpres.htm)
 
-Their walk up permits are now renamed to "Week-Ahead Reservations".  They can be reserved from 7 to 3 days in advance and are released at 7 am PDT. "Any unreserved permits will be available in person at wilderness centers only on the start date of the trip. Few, if any, unused permits will be available on any given day. Any unreserved permits will be available in person at wilderness centers only on the start date of the trip."
+Their walk up permits are now renamed to "Week-Ahead Reservations".  They can be reserved from 7 to 3 days in advance and are released at 7 am PDT. "Any unreserved permits will be available in person at wilderness centers only on the start date of the trip. Few, if any, unused permits will be available on any given day."
 
 Note that there's no option to print your own permit, "the trip leader or alternate must pick up the wilderness permit in person at a wilderness center one day in advance (8 am to 5 pm) or on the same day (8 am to 11 am, unless held on Recreation.gov for a late arrival up to 5 pm)."
 

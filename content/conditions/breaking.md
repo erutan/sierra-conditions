@@ -77,6 +77,6 @@ They release their 50% quota 3 days in advance on recreation.gov, which is more 
 
 "Visit Recreation.gov to make a reservation under “Humboldt-Toiyabe National Forest – Wilderness Permits." Of each daily quota for a trailhead, 50 percent can be reserved ahead of time six months in advance of the desired entry date. The remaining 50 percent is available within three days of the date of entry." 
 
-Emigrant still doesn't have a quota for backcountry permits, despite getting pretty thrashed.
+Emigrant Wilderness still doesn't have a quota for backcountry permits, despite getting pretty thrashed.
 
 [Humbolt Toiyobe Recreation.gov Reservation Page](https://www.recreation.gov/permits/445856).

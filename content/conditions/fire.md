@@ -59,7 +59,7 @@ You can look up HRRR's lightning strike detection on [Pivotal Weather](https://w
 
 [Great Basin Unified Air Pollution Control District](https://www.gbuapcd.org/) covers Inyo & Mono.
 
-[San Joaquin Valley Air Piollution Control District](https://www.valleyair.org/Home.htm) covers some of the southern Sierra and surrounding areas.
+[San Joaquin Valley Air Pollution Control District](https://www.valleyair.org/Home.htm) covers some of the southern Sierra and surrounding areas.
 
 [California Smoke Information](http://californiasmokeinfo.blogspot.com/) is an outreach point that multiple CA agencies use.
 

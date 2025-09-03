@@ -19,7 +19,7 @@ Longer term conditions and changes are listed [on their Current Conditions page]
 It's a bit easier to get breaking news from their social media accounts than their websites.
 
 * Tahoe NF: [Facebook](https://www.facebook.com/TahoeNF), [Twitter](https://twitter.com/Tahoe_NF), [Website](https://www.fs.usda.gov/alerts/tahoe/).
-* Humbolt-Toiyobe NF: [Facebook](https://www.facebook.com/HumboldtToiyabeNF), [Twitter](https://twitter.com/HumboldtToiyabe), [Website](https://www.fs.usda.gov/alerts/htnf/).
+* Humboldt-Toiyabe NF: [Facebook](https://www.facebook.com/HumboldtToiyabeNF), [Twitter](https://twitter.com/HumboldtToiyabe), [Website](https://www.fs.usda.gov/alerts/htnf/).
 * Inyo NF: [Facebook](https://www.facebook.com/inyonf), [Twitter](https://twitter.com/Inyo_NF), [Website](https://www.fs.usda.gov/alerts/inyo/).
 * Sierra NF: [Facebook](https://www.facebook.com/SierraNF), [Twitter](https://twitter.com/Sierra_NF), [Website](https://www.fs.usda.gov/alerts/sierra/).
 * Sequoia NF: [Facebook](https://www.facebook.com/SequoiaNF), [Twitter](https://twitter.com/sequoiaforest), [Website](https://www.fs.usda.gov/alerts/sequoia/).

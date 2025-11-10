@@ -17,7 +17,6 @@
     "fuse.js": "^7.0.0"
   },
   "devDependencies": {
-    "@yohns/picocss": "^2.2.10",
-    "sass": "^1.80.0"
+    "@yohns/picocss": "^2.2.10"
   }
 }

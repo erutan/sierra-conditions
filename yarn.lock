@@ -2708,7 +2708,7 @@ run-parallel@^1.1.9:
   resolved "https://registry.npmjs.org/run-parallel/-/run-parallel-1.1.9.tgz"
   integrity sha512-DEqnSRTDw/Tc3FXf49zedI638Z9onwUotBMiUFKmrO2sdFKIbXamXGQ3Axd4qgphxKB4kw/qP1w5kTxnfU1B9Q==
 
-sass@*, sass@^1.80.0:
+sass@*:
   version "1.93.3"
   resolved "https://registry.npmjs.org/sass/-/sass-1.93.3.tgz"
   integrity sha512-elOcIZRTM76dvxNAjqYrucTSI0teAF/L2Lv0s6f6b7FOwcwIuA357bIE871580AjHJuSvLIRUosgV+lIWx6Rgg==

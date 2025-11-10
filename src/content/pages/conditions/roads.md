@@ -1,8 +1,7 @@
 ---
-description: ''
+title: 'Road Closures'
+description: 'Road conditions and closure information for Sierra access'
 sidebar: 'sierra'
-prev: '/conditions/weather/'
-next: '/conditions/news/'
 ---
 
 # Road Closures

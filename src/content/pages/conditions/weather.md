@@ -1,8 +1,7 @@
 ---
-description: ''
+title: 'Weather & Temperature'
+description: 'Weather forecasting resources and tips for the Sierra'
 sidebar: 'sierra'
-prev: '/conditions/fire/'
-next: '/conditions/roads/'
 ---
 
 # Weather & Temperature

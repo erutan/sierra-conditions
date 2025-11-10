@@ -1,0 +1,52 @@
+---
+// Sidebar navigation component
+
+const navigation = [
+  {
+    title: 'conditions',
+    items: [
+      { path: '/conditions/breaking', title: '2025 Breaking' },
+      { path: '/conditions/reports', title: 'Trip Reports' },
+      { path: '/conditions/snow', title: 'Snow & Water' },
+      { path: '/conditions/fire', title: 'Fire & Smoke' },
+      { path: '/conditions/weather', title: 'Weather' },
+      { path: '/conditions/roads', title: 'Roads' },
+      { path: '/conditions/news', title: 'News' },
+    ]
+  },
+  {
+    title: 'this site',
+    items: [
+      { path: '/about', title: 'About' },
+    ]
+  }
+];
+
+const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
+---
+
+<aside class="site-sidebar">
+  {navigation.map(section => (
+    <div class="sidebar-section">
+      <h3 class="sidebar-section-title">{section.title}</h3>
+      <nav>
+        <ul class="sidebar-nav">
+          {section.items.map(item => {
+            const itemPath = item.path.replace(/\/$/, '');
+            const isActive = currentPath === itemPath || currentPath.startsWith(itemPath + '/');
+            return (
+              <li>
+                <a
+                  href={item.path}
+                  class:list={[{ active: isActive }]}
+                >
+                  {item.title}
+                </a>
+              </li>
+            );
+          })}
+        </ul>
+      </nav>
+    </div>
+  ))}
+</aside>

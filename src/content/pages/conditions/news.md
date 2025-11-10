@@ -1,7 +1,7 @@
 ---
-description: ''
+title: 'News & Notices'
+description: 'News resources and official notices for the Sierra Nevada'
 sidebar: 'sierra'
-prev: '/conditions/roads/'
 ---
 
 # News & Notices

@@ -1,8 +1,7 @@
 ---
-description: ''
+title: 'Snow Levels'
+description: 'Snow depth, water levels, and seasonal conditions'
 sidebar: 'sierra'
-prev: '/conditions/reports/'
-next: '/conditions/fire/'
 ---
 
 # Snow Levels

@@ -1,5 +1,6 @@
 ---
-description: ''
+title: 'About & Contributing'
+description: 'Information about this site and how to contribute'
 sidebar: 'sierra'
 ---
 
@@ -11,7 +12,7 @@ This site was created to supplement the [Sierra Nevada Conditions Reports & Curr
 
 Information is categorized into pages that you can navigate between in the sidebar to the left, you can jump around to a specific section of a page using the sidebar to the right, and there's a nice search bar up top. :)
 
-This site is built with the [DOCC](https://docc-theme.netlify.app/) starter/theme of [Gridsome](https://gridsome.org/). At some point I'll migrate to something more modern.
+This site is built with [Astro](https://astro.build/) and styled with [PicoCSS](https://github.com/Yohn/PicoCSS), focusing on modern web standards and CSS variables for easy customization.
 
 ## Contributing
 

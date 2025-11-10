@@ -1,8 +1,7 @@
 ---
-description: ''
+title: 'Wildfires & Smoke'
+description: 'Wildfire information and smoke impact resources'
 sidebar: 'sierra'
-prev: '/conditions/snow/'
-next: '/conditions/weather/'
 ---
 
 # Wildfires & Smoke

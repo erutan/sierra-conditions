@@ -1,8 +1,7 @@
 ---
-description: ''
+title: 'Trip & Conditions Reports'
+description: 'Where to find trip reports and current conditions information'
 sidebar: 'sierra'
-prev: '/conditions/breaking/'
-next: '/conditions/snow/'
 ---
 
 # Trip & Conditions Reports

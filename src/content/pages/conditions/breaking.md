@@ -1,7 +1,7 @@
 ---
-description: ''
+title: '2025 Specific Info'
+description: 'Current year permits, fire restrictions, and breaking news'
 sidebar: 'sierra'
-next: '/conditions/reports/'
 ---
 
 # 2025 Specific Info

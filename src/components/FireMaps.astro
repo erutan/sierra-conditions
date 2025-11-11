@@ -4,8 +4,9 @@ interface MapTab {
   id: string;
   name: string;
   description: string;
-  embedUrl?: string;
-  customEmbed?: boolean;
+  url: string;
+  details: string;
+  icon?: string;
 }
 
 const mapTabs: MapTab[] = [
@@ -13,31 +14,41 @@ const mapTabs: MapTab[] = [
     id: 'watchduty',
     name: 'Watch Duty',
     description: 'Live fire map aggregating info from multiple jurisdictions',
-    embedUrl: 'https://app.watchduty.org',
+    details: 'Best for: Real-time fire locations and perimeter tracking across CA',
+    url: 'https://app.watchduty.org',
+    icon: '🔥'
   },
   {
     id: 'airnow',
     name: 'AirNow Fire & Smoke',
     description: 'Combined high-quality and real-time air quality sensors',
-    embedUrl: 'https://fire.airnow.gov',
+    details: 'Best for: Most accurate AQI readings from official EPA sensors',
+    url: 'https://fire.airnow.gov',
+    icon: '🌫️'
   },
   {
     id: 'purpleair',
     name: 'Purple Air',
     description: 'Real-time air quality sensors with historical data',
-    embedUrl: 'https://www.purpleair.com/map?opt=1/mAQI/a10/cC0#8.02/37.519/-118.825',
+    details: 'Best for: Fastest updates and historical hourly data',
+    url: 'https://www.purpleair.com/map?opt=1/mAQI/a10/cC0#8.02/37.519/-118.825',
+    icon: '💨'
   },
   {
     id: 'windy',
     name: 'Windy AQI',
     description: 'Wind patterns and 3-day air quality forecast',
-    embedUrl: 'https://www.windy.com/-PM2-5-pm2p5?pm2p5,37.810,-119.221,8',
+    details: 'Best for: Understanding how smoke will move with wind patterns',
+    url: 'https://www.windy.com/-PM2-5-pm2p5?pm2p5,37.810,-119.221,8',
+    icon: '🌬️'
   },
   {
     id: 'bluesky',
     name: 'BlueSky Forecast',
     description: '3-day smoke forecast showing basin and valley settling',
-    embedUrl: 'https://tools.airfire.org/websky/v2/run/standard/CANSAC-1.33km',
+    details: 'Best for: Planning trips 1-3 days ahead based on smoke predictions',
+    url: 'https://tools.airfire.org/websky/v2/run/standard/CANSAC-1.33km',
+    icon: '📊'
   },
 ];
 ---
@@ -45,45 +56,21 @@ const mapTabs: MapTab[] = [
 <div class="fire-maps-container">
   <div class="fire-maps-intro">
     <p>
-      <strong>Interactive fire and smoke monitoring:</strong> Switch between different map services to check
-      current fire locations, air quality sensors, and smoke forecasts for the Sierra Nevada region.
+      <strong>Fire & smoke monitoring resources:</strong> Quick access to live fire maps, air quality sensors,
+      and smoke forecasts. Each service opens in a new tab with full interactive features.
     </p>
   </div>
 
-  <div class="fire-tabs">
-    {mapTabs.map((tab, index) => (
-      <button
-        class={`fire-tab ${index === 0 ? 'active' : ''}`}
-        data-tab={tab.id}
-        role="tab"
-        aria-selected={index === 0 ? 'true' : 'false'}
-      >
-        {tab.name}
-      </button>
-    ))}
-  </div>
-
-  <div class="fire-map-panels">
-    {mapTabs.map((tab, index) => (
-      <div
-        class={`fire-map-panel ${index === 0 ? 'active' : ''}`}
-        data-panel={tab.id}
-        role="tabpanel"
-      >
-        <div class="map-description">
-          <p>{tab.description}</p>
-          <a href={tab.embedUrl} target="_blank" rel="noopener noreferrer" class="external-link">
-            Open in new tab →
-          </a>
-        </div>
-        <div class="map-embed-wrapper">
-          <iframe
-            src={tab.embedUrl}
-            title={`${tab.name} Map`}
-            loading="lazy"
-            allow="geolocation"
-          ></iframe>
-        </div>
+  <div class="fire-maps-grid">
+    {mapTabs.map((tab) => (
+      <div class="fire-map-card">
+        <div class="card-icon">{tab.icon}</div>
+        <h3>{tab.name}</h3>
+        <p class="card-description">{tab.description}</p>
+        <p class="card-details">{tab.details}</p>
+        <a href={tab.url} target="_blank" rel="noopener noreferrer" class="launch-button">
+          Launch Map →
+        </a>
       </div>
     ))}
   </div>
@@ -91,41 +78,12 @@ const mapTabs: MapTab[] = [
   <div class="fire-maps-footer">
     <p>
       <small>
-        💡 <strong>Tip:</strong> For the most accurate data, check multiple sources. Purple Air updates
-        fastest, AirNow is most accurate, and BlueSky provides multi-day forecasts.
+        💡 <strong>Tip:</strong> Check multiple sources for the complete picture. Purple Air updates fastest (every 2 min),
+        AirNow is most accurate (hourly), and BlueSky provides 72-hour forecasts.
       </small>
     </p>
   </div>
 </div>
-
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const tabs = document.querySelectorAll('.fire-tab');
-    const panels = document.querySelectorAll('.fire-map-panel');
-
-    tabs.forEach(tab => {
-      tab.addEventListener('click', () => {
-        const targetId = tab.getAttribute('data-tab');
-
-        // Remove active class from all tabs and panels
-        tabs.forEach(t => {
-          t.classList.remove('active');
-          t.setAttribute('aria-selected', 'false');
-        });
-        panels.forEach(p => p.classList.remove('active'));
-
-        // Add active class to clicked tab and corresponding panel
-        tab.classList.add('active');
-        tab.setAttribute('aria-selected', 'true');
-
-        const targetPanel = document.querySelector(`[data-panel="${targetId}"]`);
-        if (targetPanel) {
-          targetPanel.classList.add('active');
-        }
-      });
-    });
-  });
-</script>
 
 <style>
   .fire-maps-container {
@@ -144,98 +102,77 @@ const mapTabs: MapTab[] = [
     margin: 0;
   }
 
-  .fire-tabs {
-    display: flex;
-    gap: 0.5rem;
-    border-bottom: 2px solid var(--border-color);
+  .fire-maps-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.25rem;
     margin-bottom: 1.5rem;
-    overflow-x: auto;
-    flex-wrap: wrap;
   }
 
-  .fire-tab {
-    background: none;
-    border: none;
-    padding: 0.75rem 1.25rem;
-    cursor: pointer;
-    color: var(--pico-color);
-    font-size: 0.9375rem;
-    font-weight: 500;
-    border-bottom: 3px solid transparent;
-    transition: all 0.2s ease;
-    white-space: nowrap;
-    margin-bottom: -2px;
-  }
-
-  .fire-tab:hover {
+  .fire-map-card {
     background-color: var(--pico-secondary-background);
-    border-radius: var(--pico-border-radius) var(--pico-border-radius) 0 0;
-  }
-
-  .fire-tab.active {
-    color: var(--primary);
-    border-bottom-color: var(--primary);
-  }
-
-  .fire-map-panels {
-    position: relative;
-    min-height: 600px;
-  }
-
-  .fire-map-panel {
-    display: none;
-  }
-
-  .fire-map-panel.active {
-    display: block;
-  }
-
-  .map-description {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.875rem 1.125rem;
-    background-color: var(--pico-secondary-background);
+    border: 1px solid var(--border-color);
     border-radius: var(--pico-border-radius);
-    margin-bottom: 1rem;
-    gap: 1rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.2s ease;
+    position: relative;
   }
 
-  .map-description p {
-    margin: 0;
+  .fire-map-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-color: var(--primary);
+    transform: translateY(-2px);
+  }
+
+  .card-icon {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    line-height: 1;
+  }
+
+  .fire-map-card h3 {
+    margin: 0 0 0.75rem 0;
+    font-size: 1.25rem;
+    color: var(--pico-color);
+  }
+
+  .card-description {
+    color: var(--pico-color);
+    margin: 0 0 0.75rem 0;
+    font-size: 0.9375rem;
     flex: 1;
   }
 
-  .external-link {
-    color: var(--primary);
+  .card-details {
+    color: var(--pico-muted-color);
+    font-size: 0.875rem;
+    font-style: italic;
+    margin: 0 0 1.25rem 0;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--border-color);
+  }
+
+  .launch-button {
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+    background-color: var(--primary);
+    color: white;
     text-decoration: none;
-    font-weight: 500;
-    white-space: nowrap;
-  }
-
-  .external-link:hover {
-    color: var(--primary-hover);
-    text-decoration: underline;
-  }
-
-  .map-embed-wrapper {
-    position: relative;
-    width: 100%;
-    height: 600px;
     border-radius: var(--pico-border-radius);
-    overflow: hidden;
-    border: 1px solid var(--border-color);
-    background-color: var(--pico-background-color);
+    font-weight: 500;
+    text-align: center;
+    transition: background-color 0.2s ease;
+    font-size: 0.9375rem;
   }
 
-  .map-embed-wrapper iframe {
-    width: 100%;
-    height: 100%;
-    border: none;
+  .launch-button:hover {
+    background-color: var(--primary-hover);
+    color: white;
   }
 
   .fire-maps-footer {
-    margin-top: 1rem;
     padding: 0.875rem 1.125rem;
     background-color: var(--pico-secondary-background);
     border-radius: var(--pico-border-radius);
@@ -247,39 +184,8 @@ const mapTabs: MapTab[] = [
 
   /* Mobile responsive */
   @media (max-width: 768px) {
-    .fire-tabs {
-      flex-wrap: nowrap;
-      overflow-x: auto;
-      -webkit-overflow-scrolling: touch;
+    .fire-maps-grid {
+      grid-template-columns: 1fr;
     }
-
-    .fire-tab {
-      flex-shrink: 0;
-    }
-
-    .map-embed-wrapper {
-      height: 500px;
-    }
-
-    .map-description {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-
-    .external-link {
-      align-self: flex-end;
-    }
-  }
-
-  /* Loading state */
-  .map-embed-wrapper::before {
-    content: 'Loading map...';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: var(--pico-muted-color);
-    font-size: 0.875rem;
-    z-index: -1;
   }
 </style>

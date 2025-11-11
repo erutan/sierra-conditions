@@ -82,15 +82,6 @@ const regions = [
     </p>
   </div>
 
-  <div class="webcam-filters">
-    <label for="region-filter">Filter by region:</label>
-    <select id="region-filter" class="region-select">
-      {regions.map(region => (
-        <option value={region.id}>{region.name}</option>
-      ))}
-    </select>
-  </div>
-
   <div class="webcam-grid">
     {webcams.map(webcam => (
       <div class="webcam-card" data-region={webcam.region}>
@@ -120,30 +111,6 @@ const regions = [
   </div>
 </div>
 
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const filterSelect = document.getElementById('region-filter') as HTMLSelectElement;
-    const webcamCards = document.querySelectorAll('.webcam-card');
-
-    if (filterSelect) {
-      filterSelect.addEventListener('change', (e) => {
-        const selectedRegion = (e.target as HTMLSelectElement).value;
-
-        webcamCards.forEach(card => {
-          const cardElement = card as HTMLElement;
-          const cardRegion = cardElement.getAttribute('data-region');
-
-          if (selectedRegion === 'all' || cardRegion === 'all' || cardRegion === selectedRegion) {
-            cardElement.style.display = 'block';
-          } else {
-            cardElement.style.display = 'none';
-          }
-        });
-      });
-    }
-  });
-</script>
-
 <style>
   .webcam-gallery {
     margin: 2rem 0;
@@ -159,22 +126,6 @@ const regions = [
 
   .webcam-intro p {
     margin: 0;
-  }
-
-  .webcam-filters {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    margin-bottom: 1.5rem;
-  }
-
-  .webcam-filters label {
-    font-weight: 600;
-    margin: 0;
-  }
-
-  .region-select {
-    max-width: 250px;
   }
 
   .webcam-grid {
@@ -274,16 +225,6 @@ const regions = [
   @media (max-width: 768px) {
     .webcam-grid {
       grid-template-columns: 1fr;
-    }
-
-    .webcam-filters {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-
-    .region-select {
-      max-width: 100%;
-      width: 100%;
     }
   }
 </style>

@@ -1,0 +1,493 @@
+---
+interface Agency {
+  name: string;
+  shortName: string;
+  region: string;
+  type: 'National Park' | 'National Forest' | 'County' | 'State' | 'Other';
+  website?: string;
+  facebook?: string;
+  twitter?: string;
+  phone?: string;
+  description?: string;
+}
+
+const agencies: Agency[] = [
+  // National Parks
+  {
+    name: 'Yosemite National Park',
+    shortName: 'Yosemite',
+    region: 'north',
+    type: 'National Park',
+    website: 'https://www.nps.gov/yose/planyourvisit/conditions.htm',
+    facebook: 'https://www.facebook.com/YosemiteNPS',
+    phone: '209-372-0200',
+    description: 'Current conditions, wilderness updates, Tioga Road info'
+  },
+  {
+    name: 'Sequoia & Kings Canyon National Parks',
+    shortName: 'SEKI',
+    region: 'central',
+    type: 'National Park',
+    website: 'https://www.nps.gov/seki/planyourvisit/conditions.htm',
+    facebook: 'https://www.facebook.com/SequoiaKingsNPS',
+    description: 'Current conditions and wilderness permits'
+  },
+  // National Forests
+  {
+    name: 'Tahoe National Forest',
+    shortName: 'Tahoe NF',
+    region: 'north',
+    type: 'National Forest',
+    website: 'https://www.fs.usda.gov/alerts/tahoe/',
+    facebook: 'https://www.facebook.com/TahoeNF',
+    twitter: 'https://twitter.com/Tahoe_NF',
+    description: 'Road information by travel corridor'
+  },
+  {
+    name: 'Humboldt-Toiyabe National Forest',
+    shortName: 'H-T NF',
+    region: 'eastern',
+    type: 'National Forest',
+    website: 'https://www.fs.usda.gov/alerts/htnf/',
+    facebook: 'https://www.facebook.com/HumboldtToiyabeNF',
+    twitter: 'https://twitter.com/HumboldtToiyabe',
+    description: 'Eastern Sierra wilderness permits and conditions'
+  },
+  {
+    name: 'Inyo National Forest',
+    shortName: 'Inyo NF',
+    region: 'eastern',
+    type: 'National Forest',
+    website: 'https://www.fs.usda.gov/r05/inyo/conditions',
+    facebook: 'https://www.facebook.com/inyonf',
+    twitter: 'https://twitter.com/Inyo_NF',
+    description: 'Current conditions with ranger district links'
+  },
+  {
+    name: 'Sierra National Forest',
+    shortName: 'Sierra NF',
+    region: 'central',
+    type: 'National Forest',
+    website: 'https://www.fs.usda.gov/alerts/sierra/',
+    facebook: 'https://www.facebook.com/SierraNF',
+    twitter: 'https://twitter.com/Sierra_NF',
+    description: 'Road conditions and alerts'
+  },
+  {
+    name: 'Sequoia National Forest',
+    shortName: 'Sequoia NF',
+    region: 'south',
+    type: 'National Forest',
+    website: 'https://www.fs.usda.gov/alerts/sequoia/',
+    facebook: 'https://www.facebook.com/SequoiaNF',
+    twitter: 'https://twitter.com/sequoiaforest',
+    description: 'News and road closures'
+  },
+  // Ranger Districts
+  {
+    name: 'Mono Lake Ranger District',
+    shortName: 'Mono Lake RD',
+    region: 'eastern',
+    type: 'National Forest',
+    website: 'https://www.fs.usda.gov/recarea/inyo/recarea/?recid=20252',
+    description: 'Inyo NF - Northern Eastern Sierra'
+  },
+  {
+    name: 'Mammoth Ranger District',
+    shortName: 'Mammoth RD',
+    region: 'eastern',
+    type: 'National Forest',
+    website: 'https://www.fs.usda.gov/recarea/inyo/recarea/?recid=20238',
+    description: 'Inyo NF - Mammoth Lakes area'
+  },
+  {
+    name: 'White Mountain Ranger District',
+    shortName: 'White Mtn RD',
+    region: 'eastern',
+    type: 'National Forest',
+    website: 'https://www.fs.usda.gov/recarea/inyo/recreation/hiking/recarea/?recid=20230&actid=51',
+    description: 'Inyo NF - White Mountains'
+  },
+  {
+    name: 'Mt. Whitney Ranger District',
+    shortName: 'Whitney RD',
+    region: 'eastern',
+    type: 'National Forest',
+    website: 'https://www.fs.usda.gov/recarea/inyo/recarea/?recid=20258',
+    description: 'Inyo NF - Mt. Whitney area'
+  },
+  // County Resources
+  {
+    name: 'Inyo County Public Works',
+    shortName: 'Inyo County',
+    region: 'eastern',
+    type: 'County',
+    website: 'https://www.inyocounty.us/services/public-works/news/inyo-county-road-openclosed-status',
+    description: 'Daily road status updates for trailhead access'
+  },
+  {
+    name: 'Mono County Public Works',
+    shortName: 'Mono County',
+    region: 'eastern',
+    type: 'County',
+    website: 'https://www.monocounty.ca.gov/roads/page/county-road-closures',
+    description: 'Daily road closures and opening dates'
+  },
+  {
+    name: 'Kern County Public Works',
+    shortName: 'Kern County',
+    region: 'south',
+    type: 'County',
+    website: 'https://kernpublicworks.com/transportation/road-status-closures/',
+    description: 'Road status and closures'
+  },
+  // State Resources
+  {
+    name: 'Caltrans District 9',
+    shortName: 'Caltrans D9',
+    region: 'all',
+    type: 'State',
+    website: 'https://roads.dot.ca.gov/roadscell.php',
+    facebook: 'https://www.facebook.com/Caltrans9',
+    twitter: 'https://twitter.com/Caltrans9',
+    description: 'Highway conditions for Eastern Sierra'
+  },
+  // Other
+  {
+    name: "Devil's Postpile National Monument",
+    shortName: 'Devils Postpile',
+    region: 'eastern',
+    type: 'Other',
+    website: 'https://www.nps.gov/depo/planyourvisit/conditions.htm',
+    description: 'Road access to Agnew & Reds Meadow'
+  }
+];
+
+const regions = [
+  { id: 'all', name: 'All Regions' },
+  { id: 'north', name: 'North Sierra' },
+  { id: 'central', name: 'Central Sierra' },
+  { id: 'south', name: 'South Sierra' },
+  { id: 'eastern', name: 'Eastern Sierra' }
+];
+
+const types = [
+  { id: 'all', name: 'All Types' },
+  { id: 'National Park', name: 'National Parks' },
+  { id: 'National Forest', name: 'National Forests' },
+  { id: 'County', name: 'County Resources' },
+  { id: 'State', name: 'State Agencies' },
+  { id: 'Other', name: 'Other Agencies' }
+];
+---
+
+<div class="agency-directory">
+  <div class="agency-intro">
+    <p>
+      <strong>Quick reference directory:</strong> Contact information and links for agencies managing Sierra Nevada wilderness areas, roads, and backcountry access.
+    </p>
+  </div>
+
+  <div class="agency-filters">
+    <div class="filter-group">
+      <label for="search-input">Search:</label>
+      <input type="search" id="search-input" placeholder="Search by name..." />
+    </div>
+    <div class="filter-group">
+      <label for="region-filter">Region:</label>
+      <select id="region-filter">
+        {regions.map(region => (
+          <option value={region.id}>{region.name}</option>
+        ))}
+      </select>
+    </div>
+    <div class="filter-group">
+      <label for="type-filter">Type:</label>
+      <select id="type-filter">
+        {types.map(type => (
+          <option value={type.id}>{type.name}</option>
+        ))}
+      </select>
+    </div>
+  </div>
+
+  <div class="agency-grid">
+    {agencies.map(agency => (
+      <div
+        class="agency-card"
+        data-region={agency.region}
+        data-type={agency.type}
+        data-name={agency.name.toLowerCase()}
+      >
+        <div class="agency-card-header">
+          <div>
+            <h3>{agency.shortName}</h3>
+            <p class="agency-full-name">{agency.name}</p>
+          </div>
+          <span class={`badge badge-${agency.type.toLowerCase().replace(' ', '-')}`}>
+            {agency.type}
+          </span>
+        </div>
+
+        {agency.description && (
+          <p class="agency-description">{agency.description}</p>
+        )}
+
+        <div class="agency-region-tag">
+          <small>
+            {agency.region === 'all' ? 'All Regions' :
+             agency.region === 'north' ? 'North Sierra' :
+             agency.region === 'central' ? 'Central Sierra' :
+             agency.region === 'south' ? 'South Sierra' :
+             'Eastern Sierra'}
+          </small>
+        </div>
+
+        <div class="agency-links">
+          {agency.website && (
+            <a href={agency.website} target="_blank" rel="noopener noreferrer" class="link-btn">
+              🌐 Website
+            </a>
+          )}
+          {agency.facebook && (
+            <a href={agency.facebook} target="_blank" rel="noopener noreferrer" class="link-btn">
+              📘 Facebook
+            </a>
+          )}
+          {agency.twitter && (
+            <a href={agency.twitter} target="_blank" rel="noopener noreferrer" class="link-btn">
+              🐦 Twitter
+            </a>
+          )}
+          {agency.phone && (
+            <a href={`tel:${agency.phone}`} class="link-btn">
+              📞 {agency.phone}
+            </a>
+          )}
+        </div>
+      </div>
+    ))}
+  </div>
+
+  <div id="no-results" class="no-results" style="display: none;">
+    <p>No agencies found matching your filters. Try adjusting your search or filters.</p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const searchInput = document.getElementById('search-input') as HTMLInputElement;
+    const regionFilter = document.getElementById('region-filter') as HTMLSelectElement;
+    const typeFilter = document.getElementById('type-filter') as HTMLSelectElement;
+    const cards = document.querySelectorAll('.agency-card');
+    const noResults = document.getElementById('no-results');
+
+    function filterCards() {
+      const searchTerm = searchInput?.value.toLowerCase() || '';
+      const selectedRegion = regionFilter?.value || 'all';
+      const selectedType = typeFilter?.value || 'all';
+      let visibleCount = 0;
+
+      cards.forEach(card => {
+        const cardElement = card as HTMLElement;
+        const cardName = cardElement.getAttribute('data-name') || '';
+        const cardRegion = cardElement.getAttribute('data-region') || '';
+        const cardType = cardElement.getAttribute('data-type') || '';
+
+        const matchesSearch = cardName.includes(searchTerm);
+        const matchesRegion = selectedRegion === 'all' || cardRegion === 'all' || cardRegion === selectedRegion;
+        const matchesType = selectedType === 'all' || cardType === selectedType;
+
+        if (matchesSearch && matchesRegion && matchesType) {
+          cardElement.style.display = 'block';
+          visibleCount++;
+        } else {
+          cardElement.style.display = 'none';
+        }
+      });
+
+      if (noResults) {
+        noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+      }
+    }
+
+    searchInput?.addEventListener('input', filterCards);
+    regionFilter?.addEventListener('change', filterCards);
+    typeFilter?.addEventListener('change', filterCards);
+  });
+</script>
+
+<style>
+  .agency-directory {
+    margin: 2rem 0;
+  }
+
+  .agency-intro {
+    background-color: color-mix(in srgb, var(--primary) 10%, transparent);
+    border-left: 4px solid var(--primary);
+    padding: 1rem 1.25rem;
+    border-radius: var(--pico-border-radius);
+    margin-bottom: 1.5rem;
+  }
+
+  .agency-intro p {
+    margin: 0;
+  }
+
+  .agency-filters {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .filter-group label {
+    font-weight: 600;
+    font-size: 0.875rem;
+    margin: 0;
+  }
+
+  .agency-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.25rem;
+  }
+
+  .agency-card {
+    background-color: var(--pico-secondary-background);
+    border: 1px solid var(--border-color);
+    border-radius: var(--pico-border-radius);
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.2s ease;
+  }
+
+  .agency-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-color: var(--primary);
+  }
+
+  .agency-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .agency-card h3 {
+    margin: 0;
+    font-size: 1.125rem;
+    color: var(--pico-color);
+  }
+
+  .agency-full-name {
+    margin: 0.25rem 0 0 0;
+    font-size: 0.875rem;
+    color: var(--pico-muted-color);
+  }
+
+  .badge {
+    display: inline-block;
+    padding: 0.25rem 0.625rem;
+    border-radius: var(--pico-border-radius);
+    font-size: 0.75rem;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  .badge-national-park {
+    background-color: color-mix(in srgb, #2563eb 20%, transparent);
+    color: #2563eb;
+  }
+
+  .badge-national-forest {
+    background-color: color-mix(in srgb, var(--primary) 20%, transparent);
+    color: var(--primary);
+  }
+
+  .badge-county {
+    background-color: color-mix(in srgb, #dc2626 20%, transparent);
+    color: #dc2626;
+  }
+
+  .badge-state {
+    background-color: color-mix(in srgb, #7c3aed 20%, transparent);
+    color: #7c3aed;
+  }
+
+  .badge-other {
+    background-color: var(--pico-muted-color);
+    color: var(--pico-background-color);
+    opacity: 0.7;
+  }
+
+  .agency-description {
+    color: var(--pico-muted-color);
+    font-size: 0.9375rem;
+    margin: 0 0 1rem 0;
+    flex: 1;
+  }
+
+  .agency-region-tag {
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  .agency-region-tag small {
+    color: var(--pico-muted-color);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.75rem;
+    letter-spacing: 0.05em;
+  }
+
+  .agency-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .link-btn {
+    display: inline-block;
+    padding: 0.375rem 0.75rem;
+    font-size: 0.8125rem;
+    text-decoration: none;
+    background-color: var(--pico-secondary-background);
+    color: var(--pico-color);
+    border: 1px solid var(--border-color);
+    border-radius: var(--pico-border-radius);
+    transition: all 0.2s ease;
+  }
+
+  .link-btn:hover {
+    background-color: var(--primary);
+    color: white;
+    border-color: var(--primary);
+  }
+
+  .no-results {
+    text-align: center;
+    padding: 3rem 1rem;
+    color: var(--pico-muted-color);
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .agency-filters {
+      grid-template-columns: 1fr;
+    }
+
+    .agency-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

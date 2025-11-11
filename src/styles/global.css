@@ -347,3 +347,161 @@ body {
 .mb-8 {
   margin-bottom: 2rem;
 }
+
+/* Component utilities */
+.component-container {
+  margin: 2rem 0;
+}
+
+/* Info box - colored intro/notice sections */
+.info-box {
+  background-color: color-mix(in srgb, var(--primary) 10%, transparent);
+  border-left: 4px solid var(--primary);
+  padding: 1rem 1.25rem;
+  border-radius: var(--pico-border-radius);
+  margin-bottom: 1.5rem;
+}
+
+.info-box p {
+  margin: 0;
+}
+
+/* Card grids */
+.card-grid {
+  display: grid;
+  gap: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.card-grid-sm {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.card-grid-md {
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.card-grid-lg {
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+}
+
+@media (max-width: 768px) {
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Cards */
+.card {
+  background-color: var(--pico-secondary-background);
+  border: 1px solid var(--border-color);
+  border-radius: var(--pico-border-radius);
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.2s ease;
+}
+
+.card-lg {
+  padding: 1.5rem;
+}
+
+.card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-color: var(--primary);
+}
+
+.card-lift:hover {
+  transform: translateY(-2px);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.card h3 {
+  margin: 0 0 0.75rem 0;
+  font-size: 1.125rem;
+  color: var(--pico-color);
+}
+
+.card-description {
+  color: var(--pico-muted-color);
+  font-size: 0.9375rem;
+  margin: 0 0 1rem 0;
+  flex: 1;
+}
+
+/* Badges */
+.badge {
+  display: inline-block;
+  padding: 0.25rem 0.625rem;
+  border-radius: var(--pico-border-radius);
+  font-size: 0.75rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.badge-primary {
+  background-color: color-mix(in srgb, var(--primary) 20%, transparent);
+  color: var(--primary);
+}
+
+.badge-muted {
+  background-color: var(--pico-muted-color);
+  color: var(--pico-background-color);
+  opacity: 0.7;
+}
+
+/* Category/region tags */
+.category-tag {
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.category-tag small {
+  color: var(--pico-muted-color);
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+}
+
+/* Action buttons */
+.btn-primary {
+  display: inline-block;
+  padding: 0.625rem 1rem;
+  background-color: var(--primary);
+  color: white;
+  text-decoration: none;
+  border-radius: var(--pico-border-radius);
+  font-weight: 500;
+  text-align: center;
+  transition: background-color 0.2s ease;
+  font-size: 0.9375rem;
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-hover);
+  color: white;
+}
+
+.btn-primary-lg {
+  padding: 0.75rem 1.25rem;
+}
+
+/* Secondary footer/tip sections */
+.section-footer {
+  padding: 0.875rem 1.125rem;
+  background-color: var(--pico-secondary-background);
+  border-radius: var(--pico-border-radius);
+}
+
+.section-footer p {
+  margin: 0;
+}

@@ -181,8 +181,8 @@ const types = [
 ];
 ---
 
-<div class="agency-directory">
-  <div class="agency-intro">
+<div class="component-container">
+  <div class="info-box">
     <p>
       <strong>Quick reference directory:</strong> Contact information and links for agencies managing Sierra Nevada wilderness areas, roads, and backcountry access.
     </p>
@@ -211,15 +211,15 @@ const types = [
     </div>
   </div>
 
-  <div class="agency-grid">
+  <div class="card-grid card-grid-lg">
     {agencies.map(agency => (
       <div
-        class="agency-card"
+        class="card"
         data-region={agency.region}
         data-type={agency.type}
         data-name={agency.name.toLowerCase()}
       >
-        <div class="agency-card-header">
+        <div class="card-header">
           <div>
             <h3>{agency.shortName}</h3>
             <p class="agency-full-name">{agency.name}</p>
@@ -230,10 +230,10 @@ const types = [
         </div>
 
         {agency.description && (
-          <p class="agency-description">{agency.description}</p>
+          <p class="card-description">{agency.description}</p>
         )}
 
-        <div class="agency-region-tag">
+        <div class="category-tag">
           <small>
             {agency.region === 'all' ? 'All Regions' :
              agency.region === 'north' ? 'North Sierra' :
@@ -318,22 +318,7 @@ const types = [
 </script>
 
 <style>
-  .agency-directory {
-    margin: 2rem 0;
-  }
-
-  .agency-intro {
-    background-color: color-mix(in srgb, var(--primary) 10%, transparent);
-    border-left: 4px solid var(--primary);
-    padding: 1rem 1.25rem;
-    border-radius: var(--pico-border-radius);
-    margin-bottom: 1.5rem;
-  }
-
-  .agency-intro p {
-    margin: 0;
-  }
-
+  /* Component-specific styles */
   .agency-filters {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
@@ -353,56 +338,13 @@ const types = [
     margin: 0;
   }
 
-  .agency-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-    gap: 1.25rem;
-  }
-
-  .agency-card {
-    background-color: var(--pico-secondary-background);
-    border: 1px solid var(--border-color);
-    border-radius: var(--pico-border-radius);
-    padding: 1.25rem;
-    display: flex;
-    flex-direction: column;
-    transition: all 0.2s ease;
-  }
-
-  .agency-card:hover {
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    border-color: var(--primary);
-  }
-
-  .agency-card-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 0.75rem;
-    margin-bottom: 0.75rem;
-  }
-
-  .agency-card h3 {
-    margin: 0;
-    font-size: 1.125rem;
-    color: var(--pico-color);
-  }
-
   .agency-full-name {
     margin: 0.25rem 0 0 0;
     font-size: 0.875rem;
     color: var(--pico-muted-color);
   }
 
-  .badge {
-    display: inline-block;
-    padding: 0.25rem 0.625rem;
-    border-radius: var(--pico-border-radius);
-    font-size: 0.75rem;
-    font-weight: 600;
-    white-space: nowrap;
-  }
-
+  /* Badge color variants */
   .badge-national-park {
     background-color: color-mix(in srgb, #2563eb 20%, transparent);
     color: #2563eb;
@@ -427,27 +369,6 @@ const types = [
     background-color: var(--pico-muted-color);
     color: var(--pico-background-color);
     opacity: 0.7;
-  }
-
-  .agency-description {
-    color: var(--pico-muted-color);
-    font-size: 0.9375rem;
-    margin: 0 0 1rem 0;
-    flex: 1;
-  }
-
-  .agency-region-tag {
-    margin-bottom: 0.75rem;
-    padding-bottom: 0.75rem;
-    border-bottom: 1px solid var(--border-color);
-  }
-
-  .agency-region-tag small {
-    color: var(--pico-muted-color);
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 0.75rem;
-    letter-spacing: 0.05em;
   }
 
   .agency-links {
@@ -483,10 +404,6 @@ const types = [
   /* Responsive */
   @media (max-width: 768px) {
     .agency-filters {
-      grid-template-columns: 1fr;
-    }
-
-    .agency-grid {
       grid-template-columns: 1fr;
     }
   }

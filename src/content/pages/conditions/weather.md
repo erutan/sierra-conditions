@@ -4,8 +4,6 @@ description: 'Weather forecasting resources and tips for the Sierra'
 sidebar: 'sierra'
 ---
 
-# Weather & Temperature
-
 ## Understanding Systems
 
 [Mountain Thunderstorms - Their Formation and some Field-Forecasting Guidelines](https://web.archive.org/web/20210605034137/https://www.fs.fed.us/psw/cirmount/wkgrps/gloria/publications/pdf/Bishop_mtn_thunderstorms_031607.pdf) by Jim Bishop is a short read and will help you understand how a storm is building, how to read changes in systems, etc.  It's definitely worth your time and I have a copy on my phone when out backpacking. [Practical Mountain Weather](https://www.dropbox.com/s/dvaswkn4ymtiros/MountainWeather.pdf?dl=0) by John Papineau gets into far more detail into how weather forms in the mountains, and has a few pages on the Sierra specifically tucked in there if you feel like really digging into the details. It's highly recommended to have a basic understanding of how weather works. Similar to reading the mountain, not just maps, it helps to be able to read the sky.

@@ -4,8 +4,6 @@ description: 'Snow depth, water levels, and seasonal conditions'
 sidebar: 'sierra'
 ---
 
-# Snow Levels
-
 ## Broad Overviews
 
 * [CDEC Snow Pack Conditions Page](https://cdec.water.ca.gov/snowapp/sweq.action) gives you a simple high level overview of where snow levels are compared to averages. Useful in the winter/spring to try and figure out when the alpine will be easily accessible. You can also see [snow levels from the current year plotted against a few others of note](https://cdec.water.ca.gov/reportapp/javareports?name=PLOT_SWC) for even more context. The "Central" snowpack area in the links above is roughly from Yosemite to Tahoe, and "Southern" would be around Mammoth to south of Whitney in the foothills of the Kern watershed.  In terms of what is generally considered the High Sierra "Southern" is of the most interest.

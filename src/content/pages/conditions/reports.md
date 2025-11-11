@@ -4,8 +4,6 @@ description: 'Where to find trip reports and current conditions information'
 sidebar: 'sierra'
 ---
 
-# Trip & Conditions Reports
-
 Conditions reports tend to be brief and just focus on things like snow, water levels, obstacles, mosquitos, and things of consequence. Because they're easier to write, they tend to be up to date and are useful when you have an idea of where you want to go but want to doublecheck conditions (or possibly postpone a trip!).
 
 More traditional trip reports are written in more of a narrative journal form and will focus on more static aspects of a trip like routes, as well as the subjective experience of them. They're better for trying to see if you'll be interested in an area or to check if the route is within your skill and comfort levels.

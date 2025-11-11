@@ -4,8 +4,6 @@ description: 'Information about this site and how to contribute'
 sidebar: 'sierra'
 ---
 
-# About & Contributing
-
 ## Site Origins
 
 This site was created to supplement the [Sierra Nevada Conditions Reports & Current Conditions](https://www.facebook.com/groups/sierratripreports) Facebook group. Discussion groups are a great resource for finding what is happening, or has happened recently, but they aren't great for longer term structured data and resources.

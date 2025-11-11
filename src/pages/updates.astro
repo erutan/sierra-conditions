@@ -1,0 +1,213 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+
+const agencies = [
+  { name: 'Inyo NF', url: 'https://www.facebook.com/inyonf', id: 'inyonf' },
+  { name: 'Sierra NF', url: 'https://www.facebook.com/SierraNF', id: 'SierraNF' },
+  { name: 'Yosemite', url: 'https://www.facebook.com/YosemiteNPS', id: 'YosemiteNPS' },
+  { name: 'SEKI', url: 'https://www.facebook.com/SequoiaKingsNPS', id: 'SequoiaKingsNPS' },
+  { name: 'Humboldt-Toiyabe NF', url: 'https://www.facebook.com/HumboldtToiyabeNF', id: 'HumboldtToiyabeNF' },
+  { name: 'Stanislaus NF', url: 'https://www.facebook.com/StanislausNF', id: 'StanislausNF' },
+];
+---
+
+<MainLayout
+  title="Agency Updates"
+  description="Latest updates from National Parks and Forests in the Sierra Nevada"
+>
+  <h1>Agency Updates</h1>
+  <p style="font-size: 1.125rem; margin-bottom: 2rem;">
+    Latest posts from official Facebook pages of National Parks, National Forests, and other agencies managing the Sierra Nevada backcountry.
+  </p>
+
+  <div class="tabs-container">
+    <div class="tabs" role="tablist">
+      {agencies.map((agency, index) => (
+        <button
+          class={`tab ${index === 0 ? 'active' : ''}`}
+          role="tab"
+          aria-selected={index === 0 ? 'true' : 'false'}
+          data-tab={agency.id}
+        >
+          {agency.name}
+        </button>
+      ))}
+    </div>
+
+    <div class="tab-panels">
+      {agencies.map((agency, index) => (
+        <div
+          class={`tab-panel ${index === 0 ? 'active' : ''}`}
+          role="tabpanel"
+          data-panel={agency.id}
+        >
+          <div class="fb-page-header">
+            <a href={agency.url} target="_blank" rel="noopener noreferrer">
+              View on Facebook →
+            </a>
+          </div>
+          <div
+            class="fb-page"
+            data-href={agency.url}
+            data-tabs="timeline"
+            data-width="500"
+            data-height="600"
+            data-small-header="true"
+            data-adapt-container-width="true"
+            data-hide-cover="false"
+            data-show-facepile="false"
+          >
+            <blockquote cite={agency.url} class="fb-xfbml-parse-ignore">
+              <a href={agency.url}>{agency.name}</a>
+            </blockquote>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+
+  <!-- Facebook SDK -->
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous"
+    src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0"
+  ></script>
+
+  <script>
+    // Tab switching functionality
+    document.addEventListener('DOMContentLoaded', () => {
+      const tabs = document.querySelectorAll('.tab');
+      const panels = document.querySelectorAll('.tab-panel');
+
+      tabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+          const targetId = tab.getAttribute('data-tab');
+
+          // Remove active class from all tabs and panels
+          tabs.forEach(t => {
+            t.classList.remove('active');
+            t.setAttribute('aria-selected', 'false');
+          });
+          panels.forEach(p => p.classList.remove('active'));
+
+          // Add active class to clicked tab and corresponding panel
+          tab.classList.add('active');
+          tab.setAttribute('aria-selected', 'true');
+
+          const targetPanel = document.querySelector(`[data-panel="${targetId}"]`);
+          if (targetPanel) {
+            targetPanel.classList.add('active');
+          }
+
+          // Re-parse Facebook widgets for the active tab
+          if (window.FB) {
+            window.FB.XFBML.parse();
+          }
+        });
+      });
+    });
+  </script>
+
+  <style>
+    .tabs-container {
+      margin-top: 2rem;
+    }
+
+    .tabs {
+      display: flex;
+      gap: 0.5rem;
+      border-bottom: 2px solid var(--border-color);
+      margin-bottom: 1.5rem;
+      overflow-x: auto;
+      flex-wrap: wrap;
+    }
+
+    .tab {
+      background: none;
+      border: none;
+      padding: 0.75rem 1.25rem;
+      cursor: pointer;
+      color: var(--pico-color);
+      font-size: 0.9375rem;
+      font-weight: 500;
+      border-bottom: 3px solid transparent;
+      transition: all 0.2s ease;
+      white-space: nowrap;
+      margin-bottom: -2px;
+    }
+
+    .tab:hover {
+      background-color: var(--pico-secondary-background);
+      border-radius: var(--pico-border-radius) var(--pico-border-radius) 0 0;
+    }
+
+    .tab.active {
+      color: var(--primary);
+      border-bottom-color: var(--primary);
+    }
+
+    .tab-panels {
+      position: relative;
+      min-height: 600px;
+    }
+
+    .tab-panel {
+      display: none;
+    }
+
+    .tab-panel.active {
+      display: block;
+    }
+
+    .fb-page-header {
+      margin-bottom: 1rem;
+      padding: 0.75rem 1rem;
+      background-color: var(--pico-secondary-background);
+      border-radius: var(--pico-border-radius);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .fb-page-header a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .fb-page-header a:hover {
+      color: var(--primary-hover);
+      text-decoration: underline;
+    }
+
+    /* Center the Facebook plugin */
+    .fb-page {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+      .tabs {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .tab {
+        flex-shrink: 0;
+      }
+
+      .fb-page {
+        max-width: 100%;
+      }
+    }
+
+    /* Loading state */
+    .tab-panel:not(.active) .fb-page {
+      opacity: 0.5;
+    }
+  </style>
+</MainLayout>

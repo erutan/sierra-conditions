@@ -1,0 +1,285 @@
+---
+// Fire & Smoke Interactive Maps Component
+interface MapTab {
+  id: string;
+  name: string;
+  description: string;
+  embedUrl?: string;
+  customEmbed?: boolean;
+}
+
+const mapTabs: MapTab[] = [
+  {
+    id: 'watchduty',
+    name: 'Watch Duty',
+    description: 'Live fire map aggregating info from multiple jurisdictions',
+    embedUrl: 'https://app.watchduty.org',
+  },
+  {
+    id: 'airnow',
+    name: 'AirNow Fire & Smoke',
+    description: 'Combined high-quality and real-time air quality sensors',
+    embedUrl: 'https://fire.airnow.gov',
+  },
+  {
+    id: 'purpleair',
+    name: 'Purple Air',
+    description: 'Real-time air quality sensors with historical data',
+    embedUrl: 'https://www.purpleair.com/map?opt=1/mAQI/a10/cC0#8.02/37.519/-118.825',
+  },
+  {
+    id: 'windy',
+    name: 'Windy AQI',
+    description: 'Wind patterns and 3-day air quality forecast',
+    embedUrl: 'https://www.windy.com/-PM2-5-pm2p5?pm2p5,37.810,-119.221,8',
+  },
+  {
+    id: 'bluesky',
+    name: 'BlueSky Forecast',
+    description: '3-day smoke forecast showing basin and valley settling',
+    embedUrl: 'https://tools.airfire.org/websky/v2/run/standard/CANSAC-1.33km',
+  },
+];
+---
+
+<div class="fire-maps-container">
+  <div class="fire-maps-intro">
+    <p>
+      <strong>Interactive fire and smoke monitoring:</strong> Switch between different map services to check
+      current fire locations, air quality sensors, and smoke forecasts for the Sierra Nevada region.
+    </p>
+  </div>
+
+  <div class="fire-tabs">
+    {mapTabs.map((tab, index) => (
+      <button
+        class={`fire-tab ${index === 0 ? 'active' : ''}`}
+        data-tab={tab.id}
+        role="tab"
+        aria-selected={index === 0 ? 'true' : 'false'}
+      >
+        {tab.name}
+      </button>
+    ))}
+  </div>
+
+  <div class="fire-map-panels">
+    {mapTabs.map((tab, index) => (
+      <div
+        class={`fire-map-panel ${index === 0 ? 'active' : ''}`}
+        data-panel={tab.id}
+        role="tabpanel"
+      >
+        <div class="map-description">
+          <p>{tab.description}</p>
+          <a href={tab.embedUrl} target="_blank" rel="noopener noreferrer" class="external-link">
+            Open in new tab →
+          </a>
+        </div>
+        <div class="map-embed-wrapper">
+          <iframe
+            src={tab.embedUrl}
+            title={`${tab.name} Map`}
+            loading="lazy"
+            allow="geolocation"
+          ></iframe>
+        </div>
+      </div>
+    ))}
+  </div>
+
+  <div class="fire-maps-footer">
+    <p>
+      <small>
+        💡 <strong>Tip:</strong> For the most accurate data, check multiple sources. Purple Air updates
+        fastest, AirNow is most accurate, and BlueSky provides multi-day forecasts.
+      </small>
+    </p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const tabs = document.querySelectorAll('.fire-tab');
+    const panels = document.querySelectorAll('.fire-map-panel');
+
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        const targetId = tab.getAttribute('data-tab');
+
+        // Remove active class from all tabs and panels
+        tabs.forEach(t => {
+          t.classList.remove('active');
+          t.setAttribute('aria-selected', 'false');
+        });
+        panels.forEach(p => p.classList.remove('active'));
+
+        // Add active class to clicked tab and corresponding panel
+        tab.classList.add('active');
+        tab.setAttribute('aria-selected', 'true');
+
+        const targetPanel = document.querySelector(`[data-panel="${targetId}"]`);
+        if (targetPanel) {
+          targetPanel.classList.add('active');
+        }
+      });
+    });
+  });
+</script>
+
+<style>
+  .fire-maps-container {
+    margin: 2rem 0;
+  }
+
+  .fire-maps-intro {
+    background-color: color-mix(in srgb, var(--primary) 10%, transparent);
+    border-left: 4px solid var(--primary);
+    padding: 1rem 1.25rem;
+    border-radius: var(--pico-border-radius);
+    margin-bottom: 1.5rem;
+  }
+
+  .fire-maps-intro p {
+    margin: 0;
+  }
+
+  .fire-tabs {
+    display: flex;
+    gap: 0.5rem;
+    border-bottom: 2px solid var(--border-color);
+    margin-bottom: 1.5rem;
+    overflow-x: auto;
+    flex-wrap: wrap;
+  }
+
+  .fire-tab {
+    background: none;
+    border: none;
+    padding: 0.75rem 1.25rem;
+    cursor: pointer;
+    color: var(--pico-color);
+    font-size: 0.9375rem;
+    font-weight: 500;
+    border-bottom: 3px solid transparent;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+    margin-bottom: -2px;
+  }
+
+  .fire-tab:hover {
+    background-color: var(--pico-secondary-background);
+    border-radius: var(--pico-border-radius) var(--pico-border-radius) 0 0;
+  }
+
+  .fire-tab.active {
+    color: var(--primary);
+    border-bottom-color: var(--primary);
+  }
+
+  .fire-map-panels {
+    position: relative;
+    min-height: 600px;
+  }
+
+  .fire-map-panel {
+    display: none;
+  }
+
+  .fire-map-panel.active {
+    display: block;
+  }
+
+  .map-description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.875rem 1.125rem;
+    background-color: var(--pico-secondary-background);
+    border-radius: var(--pico-border-radius);
+    margin-bottom: 1rem;
+    gap: 1rem;
+  }
+
+  .map-description p {
+    margin: 0;
+    flex: 1;
+  }
+
+  .external-link {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+
+  .external-link:hover {
+    color: var(--primary-hover);
+    text-decoration: underline;
+  }
+
+  .map-embed-wrapper {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    border-radius: var(--pico-border-radius);
+    overflow: hidden;
+    border: 1px solid var(--border-color);
+    background-color: var(--pico-background-color);
+  }
+
+  .map-embed-wrapper iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+
+  .fire-maps-footer {
+    margin-top: 1rem;
+    padding: 0.875rem 1.125rem;
+    background-color: var(--pico-secondary-background);
+    border-radius: var(--pico-border-radius);
+  }
+
+  .fire-maps-footer p {
+    margin: 0;
+  }
+
+  /* Mobile responsive */
+  @media (max-width: 768px) {
+    .fire-tabs {
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .fire-tab {
+      flex-shrink: 0;
+    }
+
+    .map-embed-wrapper {
+      height: 500px;
+    }
+
+    .map-description {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .external-link {
+      align-self: flex-end;
+    }
+  }
+
+  /* Loading state */
+  .map-embed-wrapper::before {
+    content: 'Loading map...';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--pico-muted-color);
+    font-size: 0.875rem;
+    z-index: -1;
+  }
+</style>

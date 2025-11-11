@@ -4,19 +4,21 @@ description: 'Wildfire information and smoke impact resources'
 sidebar: 'sierra'
 ---
 
+import FireMaps from '../../../components/FireMaps.astro';
+
 # Wildfires & Smoke
 
-## Wildfire Information
+## Interactive Fire & Smoke Maps
 
-[Watch Duty](https://app.watchduty.org) is a non-profit site that provides a map that aggregates fire information from multiple jurisdictions.
+<FireMaps />
 
-Sometimes smaller fires don't show up on watchduty. [Cal Fire Incidents](https://www.fire.ca.gov/incidents/) ([map layout](https://www.fire.ca.gov/imapdata/index.html)) has information on fires managed by California. If the fire is being managed federally it will show up on Inciweb, check their [map view](https://inciweb.nwcg.gov/) or their [Table of Incidents](https://inciweb.nwcg.gov/accessible-view/).
+## Additional Fire Resources
 
-[Wildland Fires & Smoke](https://wildlandfiresmoke.net/) has a lot of useful information about both fires and air quality.
+**Smaller fires:** Sometimes smaller fires don't show up on Watch Duty. Check [Cal Fire Incidents](https://www.fire.ca.gov/incidents/) ([map layout](https://www.fire.ca.gov/imapdata/index.html)) for California-managed fires. Federal fires appear on Inciweb - see their [map view](https://inciweb.nwcg.gov/) or [Table of Incidents](https://inciweb.nwcg.gov/accessible-view/).
 
-Gaia GPS has layers for [satellite heat detection and current wildfires](https://blog.gaiagps.com/find-and-avoid-wildfires-with-new-heat-detection-layer/) for free users on both their web and mobile apps. 
+**Mobile apps:** Gaia GPS and [Caltopo](https://caltopo.com) both have [satellite heat detection and fire activity layers](https://caltopo.com/map.html#ll=37.63354,-119.23153&z=11&b=mbt&o=mbt%2Cr&n=1,0.21&a=modis_vp%2Cgoesfire) available for free users.
 
-[Caltopo](https://caltopo.com) has corresponding map overlays for free users as well: [fire activity and GOES 17 live fire detection](https://caltopo.com/map.html#ll=37.63354,-119.23153&z=11&b=mbt&o=mbt%2Cr&n=1,0.21&a=modis_vp%2Cgoesfire).
+**General info:** [Wildland Fires & Smoke](https://wildlandfiresmoke.net/) has comprehensive information about both fires and air quality.
 
 ## Webcams
 

@@ -1,0 +1,351 @@
+---
+interface Permit {
+  name: string;
+  shortName: string;
+  daysAhead: string;
+  releaseTime: string;
+  quota: string;
+  printPermit: boolean;
+  pickup: string;
+  recGovUrl: string;
+  infoUrl: string;
+}
+
+const permits: Permit[] = [
+  {
+    name: 'Yosemite National Park',
+    shortName: 'Yosemite',
+    daysAhead: '7 days',
+    releaseTime: '7am PDT',
+    quota: 'Week-Ahead Reservations',
+    printPermit: false,
+    pickup: 'In-person at wilderness center (day before 8am-5pm or same day 8am-11am)',
+    recGovUrl: 'https://www.recreation.gov/permits/445859',
+    infoUrl: 'https://www.nps.gov/yose/planyourvisit/wpres.htm'
+  },
+  {
+    name: 'Sequoia & Kings Canyon',
+    shortName: 'SEKI',
+    daysAhead: 'Walk-up only',
+    releaseTime: '1pm day before',
+    quota: 'Traditional walk-up',
+    printPermit: false,
+    pickup: 'In-person at trailhead desk ($15 + $5/person)',
+    recGovUrl: 'https://www.recreation.gov/permits/445857',
+    infoUrl: 'https://www.nps.gov/seki/planyourvisit/wilderness_permits.htm'
+  },
+  {
+    name: 'Inyo National Forest',
+    shortName: 'Inyo NF',
+    daysAhead: '14 days',
+    releaseTime: '7am PDT',
+    quota: '40% released 14 days ahead, 60% six months ahead',
+    printPermit: true,
+    pickup: 'Print at home or pick up',
+    recGovUrl: 'https://www.recreation.gov/permits/233262',
+    infoUrl: 'https://www.fs.usda.gov/detail/inyo/passes-permits/recreation/?cid=fsbdev3_003808'
+  },
+  {
+    name: 'Sierra National Forest',
+    shortName: 'Sierra NF',
+    daysAhead: '14 days',
+    releaseTime: '7am PDT',
+    quota: '40% released 14 days ahead',
+    printPermit: false,
+    pickup: 'Must pick up at ranger station by 10am',
+    recGovUrl: 'https://www.recreation.gov/permits/445858',
+    infoUrl: 'https://www.fs.usda.gov/detail/sierra/passes-permits/?cid=fsbdev7_018115'
+  },
+  {
+    name: 'Humboldt-Toiyabe NF',
+    shortName: 'H-T NF',
+    daysAhead: '3 days',
+    releaseTime: '7am PDT',
+    quota: '50% released 3 days ahead, 50% six months ahead',
+    printPermit: true,
+    pickup: 'Print at home or pick up',
+    recGovUrl: 'https://www.recreation.gov/permits/445856',
+    infoUrl: 'https://www.fs.usda.gov/detail/htnf/passes-permits/?cid=fseprd673368'
+  }
+];
+---
+
+<div class="permit-comparison">
+  <div class="permit-intro">
+    <p>
+      <strong>Quick reference:</strong> Most High Sierra permits outside SEKI are released on recreation.gov either
+      3 (Humboldt-Toiyabe), 7 (Yosemite), or 14 (Inyo & Sierra NF) days in advance at 7am Pacific.
+      Only Inyo & Humboldt-Toiyabe allow printing permits at home.
+    </p>
+  </div>
+
+  <!-- Desktop Table View -->
+  <div class="permit-table-wrapper">
+    <table class="permit-table">
+      <thead>
+        <tr>
+          <th>Jurisdiction</th>
+          <th>Short-term Release</th>
+          <th>Quota System</th>
+          <th>Print at Home?</th>
+          <th>Pickup Requirements</th>
+          <th>Links</th>
+        </tr>
+      </thead>
+      <tbody>
+        {permits.map(permit => (
+          <tr>
+            <td data-label="Jurisdiction">
+              <strong>{permit.shortName}</strong>
+            </td>
+            <td data-label="Short-term Release">
+              {permit.daysAhead}
+              <br />
+              <small style="color: var(--pico-muted-color);">{permit.releaseTime}</small>
+            </td>
+            <td data-label="Quota System">
+              {permit.quota}
+            </td>
+            <td data-label="Print at Home?">
+              <span class={`badge ${permit.printPermit ? 'badge-yes' : 'badge-no'}`}>
+                {permit.printPermit ? 'Yes ✓' : 'No ✗'}
+              </span>
+            </td>
+            <td data-label="Pickup Requirements">
+              <small>{permit.pickup}</small>
+            </td>
+            <td data-label="Links">
+              <div class="permit-links">
+                <a href={permit.recGovUrl} target="_blank" rel="noopener noreferrer" class="btn-small">
+                  Recreation.gov
+                </a>
+                <a href={permit.infoUrl} target="_blank" rel="noopener noreferrer" class="btn-small btn-secondary">
+                  Info
+                </a>
+              </div>
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Mobile Card View -->
+  <div class="permit-cards">
+    {permits.map(permit => (
+      <div class="permit-card">
+        <h3>{permit.name}</h3>
+        <div class="permit-card-content">
+          <div class="permit-detail">
+            <span class="detail-label">Short-term Release:</span>
+            <span class="detail-value">{permit.daysAhead} ({permit.releaseTime})</span>
+          </div>
+          <div class="permit-detail">
+            <span class="detail-label">Quota System:</span>
+            <span class="detail-value">{permit.quota}</span>
+          </div>
+          <div class="permit-detail">
+            <span class="detail-label">Print at Home:</span>
+            <span class={`badge ${permit.printPermit ? 'badge-yes' : 'badge-no'}`}>
+              {permit.printPermit ? 'Yes ✓' : 'No ✗'}
+            </span>
+          </div>
+          <div class="permit-detail">
+            <span class="detail-label">Pickup:</span>
+            <span class="detail-value">{permit.pickup}</span>
+          </div>
+          <div class="permit-card-actions">
+            <a href={permit.recGovUrl} target="_blank" rel="noopener noreferrer" class="btn-small">
+              Recreation.gov
+            </a>
+            <a href={permit.infoUrl} target="_blank" rel="noopener noreferrer" class="btn-small btn-secondary">
+              More Info
+            </a>
+          </div>
+        </div>
+      </div>
+    ))}
+  </div>
+</div>
+
+<style>
+  .permit-comparison {
+    margin: 2rem 0;
+  }
+
+  .permit-intro {
+    background-color: var(--pico-secondary-background);
+    padding: 1rem 1.25rem;
+    border-radius: var(--pico-border-radius);
+    margin-bottom: 1.5rem;
+    border-left: 4px solid var(--primary);
+  }
+
+  .permit-intro p {
+    margin: 0;
+  }
+
+  /* Desktop Table View */
+  .permit-table-wrapper {
+    overflow-x: auto;
+    display: block;
+  }
+
+  .permit-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9375rem;
+  }
+
+  .permit-table thead {
+    background-color: var(--pico-secondary-background);
+  }
+
+  .permit-table th {
+    padding: 0.875rem 0.75rem;
+    text-align: left;
+    font-weight: 600;
+    border-bottom: 2px solid var(--border-color);
+  }
+
+  .permit-table td {
+    padding: 0.875rem 0.75rem;
+    border-bottom: 1px solid var(--border-color);
+    vertical-align: top;
+  }
+
+  .permit-table tbody tr:hover {
+    background-color: var(--pico-secondary-background);
+  }
+
+  .badge {
+    display: inline-block;
+    padding: 0.25rem 0.625rem;
+    border-radius: var(--pico-border-radius);
+    font-size: 0.875rem;
+    font-weight: 600;
+  }
+
+  .badge-yes {
+    background-color: color-mix(in srgb, var(--primary) 20%, transparent);
+    color: var(--primary);
+  }
+
+  .badge-no {
+    background-color: color-mix(in srgb, var(--pico-muted-color) 20%, transparent);
+    color: var(--pico-muted-color);
+  }
+
+  .permit-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .btn-small {
+    display: inline-block;
+    padding: 0.375rem 0.75rem;
+    font-size: 0.8125rem;
+    text-decoration: none;
+    background-color: var(--primary);
+    color: white;
+    border-radius: var(--pico-border-radius);
+    text-align: center;
+    transition: background-color 0.2s ease;
+  }
+
+  .btn-small:hover {
+    background-color: var(--primary-hover);
+    color: white;
+  }
+
+  .btn-secondary {
+    background-color: var(--pico-secondary-background);
+    color: var(--pico-color);
+  }
+
+  .btn-secondary:hover {
+    background-color: var(--border-color);
+    color: var(--pico-color);
+  }
+
+  /* Mobile Cards - Hidden by default */
+  .permit-cards {
+    display: none;
+  }
+
+  .permit-card {
+    background-color: var(--pico-secondary-background);
+    border-radius: var(--pico-border-radius);
+    padding: 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid var(--border-color);
+  }
+
+  .permit-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: var(--primary);
+    font-size: 1.125rem;
+  }
+
+  .permit-card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .permit-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .detail-label {
+    font-weight: 600;
+    color: var(--pico-muted-color);
+    min-width: 110px;
+    font-size: 0.875rem;
+  }
+
+  .detail-value {
+    flex: 1;
+    text-align: right;
+    font-size: 0.875rem;
+  }
+
+  .permit-card-actions {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+  }
+
+  .permit-card-actions .btn-small {
+    flex: 1;
+  }
+
+  /* Responsive Breakpoints */
+  @media (max-width: 1024px) {
+    .permit-table-wrapper {
+      display: none;
+    }
+
+    .permit-cards {
+      display: block;
+    }
+  }
+
+  /* Ensure data-label works on smaller tables if needed */
+  @media (max-width: 768px) {
+    .permit-table th {
+      font-size: 0.8125rem;
+      padding: 0.625rem 0.5rem;
+    }
+
+    .permit-table td {
+      font-size: 0.8125rem;
+      padding: 0.625rem 0.5rem;
+    }
+  }
+</style>

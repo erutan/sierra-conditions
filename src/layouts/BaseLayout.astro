@@ -1,0 +1,104 @@
+---
+import '../styles/global.css';
+
+export interface Props {
+  title: string;
+  description?: string;
+  image?: string;
+}
+
+const { title, description = 'Sierra Conditions is a collection of resources useful for getting backcountry information.', image = '/logo.png' } = Astro.props;
+
+const siteUrl = 'https://sierraconditions.com';
+const fullImageUrl = `${siteUrl}${image}`;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+
+    <title>{title} - Sierra Conditions</title>
+    <meta name="description" content={description} />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={fullImageUrl} />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={fullImageUrl} />
+  </head>
+  <body>
+    <slot />
+
+    <script>
+      // Dark mode functionality
+      const storageKey = 'theme-preference';
+
+      const getColorPreference = () => {
+        if (localStorage.getItem(storageKey)) {
+          return localStorage.getItem(storageKey);
+        } else {
+          return window.matchMedia('(prefers-color-scheme: dark)').matches
+            ? 'dark'
+            : 'light';
+        }
+      };
+
+      const setPreference = (theme: string) => {
+        localStorage.setItem(storageKey, theme);
+        reflectPreference(theme);
+      };
+
+      const reflectPreference = (theme: string) => {
+        document.documentElement.setAttribute('data-theme', theme);
+
+        const button = document.querySelector('#theme-toggle');
+        if (button) {
+          button.setAttribute('aria-label', theme);
+        }
+      };
+
+      // Set theme on load
+      reflectPreference(getColorPreference());
+
+      // Listen for theme toggle
+      window.addEventListener('load', () => {
+        reflectPreference(getColorPreference());
+
+        const button = document.querySelector('#theme-toggle');
+        if (button) {
+          button.addEventListener('click', () => {
+            const currentTheme = localStorage.getItem(storageKey) || 'light';
+            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+            setPreference(newTheme);
+          });
+        }
+
+        // Mobile menu toggle
+        const menuToggle = document.querySelector('#mobile-menu-toggle');
+        const sidebar = document.querySelector('.site-sidebar');
+        if (menuToggle && sidebar) {
+          menuToggle.addEventListener('click', () => {
+            sidebar.classList.toggle('open');
+          });
+        }
+      });
+
+      // Listen for system theme changes
+      window
+        .matchMedia('(prefers-color-scheme: dark)')
+        .addEventListener('change', ({ matches: isDark }) => {
+          setPreference(isDark ? 'dark' : 'light');
+        });
+    </script>
+  </body>
+</html>

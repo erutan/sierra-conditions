@@ -1,0 +1,30 @@
+---
+import { getCollection } from 'astro:content';
+import MainLayout from '../layouts/MainLayout.astro';
+
+export async function getStaticPaths() {
+  const pages = await getCollection('pages');
+  return pages.map(page => ({
+    params: { slug: page.slug },
+    props: { page },
+  }));
+}
+
+const { page } = Astro.props;
+const { Content } = await page.render();
+
+const title = page.data.title || 'Sierra Conditions';
+const description = page.data.description || page.data.excerpt || '';
+---
+
+<MainLayout title={title} description={description}>
+  <article>
+    <h1>{page.data.title}</h1>
+    {page.data.description && (
+      <p style="font-size: 1.125rem; color: var(--pico-muted-color); margin-bottom: 2rem;">
+        {page.data.description}
+      </p>
+    )}
+    <Content />
+  </article>
+</MainLayout>

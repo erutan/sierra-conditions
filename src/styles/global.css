@@ -293,7 +293,6 @@
 .category-tag {
   margin-bottom: 0.75rem;
   padding-bottom: 0.75rem;
-  border-bottom: 1px solid var(--border-color);
 }
 
 .category-tag small {
@@ -313,8 +312,4 @@
 
 .section-footer p {
   margin: 0;
-}
-
-main {
-  background: none !important;
 }

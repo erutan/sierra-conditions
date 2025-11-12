@@ -1,9 +1,8 @@
 ---
 interface Agency {
   name: string;
-  shortName: string;
   region: string;
-  type: 'National Park' | 'National Forest' | 'County' | 'State' | 'Other';
+  type: 'NPS' | 'NFS' | 'County' | 'State' | 'Other';
   website?: string;
   facebook?: string;
   x?: string;
@@ -15,9 +14,8 @@ const agencies: Agency[] = [
   // National Parks
   {
     name: 'Yosemite National Park',
-    shortName: 'Yosemite',
     region: 'north',
-    type: 'National Park',
+    type: 'NPS',
     website: 'https://www.nps.gov/yose/planyourvisit/conditions.htm',
     facebook: 'https://www.facebook.com/YosemiteNPS',
     phone: '209-372-0200',
@@ -25,9 +23,8 @@ const agencies: Agency[] = [
   },
   {
     name: 'Sequoia & Kings Canyon National Parks',
-    shortName: 'SEKI',
     region: 'central',
-    type: 'National Park',
+    type: 'NPS',
     website: 'https://www.nps.gov/seki/planyourvisit/conditions.htm',
     facebook: 'https://www.facebook.com/SequoiaKingsNPS',
     description: 'Current conditions and wilderness permits'
@@ -35,9 +32,8 @@ const agencies: Agency[] = [
   // National Forests
   {
     name: 'Tahoe National Forest',
-    shortName: 'Tahoe NF',
     region: 'north',
-    type: 'National Forest',
+    type: 'NFS',
     website: 'https://www.fs.usda.gov/alerts/tahoe/',
     facebook: 'https://www.facebook.com/TahoeNF',
     x: 'https://x.com/Tahoe_NF',
@@ -45,9 +41,8 @@ const agencies: Agency[] = [
   },
   {
     name: 'Humboldt-Toiyabe National Forest',
-    shortName: 'H-T NF',
     region: 'eastern',
-    type: 'National Forest',
+    type: 'NFS',
     website: 'https://www.fs.usda.gov/alerts/htnf/',
     facebook: 'https://www.facebook.com/HumboldtToiyabeNF',
     x: 'https://x.com/HumboldtToiyabe',
@@ -55,9 +50,8 @@ const agencies: Agency[] = [
   },
   {
     name: 'Inyo National Forest',
-    shortName: 'Inyo NF',
     region: 'eastern',
-    type: 'National Forest',
+    type: 'NFS',
     website: 'https://www.fs.usda.gov/r05/inyo/conditions',
     facebook: 'https://www.facebook.com/inyonf',
     x: 'https://x.com/Inyo_NF',
@@ -65,9 +59,8 @@ const agencies: Agency[] = [
   },
   {
     name: 'Sierra National Forest',
-    shortName: 'Sierra NF',
     region: 'central',
-    type: 'National Forest',
+    type: 'NFS',
     website: 'https://www.fs.usda.gov/alerts/sierra/',
     facebook: 'https://www.facebook.com/SierraNF',
     x: 'https://x.com/Sierra_NF',
@@ -75,9 +68,8 @@ const agencies: Agency[] = [
   },
   {
     name: 'Sequoia National Forest',
-    shortName: 'Sequoia NF',
     region: 'south',
-    type: 'National Forest',
+    type: 'NFS',
     website: 'https://www.fs.usda.gov/alerts/sequoia/',
     facebook: 'https://www.facebook.com/SequoiaNF',
     x: 'https://x.com/sequoiaforest',
@@ -86,40 +78,35 @@ const agencies: Agency[] = [
   // Ranger Districts
   {
     name: 'Mono Lake Ranger District',
-    shortName: 'Mono Lake RD',
     region: 'eastern',
-    type: 'National Forest',
+    type: 'NFS',
     website: 'https://www.fs.usda.gov/recarea/inyo/recarea/?recid=20252',
     description: 'Inyo NF - Northern Eastern Sierra'
   },
   {
     name: 'Mammoth Ranger District',
-    shortName: 'Mammoth RD',
     region: 'eastern',
-    type: 'National Forest',
+    type: 'NFS',
     website: 'https://www.fs.usda.gov/recarea/inyo/recarea/?recid=20238',
     description: 'Inyo NF - Mammoth Lakes area'
   },
   {
     name: 'White Mountain Ranger District',
-    shortName: 'White Mtn RD',
     region: 'eastern',
-    type: 'National Forest',
+    type: 'NFS',
     website: 'https://www.fs.usda.gov/recarea/inyo/recreation/hiking/recarea/?recid=20230&actid=51',
     description: 'Inyo NF - White Mountains'
   },
   {
     name: 'Mt. Whitney Ranger District',
-    shortName: 'Whitney RD',
     region: 'eastern',
-    type: 'National Forest',
+    type: 'NFS',
     website: 'https://www.fs.usda.gov/recarea/inyo/recarea/?recid=20258',
     description: 'Inyo NF - Mt. Whitney area'
   },
   // County Resources
   {
     name: 'Inyo County Public Works',
-    shortName: 'Inyo County',
     region: 'eastern',
     type: 'County',
     website: 'https://www.inyocounty.us/services/public-works/news/inyo-county-road-openclosed-status',
@@ -127,7 +114,6 @@ const agencies: Agency[] = [
   },
   {
     name: 'Mono County Public Works',
-    shortName: 'Mono County',
     region: 'eastern',
     type: 'County',
     website: 'https://www.monocounty.ca.gov/roads/page/county-road-closures',
@@ -135,7 +121,6 @@ const agencies: Agency[] = [
   },
   {
     name: 'Kern County Public Works',
-    shortName: 'Kern County',
     region: 'south',
     type: 'County',
     website: 'https://kernpublicworks.com/transportation/road-status-closures/',
@@ -144,7 +129,6 @@ const agencies: Agency[] = [
   // State Resources
   {
     name: 'Caltrans District 9',
-    shortName: 'Caltrans D9',
     region: 'all',
     type: 'State',
     website: 'https://roads.dot.ca.gov/roadscell.php',
@@ -155,7 +139,6 @@ const agencies: Agency[] = [
   // Other
   {
     name: "Devil's Postpile National Monument",
-    shortName: 'Devils Postpile',
     region: 'eastern',
     type: 'Other',
     website: 'https://www.nps.gov/depo/planyourvisit/conditions.htm',
@@ -177,8 +160,7 @@ const agencies: Agency[] = [
       <article>
         <header>
           <hgroup>
-            <h3>{agency.shortName}</h3>
-            <p>{agency.name}</p>
+            <h3>{agency.name}</h3>
           </hgroup>
           <span class={`badge badge-${agency.type.toLowerCase().replace(' ', '-')}`}>
             {agency.type}
@@ -270,12 +252,12 @@ const agencies: Agency[] = [
   }
 
   /* Badge color variants */
-  .badge-national-park {
+  .badge-nps {
     background-color: color-mix(in srgb, #2563eb 20%, transparent);
     color: #2563eb;
   }
 
-  .badge-national-forest {
+  .badge-nfs {
     background-color: color-mix(in srgb, var(--primary) 20%, transparent);
     color: var(--primary);
   }

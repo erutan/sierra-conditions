@@ -1,7 +1,6 @@
 ---
 interface Webcam {
   name: string;
-  region: string;
   description: string;
   url: string;
   type: 'network' | 'single';
@@ -10,68 +9,54 @@ interface Webcam {
 const webcams: Webcam[] = [
   {
     name: 'AlertCalifornia Network',
-    region: 'all',
     description: '500+ webcams statewide with interactive map showing angle of view',
     url: 'https://ops.alertcalifornia.org/cameras',
     type: 'network'
   },
   {
     name: 'Yosemite Webcams',
-    region: 'north',
     description: 'Multiple park webcams with hourly screenshots',
     url: 'https://www.nps.gov/yose/learn/photosmultimedia/webcams.htm',
     type: 'network'
   },
   {
     name: 'SEKI Webcams',
-    region: 'central',
     description: 'Sequoia & Kings Canyon park webcams',
     url: 'https://www.nps.gov/seki/learn/photosmultimedia/webcams.htm',
     type: 'network'
   },
   {
     name: 'Mammoth Mountain',
-    region: 'eastern',
     description: 'Live webcams from The Summit and around the mountain',
     url: 'https://www.mammothmountain.com/on-the-mountain/mammoth-webcam/the-summit',
     type: 'network'
   },
   {
     name: 'Mono County Webcams',
-    region: 'eastern',
     description: 'Multiple eastside webcams throughout Mono County',
     url: 'https://www.monocounty.org/plan-your-trip/weather-and-road-conditions/webcams-in-mono-county/',
     type: 'network'
   },
   {
     name: 'Owens Valley Webcams',
-    region: 'eastern',
     description: 'Great Basin Air Pollution Control District webcam network',
     url: 'https://www.gbuapcd.org/cgi-bin/cameraViewer',
     type: 'network'
   },
   {
     name: 'Bishop Weather - Mt. Humphreys',
-    region: 'eastern',
     description: 'View of Mt. Humphreys, Basin Mountain, and Mt. Tom from Bishop',
     url: 'http://bishopweather.com',
     type: 'single'
   },
   {
     name: 'Whitney Portal',
-    region: 'eastern',
     description: 'Zoomed view of Mt. Whitney',
     url: 'http://www.mountwhitneyforum.com/webcam/camera1.jpg',
     type: 'single'
   }
 ];
 
-const regions = [
-  { id: 'all', name: 'All Regions' },
-  { id: 'north', name: 'North Sierra' },
-  { id: 'central', name: 'Central Sierra' },
-  { id: 'eastern', name: 'Eastern Sierra' }
-];
 ---
 
 <div class="component-container">
@@ -95,14 +80,6 @@ const regions = [
           )}
         </div>
         <p class="card-description">{webcam.description}</p>
-        <div class="category-tag">
-          <small>
-            {webcam.region === 'all' ? 'Statewide' :
-             webcam.region === 'north' ? 'North Sierra' :
-             webcam.region === 'central' ? 'Central Sierra' :
-             'Eastern Sierra'}
-          </small>
-        </div>
         <a href={webcam.url} target="_blank" rel="noopener noreferrer" class="btn-primary">
           View Webcams →
         </a>

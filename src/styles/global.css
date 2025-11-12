@@ -52,7 +52,7 @@ body {
 
 /* Remove PicoCSS article background */
 article {
-  background-color: transparent;
+  background: none !important;
 }
 
 /* Layout structure */

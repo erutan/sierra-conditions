@@ -281,62 +281,6 @@
   }
 }
 
-/* Search */
-.search-container {
-  position: relative;
-  width: 100%;
-  max-width: 400px;
-}
-
-.search-container input {
-  width: 100%;
-  padding-right: 2.5rem;
-}
-
-.search-container .search-icon {
-  position: absolute;
-  right: 0.75rem;
-  top: 50%;
-  transform: translateY(-50%);
-  color: var(--pico-muted-color);
-  pointer-events: none;
-}
-
-.search-results {
-  position: absolute;
-  top: calc(100% + 0.5rem);
-  left: 0;
-  right: 0;
-  background-color: var(--pico-background-color);
-  border: 1px solid var(--border-color);
-  border-radius: var(--pico-border-radius);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  max-height: 400px;
-  overflow-y: auto;
-  z-index: 200;
-
-  a {
-    display: block;
-    padding: 0.75rem 1rem;
-    color: var(--pico-color);
-    text-decoration: none;
-    border-bottom: 1px solid var(--border-color);
-
-    &:hover { background-color: var(--pico-secondary-background); }
-    &:last-child { border-bottom: none; }
-  }
-
-  .result-title {
-    font-weight: 600;
-    margin-bottom: 0.25rem;
-  }
-
-  .result-excerpt {
-    font-size: 0.875rem;
-    color: var(--pico-muted-color);
-  }
-}
-
 /* Utility classes */
 .text-center {
   text-align: center;

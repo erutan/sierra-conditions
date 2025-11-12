@@ -13,16 +13,7 @@
 [data-theme="dark"] {
   --primary: #10b981;
   --primary-hover: #34d399;
-  --card-bg-dark: #1a1a1a;
 
-  .card {
-    background-color: var(--card-bg-dark);
-    border-color: #2a2a2a;
-
-    h3 { color: #f0f0f0; }
-  }
-
-  .card-description { color: #b8b8b8; }
   .category-tag small { color: #a0a0a0; }
 
   .badge-muted {
@@ -33,10 +24,6 @@
 }
 
 [data-theme="light"] {
-  .card {
-    background-color: #ffffff;
-  }
-
   .sidebar-nav a:hover {
     background-color: #f0f0f0;
   }
@@ -280,45 +267,6 @@
   margin: 0;
 }
 
-/* Cards */
-.card {
-  background-color: var(--pico-secondary-background);
-  border: 1px solid var(--border-color);
-  border-radius: var(--pico-border-radius);
-  padding: 1.25rem;
-  display: flex;
-  flex-direction: column;
-  transition: all 0.2s ease;
-
-  &:hover {
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    border-color: var(--primary);
-  }
-
-  h3 {
-    margin: 0 0 0.75rem 0;
-    font-size: 1.125rem;
-    color: var(--pico-color);
-  }
-}
-
-.card-lg { padding: 1.5rem; }
-.card-lift:hover { transform: translateY(-2px); }
-
-.card-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 0.75rem;
-  margin-bottom: 0.75rem;
-}
-
-.card-description {
-  color: var(--pico-muted-color);
-  font-size: 0.9375rem;
-  margin: 0 0 1rem 0;
-  flex: 1;
-}
 
 /* Badges */
 .badge {

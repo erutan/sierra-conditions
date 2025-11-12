@@ -174,19 +174,19 @@ const agencies: Agency[] = [
 
   <div class="agencies-grid">
     {agencies.map(agency => (
-      <div class="card">
-        <div class="card-header">
-          <div>
+      <article>
+        <header>
+          <hgroup>
             <h3>{agency.shortName}</h3>
-            <p class="agency-full-name">{agency.name}</p>
-          </div>
+            <p>{agency.name}</p>
+          </hgroup>
           <span class={`badge badge-${agency.type.toLowerCase().replace(' ', '-')}`}>
             {agency.type}
           </span>
-        </div>
+        </header>
 
         {agency.description && (
-          <p class="card-description">{agency.description}</p>
+          <p class="agency-description">{agency.description}</p>
         )}
 
         <div class="category-tag">
@@ -199,29 +199,31 @@ const agencies: Agency[] = [
           </small>
         </div>
 
-        <div class="agency-links">
-          {agency.website && (
-            <a href={agency.website} target="_blank" rel="noopener noreferrer" role="button" class="secondary">
-              🌐 Website
-            </a>
-          )}
-          {agency.facebook && (
-            <a href={agency.facebook} target="_blank" rel="noopener noreferrer" role="button" class="secondary">
-              📘 Facebook
-            </a>
-          )}
-          {agency.x && (
-            <a href={agency.x} target="_blank" rel="noopener noreferrer" role="button" class="secondary">
-              🐦 X
-            </a>
-          )}
-          {agency.phone && (
-            <a href={`tel:${agency.phone}`} role="button" class="secondary">
-              📞 {agency.phone}
-            </a>
-          )}
-        </div>
-      </div>
+        <footer>
+          <div class="agency-links">
+            {agency.website && (
+              <a href={agency.website} target="_blank" rel="noopener noreferrer" role="button" class="secondary">
+                🌐 Website
+              </a>
+            )}
+            {agency.facebook && (
+              <a href={agency.facebook} target="_blank" rel="noopener noreferrer" role="button" class="secondary">
+                📘 Facebook
+              </a>
+            )}
+            {agency.x && (
+              <a href={agency.x} target="_blank" rel="noopener noreferrer" role="button" class="secondary">
+                🐦 X
+              </a>
+            )}
+            {agency.phone && (
+              <a href={`tel:${agency.phone}`} role="button" class="secondary">
+                📞 {agency.phone}
+              </a>
+            )}
+          </div>
+        </footer>
+      </article>
     ))}
   </div>
 </div>
@@ -234,16 +236,37 @@ const agencies: Agency[] = [
     margin-bottom: 1.5rem;
   }
 
+  article header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+
+  article hgroup {
+    flex: 1;
+  }
+
+  article hgroup h3 {
+    margin-bottom: 0.5rem;
+  }
+
+  article hgroup p {
+    margin: 0;
+    font-size: 0.875rem;
+    color: var(--pico-muted-color);
+  }
+
+  .agency-description {
+    color: var(--pico-muted-color);
+    font-size: 0.9375rem;
+    margin: 0 0 1rem 0;
+  }
+
   @media (max-width: 768px) {
     .agencies-grid {
       grid-template-columns: 1fr;
     }
-  }
-
-  .agency-full-name {
-    margin: 0.25rem 0 0 0;
-    font-size: 0.875rem;
-    color: var(--pico-muted-color);
   }
 
   /* Badge color variants */

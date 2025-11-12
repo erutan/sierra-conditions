@@ -33,7 +33,10 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
         <ul class="sidebar-nav">
           {section.items.map(item => {
             const itemPath = item.path.replace(/\/$/, '');
-            const isActive = currentPath === itemPath || currentPath.startsWith(itemPath + '/');
+            // Mark Breaking as active on homepage since homepage shows breaking content
+            const isActive = currentPath === itemPath ||
+                            currentPath.startsWith(itemPath + '/') ||
+                            (currentPath === '/' && item.path === '/conditions/breaking');
             return (
               <li>
                 <a

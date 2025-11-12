@@ -444,11 +444,6 @@
   letter-spacing: 0.05em;
 }
 
-/* Button styling now uses PicoCSS defaults */
-/* Use role="button" for primary buttons */
-/* Use class="secondary" for secondary buttons */
-/* Use class="contrast" for contrast buttons */
-
 /* Secondary footer/tip sections */
 .section-footer {
   padding: 0.875rem 1.125rem;
@@ -458,4 +453,8 @@
 
 .section-footer p {
   margin: 0;
+}
+
+article {
+  background: none !important;
 }

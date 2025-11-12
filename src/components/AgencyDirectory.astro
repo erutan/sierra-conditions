@@ -6,7 +6,7 @@ interface Agency {
   type: 'National Park' | 'National Forest' | 'County' | 'State' | 'Other';
   website?: string;
   facebook?: string;
-  twitter?: string;
+  x?: string;
   phone?: string;
   description?: string;
 }
@@ -40,7 +40,7 @@ const agencies: Agency[] = [
     type: 'National Forest',
     website: 'https://www.fs.usda.gov/alerts/tahoe/',
     facebook: 'https://www.facebook.com/TahoeNF',
-    twitter: 'https://twitter.com/Tahoe_NF',
+    x: 'https://x.com/Tahoe_NF',
     description: 'Road information by travel corridor'
   },
   {
@@ -50,7 +50,7 @@ const agencies: Agency[] = [
     type: 'National Forest',
     website: 'https://www.fs.usda.gov/alerts/htnf/',
     facebook: 'https://www.facebook.com/HumboldtToiyabeNF',
-    twitter: 'https://twitter.com/HumboldtToiyabe',
+    x: 'https://x.com/HumboldtToiyabe',
     description: 'Eastern Sierra wilderness permits and conditions'
   },
   {
@@ -60,7 +60,7 @@ const agencies: Agency[] = [
     type: 'National Forest',
     website: 'https://www.fs.usda.gov/r05/inyo/conditions',
     facebook: 'https://www.facebook.com/inyonf',
-    twitter: 'https://twitter.com/Inyo_NF',
+    x: 'https://x.com/Inyo_NF',
     description: 'Current conditions with ranger district links'
   },
   {
@@ -70,7 +70,7 @@ const agencies: Agency[] = [
     type: 'National Forest',
     website: 'https://www.fs.usda.gov/alerts/sierra/',
     facebook: 'https://www.facebook.com/SierraNF',
-    twitter: 'https://twitter.com/Sierra_NF',
+    x: 'https://x.com/Sierra_NF',
     description: 'Road conditions and alerts'
   },
   {
@@ -80,7 +80,7 @@ const agencies: Agency[] = [
     type: 'National Forest',
     website: 'https://www.fs.usda.gov/alerts/sequoia/',
     facebook: 'https://www.facebook.com/SequoiaNF',
-    twitter: 'https://twitter.com/sequoiaforest',
+    x: 'https://x.com/sequoiaforest',
     description: 'News and road closures'
   },
   // Ranger Districts
@@ -149,7 +149,7 @@ const agencies: Agency[] = [
     type: 'State',
     website: 'https://roads.dot.ca.gov/roadscell.php',
     facebook: 'https://www.facebook.com/Caltrans9',
-    twitter: 'https://twitter.com/Caltrans9',
+    x: 'https://x.com/Caltrans9',
     description: 'Highway conditions for Eastern Sierra'
   },
   // Other
@@ -210,9 +210,9 @@ const agencies: Agency[] = [
               📘 Facebook
             </a>
           )}
-          {agency.twitter && (
-            <a href={agency.twitter} target="_blank" rel="noopener noreferrer" role="button" class="secondary">
-              🐦 Twitter
+          {agency.x && (
+            <a href={agency.x} target="_blank" rel="noopener noreferrer" role="button" class="secondary">
+              🐦 X
             </a>
           )}
           {agency.phone && (

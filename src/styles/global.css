@@ -32,6 +32,10 @@
     background-color: var(--primary);
   }
 
+  .fb-page-header {
+    background-color: #f9fafb;
+  }
+
   button.secondary,
   a[role="button"].secondary {
     background-color: #e5e7eb;

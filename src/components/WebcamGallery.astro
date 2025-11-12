@@ -67,7 +67,7 @@ const webcams: Webcam[] = [
     </p>
   </div>
 
-  <div class="card-grid card-grid-md">
+  <div class="webcams-grid">
     {webcams.map(webcam => (
       <div class="card" data-region={webcam.region}>
         <div class="card-header">
@@ -80,10 +80,25 @@ const webcams: Webcam[] = [
           )}
         </div>
         <p class="card-description">{webcam.description}</p>
-        <a href={webcam.url} target="_blank" rel="noopener noreferrer" class="btn-primary">
+        <a href={webcam.url} target="_blank" rel="noopener noreferrer" role="button">
           View Webcams →
         </a>
       </div>
     ))}
   </div>
 </div>
+
+<style>
+  .webcams-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+
+  @media (max-width: 768px) {
+    .webcams-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

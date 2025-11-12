@@ -61,14 +61,14 @@ const mapTabs: MapTab[] = [
     </p>
   </div>
 
-  <div class="card-grid card-grid-sm">
+  <div class="maps-grid">
     {mapTabs.map((tab) => (
       <div class="card card-lg card-lift">
         <div class="card-icon">{tab.icon}</div>
         <h3>{tab.name}</h3>
         <p class="card-description" style="color: var(--pico-color);">{tab.description}</p>
         <p class="card-details">{tab.details}</p>
-        <a href={tab.url} target="_blank" rel="noopener noreferrer" class="link-btn">
+        <a href={tab.url} target="_blank" rel="noopener noreferrer" role="button" class="secondary">
           Launch Map →
         </a>
       </div>
@@ -86,6 +86,19 @@ const mapTabs: MapTab[] = [
 </div>
 
 <style>
+  .maps-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+
+  @media (max-width: 768px) {
+    .maps-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
   /* Component-specific styles */
   .card-icon {
     font-size: 2rem;

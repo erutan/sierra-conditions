@@ -16,44 +16,26 @@
   --card-bg-dark: #1a1a1a;
 }
 
-/* Dark mode card improvements */
-[data-theme="dark"] .card {
-  background-color: var(--card-bg-dark);
-  border-color: #2a2a2a;
+/* Dark mode improvements */
+[data-theme="dark"] {
+  .card {
+    background-color: var(--card-bg-dark);
+    border-color: #2a2a2a;
+
+    h3 { color: #f0f0f0; }
+  }
+
+  .card-description { color: #b8b8b8; }
+  .category-tag small { color: #a0a0a0; }
+
+  .badge-muted {
+    background-color: #404040;
+    color: #e0e0e0;
+    opacity: 1;
+  }
 }
 
-[data-theme="dark"] .card h3 {
-  color: #f0f0f0;
-}
-
-[data-theme="dark"] .card-description {
-  color: #b8b8b8;
-}
-
-[data-theme="dark"] .category-tag small {
-  color: #a0a0a0;
-}
-
-[data-theme="dark"] .badge-muted {
-  background-color: #404040;
-  color: #e0e0e0;
-  opacity: 1;
-}
-
-/* Custom styles */
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-}
-
-/* Remove PicoCSS article background */
-article {
-  background: none !important;
-}
+/* Custom styles - PicoCSS handles box-sizing and body resets */
 
 /* Layout structure */
 .site-layout {
@@ -155,28 +137,23 @@ article {
   list-style: none;
   padding: 0;
   margin: 0;
-}
 
-.sidebar-nav a {
-  display: block;
-  padding: 0.5rem 0.75rem;
-  color: var(--pico-color);
-  text-decoration: none;
-  border-radius: var(--pico-border-radius);
-  transition: background-color 0.2s ease;
-}
+  a {
+    display: block;
+    padding: 0.5rem 0.75rem;
+    color: var(--pico-color);
+    text-decoration: none;
+    border-radius: var(--pico-border-radius);
+    transition: background-color 0.2s ease;
 
-.sidebar-nav a:hover {
-  background-color: var(--pico-secondary-background);
-}
+    &:hover { background-color: var(--pico-secondary-background); }
+    &.active {
+      background-color: var(--primary);
+      color: white;
+    }
+  }
 
-.sidebar-nav a.active {
-  background-color: var(--primary);
-  color: white;
-}
-
-.sidebar-nav li {
-  margin-bottom: 0.25rem;
+  li { margin-bottom: 0.25rem; }
 }
 
 .sidebar-section {
@@ -337,32 +314,27 @@ article {
   max-height: 400px;
   overflow-y: auto;
   z-index: 200;
-}
 
-.search-results a {
-  display: block;
-  padding: 0.75rem 1rem;
-  color: var(--pico-color);
-  text-decoration: none;
-  border-bottom: 1px solid var(--border-color);
-}
+  a {
+    display: block;
+    padding: 0.75rem 1rem;
+    color: var(--pico-color);
+    text-decoration: none;
+    border-bottom: 1px solid var(--border-color);
 
-.search-results a:hover {
-  background-color: var(--pico-secondary-background);
-}
+    &:hover { background-color: var(--pico-secondary-background); }
+    &:last-child { border-bottom: none; }
+  }
 
-.search-results a:last-child {
-  border-bottom: none;
-}
+  .result-title {
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+  }
 
-.search-results .result-title {
-  font-weight: 600;
-  margin-bottom: 0.25rem;
-}
-
-.search-results .result-excerpt {
-  font-size: 0.875rem;
-  color: var(--pico-muted-color);
+  .result-excerpt {
+    font-size: 0.875rem;
+    color: var(--pico-muted-color);
+  }
 }
 
 /* Utility classes */
@@ -396,31 +368,6 @@ article {
   margin: 0;
 }
 
-/* Card grids */
-.card-grid {
-  display: grid;
-  gap: 1.25rem;
-  margin-bottom: 1.5rem;
-}
-
-.card-grid-sm {
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-}
-
-.card-grid-md {
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-}
-
-.card-grid-lg {
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-}
-
-@media (max-width: 768px) {
-  .card-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
 /* Cards */
 .card {
   background-color: var(--pico-secondary-background);
@@ -430,20 +377,21 @@ article {
   display: flex;
   flex-direction: column;
   transition: all 0.2s ease;
+
+  &:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-color: var(--primary);
+  }
+
+  h3 {
+    margin: 0 0 0.75rem 0;
+    font-size: 1.125rem;
+    color: var(--pico-color);
+  }
 }
 
-.card-lg {
-  padding: 1.5rem;
-}
-
-.card:hover {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  border-color: var(--primary);
-}
-
-.card-lift:hover {
-  transform: translateY(-2px);
-}
+.card-lg { padding: 1.5rem; }
+.card-lift:hover { transform: translateY(-2px); }
 
 .card-header {
   display: flex;
@@ -451,12 +399,6 @@ article {
   align-items: flex-start;
   gap: 0.75rem;
   margin-bottom: 0.75rem;
-}
-
-.card h3 {
-  margin: 0 0 0.75rem 0;
-  font-size: 1.125rem;
-  color: var(--pico-color);
 }
 
 .card-description {
@@ -502,83 +444,10 @@ article {
   letter-spacing: 0.05em;
 }
 
-/* Action buttons */
-.btn-primary {
-  display: inline-block;
-  padding: 0.625rem 1rem;
-  background-color: var(--pico-primary);
-  color: var(--pico-primary-inverse);
-  text-decoration: none;
-  border-radius: var(--pico-border-radius);
-  font-weight: 500;
-  text-align: center;
-  transition: opacity 0.15s ease, transform 0.15s ease;
-  font-size: 0.9375rem;
-  border: none;
-  cursor: pointer;
-}
-
-.btn-primary:hover {
-  opacity: 0.9;
-  transform: translateY(-1px);
-  color: var(--pico-primary-inverse);
-}
-
-.btn-primary:active {
-  transform: translateY(0);
-}
-
-.btn-primary-lg {
-  padding: 0.75rem 1.25rem;
-}
-
-/* Secondary button style */
-.btn-secondary {
-  display: inline-block;
-  padding: 0.625rem 1rem;
-  background-color: var(--pico-secondary);
-  color: var(--pico-secondary-inverse);
-  text-decoration: none;
-  border-radius: var(--pico-border-radius);
-  font-weight: 500;
-  text-align: center;
-  transition: opacity 0.15s ease, transform 0.15s ease;
-  font-size: 0.9375rem;
-  border: none;
-  cursor: pointer;
-}
-
-.btn-secondary:hover {
-  opacity: 0.9;
-  transform: translateY(-1px);
-  color: var(--pico-secondary-inverse);
-}
-
-.btn-secondary:active {
-  transform: translateY(0);
-}
-
-/* Link-style buttons (subtle, outline style) */
-.link-btn {
-  display: inline-block;
-  padding: 0.625rem 1rem;
-  font-size: 0.9375rem;
-  text-decoration: none;
-  background-color: transparent;
-  color: var(--pico-color);
-  border: 1px solid var(--border-color);
-  border-radius: var(--pico-border-radius);
-  transition: background-color 0.15s ease, border-color 0.15s ease;
-  font-weight: 500;
-  text-align: center;
-  cursor: pointer;
-}
-
-.link-btn:hover {
-  background-color: var(--pico-secondary-background);
-  border-color: var(--pico-primary);
-  color: var(--pico-color);
-}
+/* Button styling now uses PicoCSS defaults */
+/* Use role="button" for primary buttons */
+/* Use class="secondary" for secondary buttons */
+/* Use class="contrast" for contrast buttons */
 
 /* Secondary footer/tip sections */
 .section-footer {

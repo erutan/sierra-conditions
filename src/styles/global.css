@@ -368,22 +368,6 @@
   margin: 0;
 }
 
-/* Card grids - Consolidated with custom properties */
-.card-grid {
-  display: grid;
-  gap: 1.25rem;
-  margin-bottom: 1.5rem;
-  grid-template-columns: repeat(auto-fit, minmax(var(--grid-min-width, 300px), 1fr));
-}
-
-.card-grid-sm { --grid-min-width: 280px; }
-.card-grid-md { --grid-min-width: 300px; }
-.card-grid-lg { --grid-min-width: 320px; }
-
-@media (max-width: 768px) {
-  .card-grid { grid-template-columns: 1fr; }
-}
-
 /* Cards */
 .card {
   background-color: var(--pico-secondary-background);

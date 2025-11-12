@@ -211,7 +211,7 @@ const types = [
     </div>
   </div>
 
-  <div class="card-grid card-grid-lg">
+  <div class="agencies-grid">
     {agencies.map(agency => (
       <div
         class="card"
@@ -318,6 +318,19 @@ const types = [
 </script>
 
 <style>
+  .agencies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+
+  @media (max-width: 768px) {
+    .agencies-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
   /* Component-specific styles */
   .agency-filters {
     display: grid;

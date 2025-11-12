@@ -163,22 +163,6 @@ const agencies: Agency[] = [
   }
 ];
 
-const regions = [
-  { id: 'all', name: 'All Regions' },
-  { id: 'north', name: 'North Sierra' },
-  { id: 'central', name: 'Central Sierra' },
-  { id: 'south', name: 'South Sierra' },
-  { id: 'eastern', name: 'Eastern Sierra' }
-];
-
-const types = [
-  { id: 'all', name: 'All Types' },
-  { id: 'National Park', name: 'National Parks' },
-  { id: 'National Forest', name: 'National Forests' },
-  { id: 'County', name: 'County Resources' },
-  { id: 'State', name: 'State Agencies' },
-  { id: 'Other', name: 'Other Agencies' }
-];
 ---
 
 <div class="component-container">
@@ -188,37 +172,9 @@ const types = [
     </p>
   </div>
 
-  <div class="agency-filters">
-    <div class="filter-group">
-      <label for="search-input">Search:</label>
-      <input type="search" id="search-input" placeholder="Search by name..." />
-    </div>
-    <div class="filter-group">
-      <label for="region-filter">Region:</label>
-      <select id="region-filter">
-        {regions.map(region => (
-          <option value={region.id}>{region.name}</option>
-        ))}
-      </select>
-    </div>
-    <div class="filter-group">
-      <label for="type-filter">Type:</label>
-      <select id="type-filter">
-        {types.map(type => (
-          <option value={type.id}>{type.name}</option>
-        ))}
-      </select>
-    </div>
-  </div>
-
   <div class="agencies-grid">
     {agencies.map(agency => (
-      <div
-        class="card"
-        data-region={agency.region}
-        data-type={agency.type}
-        data-name={agency.name.toLowerCase()}
-      >
+      <div class="card">
         <div class="card-header">
           <div>
             <h3>{agency.shortName}</h3>
@@ -268,54 +224,7 @@ const types = [
       </div>
     ))}
   </div>
-
-  <div id="no-results" class="no-results" style="display: none;">
-    <p>No agencies found matching your filters. Try adjusting your search or filters.</p>
-  </div>
 </div>
-
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const searchInput = document.getElementById('search-input') as HTMLInputElement;
-    const regionFilter = document.getElementById('region-filter') as HTMLSelectElement;
-    const typeFilter = document.getElementById('type-filter') as HTMLSelectElement;
-    const cards = document.querySelectorAll('.agency-card');
-    const noResults = document.getElementById('no-results');
-
-    function filterCards() {
-      const searchTerm = searchInput?.value.toLowerCase() || '';
-      const selectedRegion = regionFilter?.value || 'all';
-      const selectedType = typeFilter?.value || 'all';
-      let visibleCount = 0;
-
-      cards.forEach(card => {
-        const cardElement = card as HTMLElement;
-        const cardName = cardElement.getAttribute('data-name') || '';
-        const cardRegion = cardElement.getAttribute('data-region') || '';
-        const cardType = cardElement.getAttribute('data-type') || '';
-
-        const matchesSearch = cardName.includes(searchTerm);
-        const matchesRegion = selectedRegion === 'all' || cardRegion === 'all' || cardRegion === selectedRegion;
-        const matchesType = selectedType === 'all' || cardType === selectedType;
-
-        if (matchesSearch && matchesRegion && matchesType) {
-          cardElement.style.display = 'block';
-          visibleCount++;
-        } else {
-          cardElement.style.display = 'none';
-        }
-      });
-
-      if (noResults) {
-        noResults.style.display = visibleCount === 0 ? 'block' : 'none';
-      }
-    }
-
-    searchInput?.addEventListener('input', filterCards);
-    regionFilter?.addEventListener('change', filterCards);
-    typeFilter?.addEventListener('change', filterCards);
-  });
-</script>
 
 <style>
   .agencies-grid {
@@ -329,26 +238,6 @@ const types = [
     .agencies-grid {
       grid-template-columns: 1fr;
     }
-  }
-
-  /* Component-specific styles */
-  .agency-filters {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
-    gap: 1rem;
-    margin-bottom: 1.5rem;
-  }
-
-  .filter-group {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-
-  .filter-group label {
-    font-weight: 600;
-    font-size: 0.875rem;
-    margin: 0;
   }
 
   .agency-full-name {
@@ -388,18 +277,5 @@ const types = [
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
-  }
-
-  .no-results {
-    text-align: center;
-    padding: 3rem 1rem;
-    color: var(--pico-muted-color);
-  }
-
-  /* Responsive */
-  @media (max-width: 768px) {
-    .agency-filters {
-      grid-template-columns: 1fr;
-    }
   }
 </style>

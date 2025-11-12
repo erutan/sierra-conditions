@@ -32,6 +32,29 @@
   }
 }
 
+[data-theme="light"] {
+  .card {
+    background-color: #ffffff;
+  }
+
+  .sidebar-nav a:hover {
+    background-color: #f0f0f0;
+  }
+
+  button.secondary,
+  a[role="button"].secondary {
+    background-color: #e5e7eb;
+    color: #374151;
+    border-color: #d1d5db;
+  }
+
+  button.secondary:hover,
+  a[role="button"].secondary:hover {
+    background-color: #d1d5db;
+    color: #1f2937;
+  }
+}
+
 /* Custom styles - PicoCSS handles box-sizing and body resets */
 
 /* Layout structure */

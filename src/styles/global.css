@@ -28,6 +28,10 @@
     background-color: #f0f0f0;
   }
 
+  .sidebar-nav a.active:hover {
+    background-color: var(--primary);
+  }
+
   button.secondary,
   a[role="button"].secondary {
     background-color: #e5e7eb;

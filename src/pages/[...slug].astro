@@ -18,7 +18,7 @@ const description = page.data.description || page.data.excerpt || '';
 ---
 
 <MainLayout title={title} description={description}>
-  <article>
+  <main>
     <h1>{page.data.title}</h1>
     {page.data.description && (
       <p style="font-size: 1.125rem; color: var(--pico-muted-color); margin-bottom: 2rem;">
@@ -26,5 +26,5 @@ const description = page.data.description || page.data.excerpt || '';
       </p>
     )}
     <Content />
-  </article>
+  </main>
 </MainLayout>

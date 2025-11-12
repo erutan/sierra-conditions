@@ -245,22 +245,22 @@ const types = [
 
         <div class="agency-links">
           {agency.website && (
-            <a href={agency.website} target="_blank" rel="noopener noreferrer" class="link-btn">
+            <a href={agency.website} target="_blank" rel="noopener noreferrer" role="button" class="secondary">
               🌐 Website
             </a>
           )}
           {agency.facebook && (
-            <a href={agency.facebook} target="_blank" rel="noopener noreferrer" class="link-btn">
+            <a href={agency.facebook} target="_blank" rel="noopener noreferrer" role="button" class="secondary">
               📘 Facebook
             </a>
           )}
           {agency.twitter && (
-            <a href={agency.twitter} target="_blank" rel="noopener noreferrer" class="link-btn">
+            <a href={agency.twitter} target="_blank" rel="noopener noreferrer" role="button" class="secondary">
               🐦 Twitter
             </a>
           )}
           {agency.phone && (
-            <a href={`tel:${agency.phone}`} class="link-btn">
+            <a href={`tel:${agency.phone}`} role="button" class="secondary">
               📞 {agency.phone}
             </a>
           )}

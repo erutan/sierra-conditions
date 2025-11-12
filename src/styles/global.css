@@ -502,83 +502,10 @@ article {
   letter-spacing: 0.05em;
 }
 
-/* Action buttons */
-.btn-primary {
-  display: inline-block;
-  padding: 0.625rem 1rem;
-  background-color: var(--pico-primary);
-  color: var(--pico-primary-inverse);
-  text-decoration: none;
-  border-radius: var(--pico-border-radius);
-  font-weight: 500;
-  text-align: center;
-  transition: opacity 0.15s ease, transform 0.15s ease;
-  font-size: 0.9375rem;
-  border: none;
-  cursor: pointer;
-}
-
-.btn-primary:hover {
-  opacity: 0.9;
-  transform: translateY(-1px);
-  color: var(--pico-primary-inverse);
-}
-
-.btn-primary:active {
-  transform: translateY(0);
-}
-
-.btn-primary-lg {
-  padding: 0.75rem 1.25rem;
-}
-
-/* Secondary button style */
-.btn-secondary {
-  display: inline-block;
-  padding: 0.625rem 1rem;
-  background-color: var(--pico-secondary);
-  color: var(--pico-secondary-inverse);
-  text-decoration: none;
-  border-radius: var(--pico-border-radius);
-  font-weight: 500;
-  text-align: center;
-  transition: opacity 0.15s ease, transform 0.15s ease;
-  font-size: 0.9375rem;
-  border: none;
-  cursor: pointer;
-}
-
-.btn-secondary:hover {
-  opacity: 0.9;
-  transform: translateY(-1px);
-  color: var(--pico-secondary-inverse);
-}
-
-.btn-secondary:active {
-  transform: translateY(0);
-}
-
-/* Link-style buttons (subtle, outline style) */
-.link-btn {
-  display: inline-block;
-  padding: 0.625rem 1rem;
-  font-size: 0.9375rem;
-  text-decoration: none;
-  background-color: transparent;
-  color: var(--pico-color);
-  border: 1px solid var(--border-color);
-  border-radius: var(--pico-border-radius);
-  transition: background-color 0.15s ease, border-color 0.15s ease;
-  font-weight: 500;
-  text-align: center;
-  cursor: pointer;
-}
-
-.link-btn:hover {
-  background-color: var(--pico-secondary-background);
-  border-color: var(--pico-primary);
-  color: var(--pico-color);
-}
+/* Button styling now uses PicoCSS defaults */
+/* Use role="button" for primary buttons */
+/* Use class="secondary" for secondary buttons */
+/* Use class="contrast" for contrast buttons */
 
 /* Secondary footer/tip sections */
 .section-footer {

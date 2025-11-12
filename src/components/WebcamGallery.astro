@@ -69,7 +69,7 @@ const webcams: Webcam[] = [
 
   <div class="webcams-grid">
     {webcams.map(webcam => (
-      <div class="card" data-region={webcam.region}>
+      <div class="card">
         <div class="card-header">
           <h3>{webcam.name}</h3>
           {webcam.type === 'network' && (

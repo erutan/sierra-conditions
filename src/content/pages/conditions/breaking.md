@@ -4,8 +4,6 @@ description: 'Current year permits, fire restrictions, and breaking news'
 sidebar: 'sierra'
 ---
 
-import PermitComparison from '../../../components/PermitComparison.astro';
-
 ## Fire Restrictions
 
 Note in most jurisdictions you need [free CA fire permit](https://www.readyforwildfire.org/permits/campfire-permit/) to use a backpacking stove.
@@ -17,8 +15,6 @@ Note in most jurisdictions you need [free CA fire permit](https://www.readyforwi
 [Sierra NF Alerts & Conditions Page](https://www.fs.usda.gov/alerts/sierra/alerts-notices) skim this looking for fire notices.
 
 [Inyo NF Alerts & Conditions Page](https://www.fs.usda.gov/alerts/inyo/alerts-notices) skim this looking for fire notices.
-
-Flooding and related damage is more of a concern this year - there's links to various county, law enforcement, and land managers sources on the [Notices & News](/news) page and the [Roads](/roads) pages. It could also be useful to have resources to keep on top of [snow](/snow) levels.
 
 ## Road Restrictions
 

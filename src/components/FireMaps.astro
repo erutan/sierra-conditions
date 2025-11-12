@@ -63,15 +63,21 @@ const mapTabs: MapTab[] = [
 
   <div class="maps-grid">
     {mapTabs.map((tab) => (
-      <div class="card card-lg card-lift">
-        <div class="card-icon">{tab.icon}</div>
-        <h3>{tab.name}</h3>
-        <p class="card-description" style="color: var(--pico-color);">{tab.description}</p>
-        <p class="card-details">{tab.details}</p>
-        <a href={tab.url} target="_blank" rel="noopener noreferrer" role="button" class="secondary">
-          Launch Map →
-        </a>
-      </div>
+      <article>
+        <header>
+          <div class="map-icon">{tab.icon}</div>
+          <hgroup>
+            <h3>{tab.name}</h3>
+            <p>{tab.description}</p>
+          </hgroup>
+        </header>
+        <p class="map-details">{tab.details}</p>
+        <footer>
+          <a href={tab.url} target="_blank" rel="noopener noreferrer" role="button" class="secondary">
+            Launch Map →
+          </a>
+        </footer>
+      </article>
     ))}
   </div>
 
@@ -93,29 +99,57 @@ const mapTabs: MapTab[] = [
     margin-bottom: 1.5rem;
   }
 
+  article {
+    transition: transform 0.2s ease;
+  }
+
+  article:hover {
+    transform: translateY(-2px);
+  }
+
+  article header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+  }
+
+  .map-icon {
+    font-size: 2rem;
+    line-height: 1;
+    flex-shrink: 0;
+  }
+
+  article hgroup {
+    flex: 1;
+  }
+
+  article hgroup h3 {
+    margin-bottom: 0.5rem;
+  }
+
+  article hgroup p {
+    margin: 0;
+    font-size: 0.9375rem;
+    color: var(--pico-muted-color);
+  }
+
+  .map-details {
+    color: var(--pico-muted-color);
+    font-size: 0.875rem;
+    font-style: italic;
+    margin: 0 0 1rem 0;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--border-color);
+  }
+
+  article footer {
+    margin-top: auto;
+  }
+
   @media (max-width: 768px) {
     .maps-grid {
       grid-template-columns: 1fr;
     }
-  }
-
-  /* Component-specific styles */
-  .card-icon {
-    font-size: 2rem;
-    margin-bottom: 0.75rem;
-    line-height: 1;
-  }
-
-  .card h3 {
-    font-size: 1.25rem;
-  }
-
-  .card-details {
-    color: var(--pico-muted-color);
-    font-size: 0.875rem;
-    font-style: italic;
-    margin: 0 0 1.25rem 0;
-    padding-top: 0.75rem;
-    border-top: 1px solid var(--border-color);
   }
 </style>

@@ -14,7 +14,7 @@ const fullImageUrl = `${siteUrl}${image}`;
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="auto">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -40,50 +40,8 @@ const fullImageUrl = `${siteUrl}${image}`;
     <slot />
 
     <script>
-      // Dark mode functionality
-      const storageKey = 'theme-preference';
-
-      const getColorPreference = () => {
-        if (localStorage.getItem(storageKey)) {
-          return localStorage.getItem(storageKey);
-        } else {
-          return window.matchMedia('(prefers-color-scheme: dark)').matches
-            ? 'dark'
-            : 'light';
-        }
-      };
-
-      const setPreference = (theme: string) => {
-        localStorage.setItem(storageKey, theme);
-        reflectPreference(theme);
-      };
-
-      const reflectPreference = (theme: string) => {
-        document.documentElement.setAttribute('data-theme', theme);
-
-        const button = document.querySelector('#theme-toggle');
-        if (button) {
-          button.setAttribute('aria-label', theme);
-        }
-      };
-
-      // Set theme on load
-      reflectPreference(getColorPreference());
-
-      // Listen for theme toggle
+      // Mobile menu toggle
       window.addEventListener('load', () => {
-        reflectPreference(getColorPreference());
-
-        const button = document.querySelector('#theme-toggle');
-        if (button) {
-          button.addEventListener('click', () => {
-            const currentTheme = localStorage.getItem(storageKey) || 'light';
-            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
-            setPreference(newTheme);
-          });
-        }
-
-        // Mobile menu toggle
         const menuToggle = document.querySelector('#mobile-menu-toggle');
         const sidebar = document.querySelector('.site-sidebar');
         if (menuToggle && sidebar) {
@@ -92,13 +50,6 @@ const fullImageUrl = `${siteUrl}${image}`;
           });
         }
       });
-
-      // Listen for system theme changes
-      window
-        .matchMedia('(prefers-color-scheme: dark)')
-        .addEventListener('change', ({ matches: isDark }) => {
-          setPreference(isDark ? 'dark' : 'light');
-        });
     </script>
   </body>
 </html>

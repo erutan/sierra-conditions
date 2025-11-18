@@ -5,7 +5,6 @@ interface MapTab {
   name: string;
   url: string;
   details: string;
-  icon?: string;
   category: 'Current' | 'Forecast';
 }
 
@@ -15,7 +14,6 @@ const mapTabs: MapTab[] = [
     name: 'Watch Duty',
     details: 'Best for: Real-time fire locations, perimeter tracking, and multiagency updates',
     url: 'https://app.watchduty.org',
-    icon: '🔥',
     category: 'Current'
   },
   {
@@ -23,7 +21,6 @@ const mapTabs: MapTab[] = [
     name: 'AirNow Fire & Smoke',
     details: 'Best for: Most accurate AQI readings from official EPA sensors + Purple Air',
     url: 'https://fire.airnow.gov',
-    icon: '🌫️',
     category: 'Current'
   },
   {
@@ -31,7 +28,6 @@ const mapTabs: MapTab[] = [
     name: 'Purple Air',
     details: 'Best for: real-time air quality sensors and historical hourly data',
     url: 'https://www.purpleair.com/map?opt=1/mAQI/a10/cC0#8.02/37.519/-118.825',
-    icon: '💨',
     category: 'Current'
   },
   {
@@ -39,7 +35,6 @@ const mapTabs: MapTab[] = [
     name: 'Google Maps AQI',
     details: 'Best for: High-level overview extrapolated from multiple data sources (with hours of lag)',
     url: 'https://www.google.com/maps/@37.5069579,-118.702057,9.24z/data=!5m1!1e9?entry=ttu&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D',
-    icon: '🗺️',
     category: 'Current'
   },
   {
@@ -47,7 +42,6 @@ const mapTabs: MapTab[] = [
     name: 'NASA Worldview',
     details: 'Best for: Visual analysis of how smoke has spread over the past few days',
     url: 'https://worldview.earthdata.nasa.gov/?v=-122.31118585489266,33.45679500585166,-115.98306085489266,39.60619096789932&l=Reference_Labels,Reference_Features(hidden),Coastlines,MODIS_Aqua_CorrectedReflectance_TrueColor(hidden),MODIS_Terra_CorrectedReflectance_TrueColor&lg=false&t=2015-08-24-T00%3A00%3A00Z',
-    icon: '🛰️',
     category: 'Current'
   },
   {
@@ -55,7 +49,6 @@ const mapTabs: MapTab[] = [
     name: 'Windy AQI',
     details: 'Best for: Understanding how smoke will move with 3-day forecasted wind patterns',
     url: 'https://www.windy.com/-PM2-5-pm2p5?pm2p5,37.810,-119.221,8',
-    icon: '🌬️',
     category: 'Forecast'
   },
   {
@@ -63,7 +56,6 @@ const mapTabs: MapTab[] = [
     name: 'BlueSky Forecast',
     details: 'Best for: 3-day smoke forecast showing basin and valley settling',
     url: 'https://tools.airfire.org/websky/v2/run/standard/CANSAC-1.33km',
-    icon: '📊',
     category: 'Forecast'
   },
   {
@@ -71,15 +63,13 @@ const mapTabs: MapTab[] = [
     name: 'Pivotal Weather',
     details: 'Best for: Detailed smoke forecasting using official NOAA models, 48h forecasts',
     url: 'https://www.pivotalweather.com/model.php?m=hrrr&p=smoke_sfc&fh=loop&r=us_sw',
-    icon: '📈',
     category: 'Forecast'
   },
 {
     id: 'noaa-weather',
-    name: 'Weather.gov Experimental Smoke Forecast',
+    name: 'NWS Experimental Smoke Forecast',
     details: 'Best for: Detailed 24 hour prediction of smoke coverage',
     url: 'https://www.weather.gov/mtr/ExperimentalSmokeForecast',
-    icon: '📈',
     category: 'Forecast'
   },
 
@@ -93,7 +83,6 @@ const mapTabs: MapTab[] = [
     {mapTabs.map((tab) => (
       <article>
         <header>
-          <div class="map-icon">{tab.icon}</div>
           <hgroup>
             <h3>
               {tab.name}
@@ -103,7 +92,7 @@ const mapTabs: MapTab[] = [
         </header>
         <p class="map-details">{tab.details}</p>
         <footer>
-          <a href={tab.url} target="_blank" rel="noopener noreferrer" role="button" class="secondary">
+          <a href={tab.url} target="_blank" rel="noopener noreferrer" role="button">
             Launch Map →
           </a>
         </footer>
@@ -142,12 +131,6 @@ const mapTabs: MapTab[] = [
     align-items: center;
     gap: 0.75rem;
     margin-bottom: 1rem;
-  }
-
-  .map-icon {
-    font-size: 2rem;
-    line-height: 1;
-    flex-shrink: 0;
   }
 
   article hgroup {

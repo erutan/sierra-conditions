@@ -37,7 +37,7 @@ const mapTabs: MapTab[] = [
   {
     id: 'google-aqi',
     name: 'Google Maps AQI',
-    details: 'Best for: High-level overview extrapolated from multiple data sources (with hours of lag).',
+    details: 'Best for: High-level overview extrapolated from multiple data sources (with hours of lag)',
     url: 'https://www.google.com/maps/@37.5069579,-118.702057,9.24z/data=!5m1!1e9?entry=ttu&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D',
     icon: '🗺️',
     category: 'Current'
@@ -74,6 +74,16 @@ const mapTabs: MapTab[] = [
     icon: '📈',
     category: 'Forecast'
   },
+{
+    id: 'noaa-weather',
+    name: 'Weather.gov Experimental Smoke Forecast',
+    details: 'Best for: Detailed 24 hour prediction of smoke coverage',
+    url: 'https://www.weather.gov/mtr/ExperimentalSmokeForecast',
+    icon: '📈',
+    category: 'Forecast'
+  },
+
+  
 ];
 ---
 
@@ -183,8 +193,6 @@ const mapTabs: MapTab[] = [
     font-size: 0.875rem;
     font-style: italic;
     margin: 0 0 1rem 0;
-    padding-top: 0.75rem;
-    border-top: 1px solid var(--border-color);
   }
 
   article footer {

@@ -18,7 +18,6 @@ This site provides up-to-date information on:
 Built with:
 - [Astro](https://astro.build/) - Modern static site generator
 - [PicoCSS](https://github.com/Yohn/PicoCSS) - Minimal CSS framework with CSS variables
-- Client-side search powered by [Fuse.js](https://fusejs.io/)
 
 ## Development
 

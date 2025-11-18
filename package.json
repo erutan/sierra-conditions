@@ -13,8 +13,7 @@
   "dependencies": {
     "astro": "^5.15.5",
     "@astrojs/mdx": "^4.3.10",
-    "@astrojs/sitemap": "^3.6.0",
-    "fuse.js": "^7.0.0"
+    "@astrojs/sitemap": "^3.6.0"
   },
   "devDependencies": {
     "@yohns/picocss": "^2.2.10"

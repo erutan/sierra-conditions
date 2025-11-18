@@ -22,11 +22,11 @@ There is a section below "Detailed Forecast" called "Additional Forecasts and In
 
 If you're using an iPhone, someone helpfully [shared a widget](https://www.reddit.com/r/Ultralight/comments/o9vfsd/ios_geolocated_weathergov_forecast_shortcut/) you can tap to load your GPS coordinates on weather.gov. Useful for when you're on a peak or pass and get signal after being offline for a while. :)
 
-If you want to get really nerdy [SpotWX](https://spotwx.com) lets you choose from different NOAA models (what weather.gov runs on).
+If you want to get really nerdy [SpotWX](https://spotwx.com) lets you choose from different NOAA models. Sometimes looking at raw HRRR is better than their blended final product. 
 
 ### Mountain Forecast
 
-[Mountain forecast](https://www.mountain-forecast.com/) is the second most popular choice - some people say it runs a bit cold up at higher altitudes.
+[Mountain forecast](https://www.mountain-forecast.com/) is the second most popular choice - some people say it runs a bit cold up at higher altitudes. It'll give you overviews of what to expect at the base, mid, or peak of a mountain.
 
 ### Topo mapping clients
 
@@ -34,7 +34,7 @@ Gaia and Caltopo also provide weather forecast map layers as a topo layer. This 
 
 ### Other
 
-I personally use [Carrot](http://www.meetcarrot.com/weather/) on my phone as I can check a few different models easily, and have a grandfathered cheap plan for [Weatherstrip](https://www.weatherstrip.app) which is a neat visual way of showing NOAA forecasts. An alternative to Carrot is [Hello Weather](https://helloweather.com/) which has more providers (crucially weather co) but only goes up to 8 day forecasts instead of 14 as of the time of writing.  Anything past 3 days is low to medium confidence, but it's useful to know whether precip is expected to stick around longer, grow or diminish, etc. 
+I personally use [Carrot](http://www.meetcarrot.com/weather/) on my phone as I can check a few different models easily, and use the cheap plan for [Weatherstrip](https://www.weatherstrip.app) which has a neat visual way of displaying NOAA forecasts. An alternative to Carrot is [Hello Weather](https://helloweather.com/) which has more providers (crucially weather co) but only goes up to 8 day forecasts instead of 14 as of the time of writing.  Anything past 3 days is low to medium confidence, but it's useful to know whether precip is expected to stick around longer, grow or diminish, etc.
 
 [Windy](https://www.windy.com/-Thunderstorms-thunder?thunder,2021-08-27-21,37.810,-119.221,8) has a nice map view of thunderstorm predictions fairly far out. Obviously accuracy at the tail end will be somewhat low, but it can be useful to visualize where a storm is coming from and maybe flip a loop to be low when it hits the worst etc.
 
@@ -45,11 +45,3 @@ I personally use [Carrot](http://www.meetcarrot.com/weather/) on my phone as I c
 Different forecast models produce different results - they will never be 100% accurate, but for frontcountry use [Forecast Advisor](https://www.forecastadvisor.com/California/Bishop/93514/) is useful as they will show historical accuracy of various weather services matched against local weather stations.  For the Eastern Sierra this is less useful (Mammoth Lakes shows Bishop information) and weather in the mountains is even harder to predict. It's worth noting that while Accuweather usually does well in the frontcountry, it doesn't take into account elevation or other changes to terrain necessary and is fairly worthless for deep backcountry.
 
 I generally like to look at a few different models to get an idea of a range of outcomes. Knowing whether the uncertainty centers around the where the storm is expected to go or how strong it will be can be useful. The precise estimates for rainfall etc are essentially the most likely outcome of a model run multiple times based on known conditions information that are fed into historical outcomes from similar conditions.  
-
-<!--
-The following image digging in deeper on a forecast from Accuweather shows that quite nicely:
-
-<div style="width: 100%;">
-  <g-image src="~/assets/probability.png" width="800"/>
-</div>
--->

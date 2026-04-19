@@ -1,5 +1,5 @@
 ---
-import { getEntry } from 'astro:content';
+import { getEntry, render } from 'astro:content';
 import MainLayout from '../layouts/MainLayout.astro';
 
 const page = await getEntry('pages', 'conditions/breaking');
@@ -7,7 +7,7 @@ if (!page) {
   throw new Error('Breaking page not found');
 }
 
-const { Content } = await page.render();
+const { Content } = await render(page);
 const title = page.data.title || 'Sierra Conditions';
 const description = page.data.description || 'Current year permits, fire restrictions, and breaking news for the Sierra Nevada';
 ---

@@ -1,17 +1,17 @@
 ---
-import { getCollection } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 import MainLayout from '../layouts/MainLayout.astro';
 
 export async function getStaticPaths() {
   const pages = await getCollection('pages');
   return pages.map(page => ({
-    params: { slug: page.slug },
+    params: { slug: page.id },
     props: { page },
   }));
 }
 
 const { page } = Astro.props;
-const { Content } = await page.render();
+const { Content } = await render(page);
 
 const title = page.data.title || 'Sierra Conditions';
 const description = page.data.description || page.data.excerpt || '';

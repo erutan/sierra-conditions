@@ -10,11 +10,31 @@
   --sidebar-bg: var(--pico-background-color);
   --border-color: var(--pico-muted-border-color);
   --header-height: 4rem;
+
+  /* Map brand color into Pico's primary palette so anchors, buttons,
+     header logo etc. use brand green instead of Pico's default blue. */
+  --pico-primary: var(--primary);
+  --pico-primary-background: var(--primary);
+  --pico-primary-hover: var(--primary-hover);
+  --pico-primary-hover-background: var(--primary-hover);
+  --pico-primary-focus: rgba(5, 150, 105, 0.25);
+  --pico-primary-border: var(--primary);
+  --pico-primary-underline: var(--primary);
+  --pico-primary-inverse: #fff;
+}
+
+/* Pico v2 ships h3 at 1.5rem and scales --pico-font-size up to 125% on wide
+   viewports — that lands h3 around 30px. Bring it closer to h4 territory. */
+h3 {
+  --pico-font-size: 1.15rem;
+  --pico-typography-spacing-top: 1.875rem;
 }
 
 [data-theme="dark"] {
   --primary: #10b981;
   --primary-hover: #34d399;
+  /* Re-derive Pico primary from the dark-mode brand color */
+  --pico-primary-focus: rgba(16, 185, 129, 0.25);
 
   .category-tag small { color: #a0a0a0; }
 
@@ -186,11 +206,13 @@
   margin-bottom: 0.75rem;
 }
 
-.content a {
+/* Brand-color content links — exclude [role="button"] so Pico's button styling
+   (white text on green background) wins for action anchors. */
+.content a:not([role="button"]) {
   color: var(--primary);
 }
 
-.content a:hover {
+.content a:not([role="button"]):hover {
   color: var(--primary-hover);
 }
 

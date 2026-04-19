@@ -1,4 +1,6 @@
-@import '@yohns/picocss/css/pico.min.css';
+/* anyblades/pico — Sass-free fork true to picocss/pico v2. Bare specifier required:
+   the package's `exports` map only exposes `.` (deep paths like /css/pico.min.css fail). */
+@import '@anyblades/pico';
 
 /* Custom CSS variables extending PicoCSS */
 :root {

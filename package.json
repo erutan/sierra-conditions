@@ -16,6 +16,6 @@
     "astro": "^6.1.8"
   },
   "devDependencies": {
-    "@yohns/picocss": "^2.2.10"
+    "@anyblades/pico": "^2.2.0-beta"
   }
 }

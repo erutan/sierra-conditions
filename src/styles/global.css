@@ -10,14 +10,20 @@
   --sidebar-bg: var(--pico-background-color);
   --border-color: var(--pico-muted-border-color);
   --header-height: 4rem;
+  --pico-primary-focus: rgba(5, 150, 105, 0.25);
+}
 
-  /* Map brand color into Pico's primary palette so anchors, buttons,
-     header logo etc. use brand green instead of Pico's default blue. */
+/* Map brand color into Pico's primary palette so anchors, buttons, header
+   logo etc. use brand green instead of Pico's default blue. These selectors
+   must match the specificity of Pico's own color-scheme rules: light mode is
+   defined under `:root:not([data-theme="dark"])` (0,2,0), which beats a plain
+   `:root` (0,1,0) — so a `:root` override silently loses in light mode. */
+:root:not([data-theme="dark"]),
+[data-theme="dark"] {
   --pico-primary: var(--primary);
   --pico-primary-background: var(--primary);
   --pico-primary-hover: var(--primary-hover);
   --pico-primary-hover-background: var(--primary-hover);
-  --pico-primary-focus: rgba(5, 150, 105, 0.25);
   --pico-primary-border: var(--primary);
   --pico-primary-underline: var(--primary);
   --pico-primary-inverse: #fff;
@@ -265,7 +271,10 @@ h3 {
   border: none;
   cursor: pointer;
   padding: 0.5rem;
-  color: var(--pico-color);
+  /* Pico's button rule locally sets --pico-color to --pico-primary-inverse
+     (white), so var(--pico-color) here would be invisible in light mode.
+     --pico-contrast tracks the theme foreground (dark in light, light in dark). */
+  color: var(--pico-contrast);
 }
 
 .mobile-menu-toggle svg {

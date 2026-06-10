@@ -186,7 +186,7 @@ const permits: Permit[] = [
   }
 
   .permit-table thead {
-    background-color: var(--pico-secondary-background);
+    background-color: var(--pico-card-sectioning-background-color);
   }
 
   .permit-table th {
@@ -203,7 +203,7 @@ const permits: Permit[] = [
   }
 
   .permit-table tbody tr:hover {
-    background-color: var(--pico-secondary-background);
+    background-color: color-mix(in srgb, var(--pico-contrast) 6%, transparent);
   }
 
   .badge {
@@ -240,7 +240,9 @@ const permits: Permit[] = [
   }
 
   .permit-card {
-    background-color: var(--pico-secondary-background);
+    /* --pico-secondary-background is the secondary *button* color in Pico v2,
+       not a surface — using it here made card text/buttons illegible. */
+    background-color: var(--pico-card-background-color);
     border-radius: var(--pico-border-radius);
     padding: 1.25rem;
     margin-bottom: 1rem;

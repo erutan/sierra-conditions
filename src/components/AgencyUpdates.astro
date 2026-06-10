@@ -127,7 +127,7 @@ const agencies: Agency[] = [
   }
 
   .tab:hover {
-    background-color: var(--pico-secondary-background);
+    background-color: color-mix(in srgb, var(--pico-contrast) 8%, transparent);
     border-radius: var(--pico-border-radius) var(--pico-border-radius) 0 0;
   }
 
@@ -152,7 +152,8 @@ const agencies: Agency[] = [
   .fb-page-header {
     margin-bottom: 1rem;
     padding: 0.75rem 1rem;
-    background-color: var(--pico-secondary-background);
+    background-color: var(--pico-card-sectioning-background-color);
+    border: 1px solid var(--border-color);
     border-radius: var(--pico-border-radius);
     display: flex;
     justify-content: space-between;
@@ -176,6 +177,14 @@ const agencies: Agency[] = [
     width: 100%;
     max-width: 500px;
     margin: 0 auto;
+    min-width: 0;
+  }
+
+  /* The FB SDK injects a fixed-width iframe/span (up to data-width=500px);
+     clamp it so it can't force horizontal overflow on small screens. */
+  .fb-page :global(span),
+  .fb-page :global(iframe) {
+    max-width: 100% !important;
   }
 
   @media (max-width: 768px) {

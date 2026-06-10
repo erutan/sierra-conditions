@@ -65,38 +65,59 @@ const agencies: Agency[] = [
 </div>
 
 <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0"></script>
 
+<!-- Auto-parse (xfbml=1) would render all 10 panels at load while 9 are
+     display:none (width 0), producing blank embeds. Parsing everything again
+     on each tab click then blanked previously-rendered panels and re-flashed
+     the visible one. Instead: init with xfbml off and parse each panel once,
+     when it first becomes visible. fbAsyncInit must be defined before the SDK
+     script loads, hence this script comes first. -->
 <script is:inline>
-  document.addEventListener('DOMContentLoaded', () => {
-    const tabs = document.querySelectorAll('.tab');
-    const panels = document.querySelectorAll('.tab-panel');
+  (function () {
+    const parsedPanels = new WeakSet();
 
-    tabs.forEach(tab => {
-      tab.addEventListener('click', () => {
-        const targetId = tab.getAttribute('data-tab');
+    function renderPanel(panel) {
+      if (!panel || parsedPanels.has(panel)) return;
+      if (window.FB && window.FB.XFBML) {
+        window.FB.XFBML.parse(panel);
+        parsedPanels.add(panel);
+      }
+    }
 
-        tabs.forEach(t => {
-          t.classList.remove('active');
-          t.setAttribute('aria-selected', 'false');
+    window.fbAsyncInit = function () {
+      window.FB.init({ xfbml: false, version: 'v18.0' });
+      renderPanel(document.querySelector('.tab-panel.active'));
+    };
+
+    document.addEventListener('DOMContentLoaded', () => {
+      const tabs = document.querySelectorAll('.tab');
+      const panels = document.querySelectorAll('.tab-panel');
+
+      tabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+          const targetId = tab.getAttribute('data-tab');
+
+          tabs.forEach(t => {
+            t.classList.remove('active');
+            t.setAttribute('aria-selected', 'false');
+          });
+          panels.forEach(p => p.classList.remove('active'));
+
+          tab.classList.add('active');
+          tab.setAttribute('aria-selected', 'true');
+
+          const targetPanel = document.querySelector('[data-panel="' + targetId + '"]');
+          if (targetPanel) {
+            targetPanel.classList.add('active');
+            renderPanel(targetPanel);
+          }
         });
-        panels.forEach(p => p.classList.remove('active'));
-
-        tab.classList.add('active');
-        tab.setAttribute('aria-selected', 'true');
-
-        const targetPanel = document.querySelector('[data-panel="' + targetId + '"]');
-        if (targetPanel) {
-          targetPanel.classList.add('active');
-        }
-
-        if (window.FB) {
-          window.FB.XFBML.parse();
-        }
       });
     });
-  });
+  })();
 </script>
+
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
 
 <style>
   .tabs-container {
@@ -117,7 +138,9 @@ const agencies: Agency[] = [
     border: none;
     padding: 0.75rem 1rem;
     cursor: pointer;
-    color: var(--pico-color);
+    /* Pico's button rule locally sets --pico-color to --pico-primary-inverse
+       (white), so var(--pico-color) renders invisible tabs in light mode. */
+    color: var(--pico-contrast);
     font-size: 0.875rem;
     font-weight: 500;
     border-bottom: 3px solid transparent;
@@ -126,9 +149,12 @@ const agencies: Agency[] = [
     margin-bottom: -2px;
   }
 
-  .tab:hover {
-    background-color: color-mix(in srgb, var(--pico-contrast) 8%, transparent);
-    border-radius: var(--pico-border-radius) var(--pico-border-radius) 0 0;
+  /* Hover-capable devices only — on touch, tap-hover sticks to the tab. */
+  @media (hover: hover) {
+    .tab:hover {
+      background-color: color-mix(in srgb, var(--pico-contrast) 8%, transparent);
+      border-radius: var(--pico-border-radius) var(--pico-border-radius) 0 0;
+    }
   }
 
   .tab.active {
